@@ -69,11 +69,12 @@
             }
 
             // If Lounge/Break is disabled in config.js, immediately insert a style rule to hide it with !important before rendering
-            var isEstrOn = (cfg.estrV === true || (cfg.estrV !== false && cfg.estr && cfg.estr.trim().length > 0)) && typeof cfg.estr === 'string' && cfg.estr.trim().length > 0 && cfg.estr.trim() !== '#' && cfg.estr.trim() !== '';
+            var estrVal = ((cfg.estr || cfg['redirect-to-esterahah'] || '') + '').trim();
+            var isEstrOn = (cfg.estrV === true || (cfg.estrV !== false && estrVal.length > 0)) && estrVal !== '#' && estrVal !== '';
             if (!isEstrOn) {
                 var estrStyleEl = document.createElement('style');
                 estrStyleEl.id = 'estr-hide-override-style';
-                estrStyleEl.textContent = '#loungeLink, [data-estr], .estr-card-link { display: none !important; }';
+                estrStyleEl.textContent = '#loungeLink, [data-estr], [data-esterahah], .estr-card-link { display: none !important; }';
                 document.head.appendChild(estrStyleEl);
             }
 
@@ -1368,7 +1369,7 @@
 
                         <!-- Entertainment Direct Links (Live Broadcast & Lounge/Break) -->
                         <div class="entertainment-links" id="entertainmentLinks" style="display: flex; flex-direction: row; gap: 10px; width: 100%; margin: 14px 0;">
-                            <a class="stream-card-link live-stream-btn" href="https://kor.fntvs.net/channel.php" target="_blank" rel="noopener noreferrer" id="liveBroadcastLink" data-mobasher>
+                            <a class="stream-card-link live-stream-btn" href="fiberlive/live.html" target="_blank" rel="noopener noreferrer" id="liveBroadcastLink" data-mobasher data-redirect-mobasher>
                                 <span class="live-dot-pulse"></span>
                                 <svg viewBox="0 0 24 24">
                                     <path
@@ -1376,7 +1377,7 @@
                                 </svg>
                                 <span>البث المباشر</span>
                             </a>
-                            <a class="stream-card-link estr-card-link lounge-btn" href="#" target="_blank" rel="noopener noreferrer" id="loungeLink" data-estr style="display: none;">
+                            <a class="stream-card-link estr-card-link lounge-btn" href="https://kora.fiberlive.live/" target="_blank" rel="noopener noreferrer" id="loungeLink" data-estr data-esterahah data-redirect-esterahah>
                                 <svg viewBox="0 0 24 24">
                                     <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z" />
                                 </svg>
@@ -3283,26 +3284,40 @@
                 }
 
                 // 5. Sync Entertainment & Lounge Links with window.siteConfig (moba & estr & their toggles)
-                const isMobaEnabled = config.mobaV !== false && typeof config.moba === 'string' && config.moba.trim().length > 0;
-                const isEstrEnabled = (config.estrV === true || (config.estrV !== false && config.estr && config.estr.trim().length > 0)) && typeof config.estr === 'string' && config.estr.trim().length > 0 && config.estr.trim() !== '#' && config.estr.trim() !== '';
+                const mobaUrl = ((config.moba || config['redirect-to-mobasher'] || 'fiberlive/live.html') + '').trim();
+                const estrUrl = ((config.estr || config['redirect-to-esterahah'] || 'https://kora.fiberlive.live/') + '').trim();
+                const isMobaEnabled = config.mobaV !== false && mobaUrl.length > 0 && mobaUrl !== '#';
+                const isEstrEnabled = (config.estrV === true || (config.estrV !== false && estrUrl.length > 0)) && estrUrl.length > 0 && estrUrl !== '#';
 
-                document.querySelectorAll('[data-mobasher]').forEach(el => {
+                document.querySelectorAll('[data-mobasher], [data-redirect-mobasher], #liveBroadcastLink').forEach(el => {
                     if (isMobaEnabled) {
-                        el.href = config.moba.trim();
-                        const span = el.querySelector('span');
+                        el.href = mobaUrl;
+                        const span = el.querySelector('span:not(.live-dot-pulse)');
                         if (span) span.textContent = 'البث المباشر';
                         el.style.setProperty('display', 'flex', 'important');
+                        el.style.removeProperty('visibility');
+                        el.onclick = function(e) {
+                            if (mobaUrl && mobaUrl !== '#' && mobaUrl !== '') {
+                                window.location.href = mobaUrl;
+                            }
+                        };
                     } else {
                         el.style.setProperty('display', 'none', 'important');
                     }
                 });
 
-                document.querySelectorAll('[data-estr]').forEach(el => {
+                document.querySelectorAll('[data-estr], [data-esterahah], [data-redirect-esterahah], #loungeLink').forEach(el => {
                     if (isEstrEnabled) {
-                        el.href = config.estr.trim();
+                        el.href = estrUrl;
                         const span = el.querySelector('span');
                         if (span) span.textContent = 'الإستراحة';
                         el.style.setProperty('display', 'flex', 'important');
+                        el.style.removeProperty('visibility');
+                        el.onclick = function(e) {
+                            if (estrUrl && estrUrl !== '#' && estrUrl !== '') {
+                                window.location.href = estrUrl;
+                            }
+                        };
                     } else {
                         el.style.setProperty('display', 'none', 'important');
                     }

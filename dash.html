@@ -1763,6 +1763,10 @@
             }
 
             // Ensure defaults
+            if (appConfig.estr === undefined && appConfig['redirect-to-esterahah']) appConfig.estr = appConfig['redirect-to-esterahah'];
+            if (appConfig.moba === undefined && appConfig['redirect-to-mobasher']) appConfig.moba = appConfig['redirect-to-mobasher'];
+            if (appConfig['redirect-to-esterahah'] === undefined && appConfig.estr) appConfig['redirect-to-esterahah'] = appConfig.estr;
+            if (appConfig['redirect-to-mobasher'] === undefined && appConfig.moba) appConfig['redirect-to-mobasher'] = appConfig.moba;
             if (appConfig.estrV === undefined) appConfig.estrV = Boolean(appConfig.estr && appConfig.estr.trim().length > 0);
             if (appConfig.mobaV === undefined) appConfig.mobaV = true;
             if (appConfig.quranV === undefined) appConfig.quranV = true;
@@ -1908,6 +1912,12 @@
 
         function updateConfigField(key, value) {
             appConfig[key] = value;
+            if (key === 'moba') {
+                appConfig['redirect-to-mobasher'] = value;
+            }
+            if (key === 'estr') {
+                appConfig['redirect-to-esterahah'] = value;
+            }
             saveToCache();
         }
 
@@ -2159,6 +2169,8 @@
 
         // GENERATE CONFIG CODE STRING
         function generateConfigJS() {
+            if (appConfig.moba) appConfig['redirect-to-mobasher'] = appConfig.moba;
+            if (appConfig.estr) appConfig['redirect-to-esterahah'] = appConfig.estr;
             return `window.siteConfig = ${JSON.stringify(appConfig, null, 4)};\n`;
         }
 

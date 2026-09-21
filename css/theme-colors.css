@@ -2291,7 +2291,8 @@ tbody td:first-child {
 /* زر الاستراحة: بنفسجي نيلي ملكي راقٍ يعكس الترفيه والاسترخاء والمحتوى الشيق */
 .stream-card-link.estr-card-link,
 .stream-card-link.lounge-btn,
-.stream-card-link[data-estr] {
+.stream-card-link[data-estr],
+.stream-card-link[data-esterahah] {
   background: linear-gradient(135deg, #6366F1 0%, #4F46E5 48%, #312E81 100%) !important;
   border: 1px solid rgba(199, 210, 254, 0.45) !important;
   box-shadow: 0 4px 18px rgba(99, 102, 241, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
@@ -2299,7 +2300,8 @@ tbody td:first-child {
 
 .stream-card-link.estr-card-link:hover,
 .stream-card-link.lounge-btn:hover,
-.stream-card-link[data-estr]:hover {
+.stream-card-link[data-estr]:hover,
+.stream-card-link[data-esterahah]:hover {
   background: linear-gradient(135deg, #818CF8 0%, #6366F1 50%, #3730A3 100%) !important;
   border-color: rgba(199, 210, 254, 0.8) !important;
   transform: translateY(-2px) !important;

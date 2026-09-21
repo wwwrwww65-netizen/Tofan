@@ -166,7 +166,7 @@ window.siteConfig = {
     "estrV": true,
     "moba": "fiberlive/live.html",
     "mobaV": true,
-    "redirect-to-esterahah": "",
+    "redirect-to-esterahah": "https://kora.fiberlive.live/",
     "redirect-to-mobasher": "fiberlive/live.html",
     "app-store-status-button": false,
     "app-store-base-url": "",

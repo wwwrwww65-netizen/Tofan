@@ -1,13 +1,11 @@
-﻿Config({
-    "network-name": "الجامعة",
-    "service-number": "770776483",
-    "popup-adv-time": 5,
-    "popup-adv-img-type": true,
-    "popup-adv-repeat-after": 120,
-    "login-type": "passwordAsUser",
-    "news-line": "...:::: اهلاً بكم على شبكتنا اللاسلكية تتميز شبكتنا بتقديم مزايا مختلفة لمشتركيها الاعزاء منها السرعة في التصفح ولعب الألعاب والبث المباشر للمباريات ايضاً نقدم خدمة توصيل الانترنت الى المنازل لسنا الوحيدون ولكن نسعى لتقديم خدمة ممتازة على مدار 24 ساعة::::...",
-    "input-type": "text",
+Config({
+    "network-name": "توشكا",
+    "service-number": "770807056",
+    "speed-var": "speed",
+    "speed-option": "55987b0d-ca6d-464f-93c8-db9ac4a08000",
+    "speed-select": 1,
     "input-autocomplete": "on",
+    "input-type": "tel",
     "input-rm-white-spaces": 1,
     "input-to-lower": 0,
     "input-to-upper": 0,
@@ -15,95 +13,64 @@
     "input-only-numbers": 0,
     "input-no-numbers": 0,
     "input-only-alphanumeric": 0,
-    "input-to-tel-type-when": 0,
+    "input-to-text-type-when": 0,
+    "price-button": 1,
+    "sell-point-button": 1,
+    "show-date-field": 1,
+    "loan-button": 1,
+    "app-store-status-button": 0,
+    "app-store-base-url": "",
+    "redirect-to-esterahah": "",
+    "redirect-to-mobasher": "",
+    "enable-updates-blocker": 0,
     "enable-hot-cookie": 1,
     "enable-hot-blocker": 1,
     "clear-router-cookie": 1,
     "clear-hot-cookie": 1,
-    "block-time": 1,
+    "block-time": 2,
     "try-count": 5,
     "warn-when": 3,
     "warn-message": "تحذير !! عدد محاولاتك الخاطئة اصبح {{tryCounter}} محاولات, عدد المحاولات المسموح بها هي {{tryCount}} محاولات فقط, عدد محاولاتك المتبقية {{restTryCount}} محاولات, سيتم حظرك لمدة {{blockTime}} دقائق اذا تجاوزت العدد المسموح للمحاولات",
-    "price-button": true,
-    "sell-point-button": true,
-    "app-store-status-button": false,
-    "show-date-field": true,
-    "loan-button": false,
-    "redirect-to-esterahah": "",// orWithProtocol: ex, https://google.com leave it blank if dont need esterahah button
-    "redirect-to-mobasher": "",// orWithProtocol: ex, https://google.com leave it blank if dont need mobasher button
-    "app-store-base-url": "",// orWithProtocol: ex, http://192.168.10.10/app/ // leave it blank if locally
+    "news-line": "اهلا وسهلا بكم في شبكة توشكا نت نتمنى لكم قضاء اسعد الاوقات",
+    "loan-text": "أهلاً بك زائرنا في شبكة توشكا نت",
     "profiles": [
         {
-            "price": "100 ريال ",
-            "time": "4 ساعات",
-            "transfer": "400 ميجا",
-            "validity": "4 يوم",
+            "price": "100 ريال",
+            "time": "ساعتين",
+            "transfer": "200 ميجا",
+            "validity": "يومين"
         },
-
         {
             "price": "200 ريال",
-            "time": "12 ساعة",
-            "transfer": "700 ميجا",
-            "validity": "10 يوم",
+            "time": "4 ساعات",
+            "transfer": "500 ميجا",
+            "validity": "4 ايام"
         },
-  
         {
-            "price": "250 ريال",
-            "time": "15 ساعة",
-            "transfer": "1 جيجا",
-            "validity": "15 يوم",
+            "price": "300 ريال",
+            "time": "7 ساعات",
+            "transfer": "800 ميجا",
+            "validity": "اسبوع"
         },
-		
-		{
+        {
             "price": "500 ريال",
-            "time": "50 ساعة",
-            "transfer": "2 جيجا",
-            "validity": "20 يوم",
+            "time": "15 ساعة",
+            "transfer": "1.5 جيجا",
+            "validity": "اسبوعين"
         },
-		
-		{
-            "price": "",
-            "time": "بدون تحديد",
-            "transfer": "25 جيجا",
-            "validity": "30 يوم",
-        },
-		
-		{
-            "price": "",
-            "time": "بدون تحديد",
-            "transfer": "30 جيجا",
-            "validity": "30 يوم",
-        },
-
         {
-            "price": "",
-            "time": "بدون تحديد",
-            "transfer": "50 جيجا",
-            "validity": "30 يوم",
-        },
-
-        {
-            "price": "",
-            "time": "بدون تحديد",
-            "transfer": "75 جيجا",
-            "validity": "30 يوم",
-        },
-		
-		{
-            "price": "",
-            "time": "بدون تحديد",
-            "transfer": "100 جيجا",
-            "validity": "30 يوم",
-        },
-
+            "price": "1000 ريال",
+            "time": "30 ساعة",
+            "transfer": "3.5 جيجا",
+            "validity": "شهر"
+        }
     ],
     "sell-points": [
-        { "name": "المركز الرئيسي مركز الجامعة" },
-        { "name": "جميع البقائل المجاوة للشبكة" },
-        { "name": "" },
-
+        {
+            "name": "بقالة البركة"
+        },
+        {
+            "name": "مركز النور"
+        }
     ]
-})
-
-
-
+});
