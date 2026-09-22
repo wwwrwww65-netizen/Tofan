@@ -1285,86 +1285,135 @@ input[name="username"] {
 
 
 /* ══════════════════════════════════════════════════════════════════
-   13. قسم خدمة العملاء
+   13. قسم خدمة العملاء (أزرار أيقونات أنيقة مطابقة لتصميم الباقات والبرامج)
    ══════════════════════════════════════════════════════════════════ */
 
 .customer-support-section {
-  background:    linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
-  border:        1px solid rgba(223, 171, 82, 0.28) !important;
-  border-radius: 16px !important;
-  box-shadow:    0 8px 24px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
-  padding:       11px 14px !important;
-  margin-top:    9px !important;
-  margin-bottom: 6px !important;
-  gap:           8px !important;
+  background:    linear-gradient(165deg, #131E35 0%, #0E1729 100%) !important;
+  border:        1px solid rgba(223, 171, 82, 0.32) !important;
+  border-radius: 14px !important;
+  box-shadow:    0 6px 18px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  padding:       7px 10px 8px 10px !important;
+  margin-top:    7px !important;
+  margin-bottom: 4px !important;
+  display:       flex !important;
+  flex-direction: column !important;
+  gap:           6px !important;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
 }
 
 .status-support-section {
-  margin-top:    9px !important;
-  margin-bottom: 6px !important;
+  margin-top:    7px !important;
+  margin-bottom: 4px !important;
 }
 
-.container {
-  padding-top: 8px !important;
-  padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)) !important;
-}
-@media screen and (max-width: 375px) {
-  .container {
-    padding-top: 6px !important;
-    padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px)) !important;
-  }
-}
-
-.screen,
-.screen-content,
-.login,
-#login,
-#status {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
+.support-header {
+  display:         flex !important;
+  align-items:     center !important;
+  justify-content: center !important;
+  gap:             5px !important;
 }
 
 .support-header-icon { 
-  fill: #DFAB52 !important; 
-  filter: drop-shadow(0 0 5px rgba(223, 171, 82, 0.5)) !important; 
+  width:  13px !important;
+  height: 13px !important;
+  fill:   #DFAB52 !important; 
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5)) !important; 
 }
-.support-title { color: #FFFFFF !important; text-shadow: none !important; }
+
+.support-title { 
+  color:       #DFAB52 !important; 
+  font-size:   0.75rem !important;
+  font-weight: 800 !important;
+  text-shadow: none !important; 
+}
+
+.support-actions-grid {
+  display:               grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap:                   8px !important;
+  width:                 100% !important;
+}
+
+/* بطاقات أزرار الأيقونات لخدمة العملاء */
+.support-btn {
+  display:         flex !important;
+  flex-direction:  column !important;
+  align-items:     center !important;
+  justify-content: center !important;
+  gap:             3px !important;
+  padding:         6px 4px 5px 4px !important;
+  min-height:      50px !important;
+  border-radius:   11px !important;
+  text-decoration: none !important;
+  cursor:          pointer !important;
+  transition:      all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  touch-action:    manipulation !important;
+  position:        relative !important;
+  overflow:        hidden !important;
+}
+
+.support-btn .support-btn-icon {
+  width:         18px !important;
+  height:        18px !important;
+  flex-shrink:   0 !important;
+  margin-bottom: 0px !important;
+  transition:    transform 0.2s ease !important;
+}
+
+.support-btn span {
+  font-size:   0.72rem !important;
+  font-weight: 800 !important;
+  text-align:  center !important;
+  line-height: 1.15 !important;
+  white-space: nowrap !important;
+}
+
+.support-btn:active {
+  transform: scale(0.96) !important;
+}
+
+.support-btn:hover .support-btn-icon {
+  transform: scale(1.1) !important;
+}
 
 /* زر واتساب */
 .support-btn-whatsapp {
-  background: #0D1628 !important;
-  border:     1px solid rgba(16, 185, 129, 0.4) !important;
-  color:      var(--color-green-light) !important;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+  background:  linear-gradient(165deg, #10232A 0%, #0B191E 100%) !important;
+  border:      1px solid rgba(37, 211, 102, 0.45) !important;
+  color:       #E2E8F0 !important;
+  box-shadow:  0 4px 14px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
 }
-.support-btn-whatsapp .support-btn-icon { fill: var(--color-green-light) !important; filter: none !important; }
+.support-btn-whatsapp .support-btn-icon { 
+  fill:   #25D366 !important; 
+  filter: drop-shadow(0 0 6px rgba(37, 211, 102, 0.5)) !important; 
+}
 .support-btn-whatsapp:hover {
-  background:   rgba(16, 185, 129, 0.18) !important;
-  border-color: var(--color-green) !important;
-  color:        #6EE7B7 !important;
-  transform:    translateY(-1px) !important;
-  box-shadow:   0 4px 16px rgba(16, 185, 129, 0.3) !important;
+  background:   linear-gradient(165deg, #142F38 0%, #0E222A 100%) !important;
+  border-color: #25D366 !important;
+  color:        #FFFFFF !important;
+  transform:    translateY(-2px) !important;
+  box-shadow:   0 6px 18px rgba(37, 211, 102, 0.35) !important;
 }
 
 /* زر الاتصال الهاتفي — إطار ذهبي دافئ راقٍ */
 .support-btn-call {
-  background: #0D1628 !important;
-  border:     1px solid var(--color-gold-border) !important;
-  color:      #DFAB52 !important;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+  background:  linear-gradient(165deg, #241D17 0%, #15141D 100%) !important;
+  border:      1px solid rgba(223, 171, 82, 0.45) !important;
+  color:       #E2E8F0 !important;
+  box-shadow:  0 4px 14px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
 }
 .support-btn-call .support-btn-icon { 
-  fill: #DFAB52 !important; 
-  filter: drop-shadow(0 0 5px rgba(223, 171, 82, 0.5)) !important; 
+  fill:   #DFAB52 !important; 
+  filter: drop-shadow(0 0 6px rgba(223, 171, 82, 0.55)) !important; 
 }
 .support-btn-call:hover {
-  background:   var(--color-gold-pale) !important;
+  background:   linear-gradient(165deg, #30261D 0%, #1E1A27 100%) !important;
   border-color: #DFAB52 !important;
   color:        #FFFFFF !important;
-  transform:    translateY(-1px) !important;
-  box-shadow:   0 4px 16px rgba(223, 171, 82, 0.4) !important;
+  transform:    translateY(-2px) !important;
+  box-shadow:   0 6px 18px rgba(223, 171, 82, 0.4) !important;
 }
 
 
