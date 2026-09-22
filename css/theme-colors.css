@@ -110,12 +110,13 @@ body {
 
 .aloula-hero-card {
   position:      relative !important;
-  background:    radial-gradient(120% 100% at 50% 120%, rgba(255, 69, 0, 0.16) 0%, rgba(255, 140, 0, 0.08) 35%, #080e1a 75%, #050811 100%) !important;
-  border:        1.5px solid rgba(255, 140, 0, 0.45) !important;
-  border-radius: 22px !important;
-  padding:       16px 16px 10px 16px !important;
-  margin-bottom: 14px !important;
-  box-shadow:    0 10px 32px rgba(0, 0, 0, 0.7), 0 0 28px rgba(255, 115, 0, 0.16), inset 0 1px 0 rgba(255, 200, 100, 0.25) !important;
+  margin-top:    0 !important;
+  background:    radial-gradient(120% 100% at 50% 120%, rgba(223, 171, 82, 0.16) 0%, rgba(196, 142, 51, 0.08) 35%, #080e1a 75%, #050811 100%) !important;
+  border:        1.5px solid rgba(223, 171, 82, 0.45) !important;
+  border-radius: 20px !important;
+  padding:       13px 14px !important;
+  margin-bottom: 6px !important;
+  box-shadow:    0 10px 32px rgba(0, 0, 0, 0.7), 0 0 28px rgba(223, 171, 82, 0.16), inset 0 1px 0 rgba(255, 235, 180, 0.25) !important;
   width:         100% !important;
   box-sizing:    border-box !important;
   overflow:      hidden !important;
@@ -140,7 +141,7 @@ body {
   left:           10% !important;
   right:          10% !important;
   height:         50px !important;
-  background:     radial-gradient(ellipse at bottom, rgba(255, 85, 0, 0.38) 0%, rgba(255, 170, 0, 0.15) 50%, transparent 80%) !important;
+  background:     radial-gradient(ellipse at bottom, rgba(223, 171, 82, 0.38) 0%, rgba(232, 189, 109, 0.15) 50%, transparent 80%) !important;
   filter:         blur(8px) !important;
   animation:      flamePulse 3s ease-in-out infinite alternate !important;
   will-change:    opacity, transform !important;
@@ -155,64 +156,64 @@ body {
 
 .flame-ember.ember-1 {
   width: 5px; height: 5px;
-  background: #ffcc00;
-  box-shadow: 0 0 10px 3px rgba(255, 140, 0, 0.9), 0 0 4px #fff;
+  background: #FDF2DD;
+  box-shadow: 0 0 10px 3px rgba(223, 171, 82, 0.9), 0 0 4px #fff;
   bottom: 12px; left: 22%;
   animation: emberRise1 3.2s infinite ease-in-out;
 }
 
 .flame-ember.ember-2 {
   width: 4px; height: 4px;
-  background: #ff8800;
-  box-shadow: 0 0 8px 2px rgba(255, 69, 0, 0.85);
+  background: #DFAB52;
+  box-shadow: 0 0 8px 2px rgba(196, 142, 51, 0.85);
   bottom: 8px; left: 45%;
   animation: emberRise2 3.8s infinite ease-in-out 0.6s;
 }
 
 .flame-ember.ember-3 {
   width: 6px; height: 6px;
-  background: #ffa500;
-  box-shadow: 0 0 12px 4px rgba(255, 120, 0, 0.95), 0 0 3px #fff;
+  background: #E8BD6D;
+  box-shadow: 0 0 12px 4px rgba(223, 171, 82, 0.95), 0 0 3px #fff;
   bottom: 15px; left: 70%;
   animation: emberRise3 3.5s infinite ease-in-out 1.2s;
 }
 
 .flame-ember.ember-4 {
   width: 3.5px; height: 3.5px;
-  background: #ff4500;
-  box-shadow: 0 0 8px 2px rgba(255, 69, 0, 0.9);
+  background: #C48E33;
+  box-shadow: 0 0 8px 2px rgba(223, 171, 82, 0.9);
   bottom: 6px; left: 33%;
   animation: emberRise1 4s infinite ease-in-out 1.8s;
 }
 
 .flame-ember.ember-5 {
   width: 4.5px; height: 4.5px;
-  background: #ffdd44;
-  box-shadow: 0 0 10px 3px rgba(255, 170, 0, 0.9);
+  background: #F0C97F;
+  box-shadow: 0 0 10px 3px rgba(223, 171, 82, 0.9);
   bottom: 10px; left: 82%;
   animation: emberRise2 3.4s infinite ease-in-out 0.9s;
 }
 
 .flame-ember.ember-6 {
   width: 3px; height: 3px;
-  background: #ff6600;
-  box-shadow: 0 0 6px 2px rgba(255, 80, 0, 0.8);
+  background: #DFAB52;
+  box-shadow: 0 0 6px 2px rgba(196, 142, 51, 0.8);
   bottom: 14px; left: 58%;
   animation: emberRise3 4.2s infinite ease-in-out 2.1s;
 }
 
 .flame-ember.ember-7 {
   width: 4px; height: 4px;
-  background: #ffaa00;
-  box-shadow: 0 0 8px 2px rgba(255, 150, 0, 0.85);
+  background: #E5B562;
+  box-shadow: 0 0 8px 2px rgba(223, 171, 82, 0.85);
   bottom: 16px; left: 12%;
   animation: emberRise2 3.6s infinite ease-in-out 1.5s;
 }
 
 .flame-ember.ember-8 {
   width: 5px; height: 5px;
-  background: #ff7700;
-  box-shadow: 0 0 10px 3px rgba(255, 100, 0, 0.9);
+  background: #DFAB52;
+  box-shadow: 0 0 10px 3px rgba(223, 171, 82, 0.9);
   bottom: 11px; right: 18%;
   animation: emberRise1 3.7s infinite ease-in-out 0.3s;
 }
@@ -298,7 +299,7 @@ body {
   direction:       rtl !important;
   position:        relative !important;
   z-index:         3 !important;
-  margin:          2px 0 10px 0 !important;
+  margin:          0 !important;
 }
 
 /* جهة اليمين: عنوان وهوية الشبكة */
@@ -407,7 +408,7 @@ body {
   align-items:     center !important;
   justify-content: center !important;
   position:        relative !important;
-  margin-top:      -8px !important;
+  margin-top:      0 !important;
 }
 
 .aloula-halo-orb {
@@ -556,11 +557,21 @@ body {
    4. الشريط الإخباري المتحرك (Ticker)
    ══════════════════════════════════════════════════════════════════ */
 
+.ads-carousel-wrapper {
+  margin-bottom: 6px !important;
+}
+
+.section,
+#newsTickerLoginSection {
+  margin-bottom: 6px !important;
+}
+
 .ticker-container {
   background:    linear-gradient(165deg, #131E35 0%, #0E1729 100%) !important;
-  border:        1px solid rgba(255, 140, 0, 0.28) !important;
+  border:        1px solid rgba(223, 171, 82, 0.28) !important;
   border-radius: 12px !important;
   box-shadow:    0 4px 18px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  padding:       6px 12px !important;
 }
 
 .marquee {
@@ -635,7 +646,7 @@ h1 {
 .button.login-submit,
 button.login-submit,
 #mainLoginBtn {
-  background:    linear-gradient(135deg, #FF5500 0%, #FF8800 48%, #E5A82E 100%) !important;
+  background:    linear-gradient(135deg, #E8BD6D 0%, #DFAB52 50%, #C48E33 100%) !important;
   color:         #0A0602 !important;
   font-weight:   900 !important;
   font-size:     17px !important;
@@ -643,7 +654,7 @@ button.login-submit,
   border:        1px solid rgba(255, 235, 180, 0.5) !important;
   border-radius: 14px !important;
   min-height:    50px !important;
-  box-shadow:    0 6px 24px rgba(255, 85, 0, 0.42), 0 2px 6px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.45) !important;
+  box-shadow:    0 6px 24px rgba(223, 171, 82, 0.45), 0 2px 6px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.45) !important;
   letter-spacing: 0.4px !important;
   display:       flex !important;
   align-items:   center !important;
@@ -666,8 +677,8 @@ button.login-submit,
 .button.login-submit:hover,
 button.login-submit:hover,
 #mainLoginBtn:hover {
-  background:  linear-gradient(135deg, #FF6611 0%, #FF9911 48%, #F0B538 100%) !important;
-  box-shadow:  0 8px 30px rgba(255, 85, 0, 0.58), 0 2px 8px rgba(0, 0, 0, 0.7) !important;
+  background:  linear-gradient(135deg, #F0C97F 0%, #E5B562 50%, #D19A3F 100%) !important;
+  box-shadow:  0 8px 30px rgba(223, 171, 82, 0.6), 0 2px 8px rgba(0, 0, 0, 0.7) !important;
   transform:   translateY(-1px) !important;
   color:       #000000 !important;
 }
@@ -675,7 +686,7 @@ button.login-submit:hover,
 .login-submit-btn:active,
 #mainLoginBtn:active {
   transform:   scale(0.98) !important;
-  box-shadow:  0 3px 12px rgba(255, 85, 0, 0.45) !important;
+  box-shadow:  0 3px 12px rgba(223, 171, 82, 0.45) !important;
 }
 
 .login-submit-btn:hover .login-btn-wifi-icon {
@@ -705,10 +716,10 @@ button.login-submit:hover,
 
 .app-card {
   background:    linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
-  border:        1px solid rgba(255, 140, 0, 0.28) !important;
+  border:        1px solid rgba(223, 171, 82, 0.28) !important;
   border-radius: 16px !important;
   box-shadow:    0 8px 24px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
-  margin-bottom: 14px !important;
+  margin-bottom: 6px !important;
   box-sizing:    border-box !important;
   position:      relative !important;
   transition:    box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease !important;
@@ -716,15 +727,15 @@ button.login-submit:hover,
 
 .app-card:hover {
   background:    linear-gradient(165deg, #182642 0%, #121C32 100%) !important;
-  border-color:  rgba(255, 140, 0, 0.45) !important;
-  box-shadow:    0 10px 28px rgba(0, 0, 0, 0.65), 0 0 16px rgba(255, 136, 0, 0.14) !important;
+  border-color:  rgba(223, 171, 82, 0.5) !important;
+  box-shadow:    0 10px 28px rgba(0, 0, 0, 0.65), 0 0 16px rgba(223, 171, 82, 0.18) !important;
 }
 
 .speed-selection-outer-header {
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;
-  margin-bottom: 5px !important;
+  margin-bottom: 3px !important;
   padding: 0 4px !important;
   gap: 8px !important;
   width: 100% !important;
@@ -732,17 +743,18 @@ button.login-submit:hover,
 }
 
 .speed-selection-card {
-  padding: 6px 10px !important;
-  margin-bottom: 10px !important;
+  padding: 4px 8px !important;
+  margin-bottom: 5px !important;
 }
 
 .login-input-card {
-  padding: 16px !important;
+  padding: 12px 14px !important;
+  margin-bottom: 6px !important;
 }
 
 .updates-toggle-card {
-  padding: 12px 14px !important;
-  margin-bottom: 8px !important;
+  padding: 10px 12px !important;
+  margin-bottom: 6px !important;
 }
 
 .updates-toggle-card .toggle-container-modern {
@@ -949,7 +961,7 @@ button.login-submit:hover,
   display: flex !important;
   align-items: center !important;
   gap: 8px !important;
-  margin-bottom: 10px !important;
+  margin-bottom: 6px !important;
 }
 
 .input-card-header .input-label-text {
@@ -961,7 +973,7 @@ button.login-submit:hover,
 
 .login-submit-wrapper {
   width: 100% !important;
-  margin-bottom: 14px !important;
+  margin-bottom: 6px !important;
 }
 
 .login-submit-wrapper .login-submit-btn,
@@ -992,40 +1004,40 @@ button.login-submit:hover,
 
 .input-wrapper-glass {
   background:    #09101C !important;
-  border:        1.5px solid rgba(255, 140, 0, 0.4) !important;
+  border:        1.5px solid rgba(223, 171, 82, 0.38) !important;
   border-radius: 14px !important;
   box-shadow:    0 4px 18px rgba(0, 0, 0, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.08) !important;
   transition:    all 0.25s ease !important;
 }
 
-/* حالة التركيز على الحقل (Focus Glow اللهبي الدافئ) */
+/* حالة التركيز على الحقل (Focus Glow الذهبي الدافئ) */
 .input-wrapper-glass:focus-within {
   background:   #0D1628 !important;
-  border-color: #FF8800 !important;
-  box-shadow:   0 0 0 3px rgba(255, 136, 0, 0.28), 0 0 22px rgba(255, 100, 0, 0.25) !important;
+  border-color: #DFAB52 !important;
+  box-shadow:   0 0 0 3px rgba(223, 171, 82, 0.28), 0 0 22px rgba(223, 171, 82, 0.25) !important;
 }
 
 /* أيقونة داخل الحقل */
 .input-icon-badge {
-  background: rgba(255, 140, 0, 0.16) !important;
-  border:     1px solid rgba(255, 140, 0, 0.45) !important;
-  color:      #FFAA00 !important;
+  background: rgba(223, 171, 82, 0.16) !important;
+  border:     1px solid rgba(223, 171, 82, 0.45) !important;
+  color:      #DFAB52 !important;
 }
 .input-icon-badge svg { 
-  fill: #FFAA00 !important;
-  filter: drop-shadow(0 0 5px rgba(255, 140, 0, 0.6)) !important;
+  fill: #DFAB52 !important;
+  filter: drop-shadow(0 0 5px rgba(223, 171, 82, 0.6)) !important;
 }
 
 /* زر الكاميرا (مسح QR) */
 .input-icon-badge.camera-scan-btn {
   background: #0E1729 !important;
-  border:     1px solid rgba(255, 140, 0, 0.4) !important;
+  border:     1px solid rgba(223, 171, 82, 0.4) !important;
 }
-.input-icon-badge.camera-scan-btn svg { fill: #FFAA00 !important; }
+.input-icon-badge.camera-scan-btn svg { fill: #DFAB52 !important; }
 .input-icon-badge.camera-scan-btn:hover {
-  background: rgba(255, 140, 0, 0.25) !important;
-  border-color: #FF8800 !important;
-  box-shadow: 0 0 12px rgba(255, 140, 0, 0.5) !important;
+  background: rgba(223, 171, 82, 0.25) !important;
+  border-color: #DFAB52 !important;
+  box-shadow: 0 0 12px rgba(223, 171, 82, 0.5) !important;
 }
 
 /* نص الكرت المُدخل */
@@ -1272,29 +1284,40 @@ input[name="username"] {
 
 .customer-support-section {
   background:    linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
-  border:        1px solid rgba(255, 140, 0, 0.28) !important;
+  border:        1px solid rgba(223, 171, 82, 0.28) !important;
   border-radius: 16px !important;
   box-shadow:    0 8px 24px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
-  padding:       12px 14px !important;
-  margin-top:    12px !important;
-  margin-bottom: 6px !important;
-  gap:           8px !important;
+  padding:       10px 12px !important;
+  margin-top:    6px !important;
+  margin-bottom: 4px !important;
+  gap:           6px !important;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
 }
 
 .status-support-section {
-  margin-top:    14px !important;
-  margin-bottom: 6px !important;
+  margin-top:    6px !important;
+  margin-bottom: 4px !important;
 }
 
 .container {
+  padding-top: 8px !important;
   padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)) !important;
 }
 @media screen and (max-width: 375px) {
   .container {
+    padding-top: 6px !important;
     padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px)) !important;
   }
+}
+
+.screen,
+.screen-content,
+.login,
+#login,
+#status {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .support-header-icon { 
@@ -2020,15 +2043,15 @@ tbody td:first-child {
   color:         var(--color-text-main) !important;
 }
 
-/* بطاقة الهيدر العلوية لصفحة الحالة: تم تسجيل دخولك بنجاح مع شعلات اللهب الملكية */
+/* بطاقة الهيدر العلوية لصفحة الحالة: تم تسجيل دخولك بنجاح مع شعلات الذهب الملكية */
 .status-header-card {
   position:            relative !important;
-  background:          radial-gradient(120% 100% at 50% 120%, rgba(255, 69, 0, 0.16) 0%, rgba(255, 140, 0, 0.08) 35%, #080e1a 75%, #050811 100%) !important;
-  border:              1.5px solid rgba(255, 140, 0, 0.45) !important;
-  border-radius:       22px !important;
-  box-shadow:          0 10px 32px rgba(0, 0, 0, 0.7), 0 0 28px rgba(255, 115, 0, 0.16), inset 0 1px 0 rgba(255, 200, 100, 0.25) !important;
-  padding:             18px 16px 16px 16px !important;
-  margin-bottom:       14px !important;
+  background:          radial-gradient(120% 100% at 50% 120%, rgba(223, 171, 82, 0.16) 0%, rgba(196, 142, 51, 0.08) 35%, #080e1a 75%, #050811 100%) !important;
+  border:              1.5px solid rgba(223, 171, 82, 0.45) !important;
+  border-radius:       20px !important;
+  box-shadow:          0 10px 32px rgba(0, 0, 0, 0.7), 0 0 28px rgba(223, 171, 82, 0.16), inset 0 1px 0 rgba(255, 235, 180, 0.25) !important;
+  padding:             14px 14px 12px 14px !important;
+  margin-bottom:       6px !important;
   text-align:          center !important;
   overflow:            hidden !important;
   backdrop-filter:     blur(16px) !important;
@@ -2075,7 +2098,7 @@ tbody td:first-child {
 /* روابط البث المباشر واستراحة الشبكة في صفحة الحالة */
 .entertainment-links .stream-card-link {
   background:    linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
-  border:        1px solid rgba(255, 140, 0, 0.28) !important;
+  border:        1px solid rgba(223, 171, 82, 0.28) !important;
   color:         #FFFFFF !important;
   border-radius: 14px !important;
   box-shadow:    0 6px 18px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
@@ -2099,11 +2122,11 @@ tbody td:first-child {
 /* بطاقة تغيير سرعة الكرت في صفحة الحالة */
 .statusdiv {
   background:          linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
-  border:              1px solid rgba(255, 140, 0, 0.28) !important;
+  border:              1px solid rgba(223, 171, 82, 0.28) !important;
   border-radius:       16px !important;
   box-shadow:          0 8px 24px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
-  padding:             16px !important;
-  margin:              12px 0 !important;
+  padding:             12px 14px !important;
+  margin:              6px 0 !important;
   backdrop-filter:     blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
 }
@@ -2174,13 +2197,13 @@ tbody td:first-child {
 }
 
 .status-grid-metrics {
-  gap: 10px !important;
-  margin: 14px 0 !important;
+  gap: 6px !important;
+  margin: 6px 0 !important;
 }
 
 .metric-card-glass {
   background:          linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
-  border:              1px solid rgba(255, 140, 0, 0.25) !important;
+  border:              1px solid rgba(223, 171, 82, 0.25) !important;
   border-radius:       14px !important;
   box-shadow:          0 6px 18px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
   padding:             14px 10px !important;
@@ -2191,9 +2214,9 @@ tbody td:first-child {
 
 .metric-card-glass:hover {
   background:   linear-gradient(165deg, #182642 0%, #121C32 100%) !important;
-  border-color: rgba(255, 140, 0, 0.5) !important;
+  border-color: rgba(223, 171, 82, 0.5) !important;
   transform:    translateY(-2px) !important;
-  box-shadow:   0 8px 22px rgba(0, 0, 0, 0.55), 0 0 12px rgba(255, 136, 0, 0.18) !important;
+  box-shadow:   0 8px 22px rgba(0, 0, 0, 0.55), 0 0 12px rgba(223, 171, 82, 0.2) !important;
 }
 
 .metric-title {
@@ -2431,20 +2454,21 @@ tbody td:first-child {
 .status-gauge-pod {
   position: relative;
   background: linear-gradient(165deg, #142038 0%, #0F182B 100%);
-  border: 1.5px solid rgba(255, 140, 0, 0.35);
-  border-radius: 20px;
-  padding: 10px 14px 12px 14px;
-  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 136, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  border: 1.5px solid rgba(223, 171, 82, 0.35);
+  border-radius: 18px;
+  padding: 8px 12px 10px 12px;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.6), 0 0 20px rgba(223, 171, 82, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   overflow: hidden;
+  margin-bottom: 6px !important;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .status-gauge-pod:hover {
   background: linear-gradient(165deg, #182642 0%, #121C32 100%);
-  border-color: rgba(255, 140, 0, 0.55);
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7), 0 0 24px rgba(255, 136, 0, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-color: rgba(223, 171, 82, 0.55);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7), 0 0 24px rgba(223, 171, 82, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
 }
 
@@ -2565,16 +2589,16 @@ tbody td:first-child {
   flex: 1 1 0;
   min-width: 0;
   background: linear-gradient(165deg, #142038 0%, #0F182B 100%);
-  border: 1.5px solid rgba(255, 140, 0, 0.28);
-  border-radius: 16px;
-  padding: 14px 12px;
+  border: 1.5px solid rgba(223, 171, 82, 0.28);
+  border-radius: 14px;
+  padding: 10px 10px;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .traffic-pod.download-pod {
@@ -2723,16 +2747,17 @@ tbody td:first-child {
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(165deg, #142038 0%, #0F182B 100%);
-  border: 1.5px solid rgba(255, 140, 0, 0.28);
+  border: 1.5px solid rgba(223, 171, 82, 0.28);
   border-radius: 16px;
-  padding: 14px 16px;
+  padding: 10px 14px;
+  margin: 6px 0 !important;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   transition: all 0.25s ease;
 }
 
 .status-session-hub:hover {
   background: linear-gradient(165deg, #182642 0%, #121C32 100%);
-  border-color: rgba(255, 140, 0, 0.45);
+  border-color: rgba(223, 171, 82, 0.45);
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
@@ -2808,9 +2833,9 @@ tbody td:first-child {
 /* أزرار العمليات في صفحة الحالة (تسجيل الخروج وقطع الاتصال) — تدرج ذهبي عسلي ملكي */
 .status-actions-row {
   display: flex !important;
-  gap: 12px !important;
-  margin-top: 16px !important;
-  margin-bottom: 14px !important;
+  gap: 8px !important;
+  margin-top: 8px !important;
+  margin-bottom: 6px !important;
 }
 
 .status-actions-row button,
@@ -2875,8 +2900,8 @@ tbody td:first-child {
   background: linear-gradient(135deg, rgba(20, 32, 56, 0.98) 0%, rgba(15, 24, 43, 0.98) 100%) !important;
   border: 1px solid rgba(223, 171, 82, 0.45) !important;
   border-radius: 14px !important;
-  padding: 7px 10px !important;
-  margin: 10px 0 14px 0 !important;
+  padding: 6px 10px !important;
+  margin: 0 0 6px 0 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;
