@@ -3521,5 +3521,53 @@ body.quran-reading-mode nav {
   display: none !important;
 }
 
+/* ══════════════════════════════════════════════════════════════════
+   21. إخفاء خيارات وحاويات ومودالات السرعة عند التعطيل في config.js
+   ══════════════════════════════════════════════════════════════════ */
+html.speed-selection-disabled #speedSelectionPopdown,
+html.speed-selection-disabled .speed-selection-popdown-container,
+html.speed-selection-disabled .speed-selection-card,
+html.speed-selection-disabled .speed-selection-outer-header,
+html.speed-selection-disabled #statusSpeedChangeContainer,
+html.speed-selection-disabled #statusSpeedTrigger,
+html.speed-selection-disabled #speed-modal,
+html.speed-selection-disabled #status-speed-modal,
+body.speed-selection-disabled #speedSelectionPopdown,
+body.speed-selection-disabled .speed-selection-popdown-container,
+body.speed-selection-disabled .speed-selection-card,
+body.speed-selection-disabled .speed-selection-outer-header,
+body.speed-selection-disabled #statusSpeedChangeContainer,
+body.speed-selection-disabled #statusSpeedTrigger,
+body.speed-selection-disabled #speed-modal,
+body.speed-selection-disabled #status-speed-modal {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   22. إخفاء الشريط الإخباري عند التعطيل في config.js
+   ══════════════════════════════════════════════════════════════════ */
+html.news-ticker-disabled #newsTickerLoginSection,
+html.news-ticker-disabled #newsTickerStatusSection,
+html.news-ticker-disabled [data-news-ticker],
+html.news-ticker-disabled .ticker-container,
+body.news-ticker-disabled #newsTickerLoginSection,
+body.news-ticker-disabled #newsTickerStatusSection,
+body.news-ticker-disabled [data-news-ticker],
+body.news-ticker-disabled .ticker-container {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
 
 

@@ -87,6 +87,26 @@
                 document.head.appendChild(upStyleEl);
             }
 
+            // If Speed Selection is disabled in config.js, immediately insert a style rule and class to hide speed UI everywhere
+            var isSpeedOn = (cfg.speedV === true || (cfg.speedV !== false && cfg["speed-select"] !== 0 && cfg["speed-select"] !== false && cfg["speed-select"] !== "0"));
+            if (!isSpeedOn) {
+                document.documentElement.classList.add('speed-selection-disabled');
+                var speedHideStyleEl = document.createElement('style');
+                speedHideStyleEl.id = 'speed-hide-override-style';
+                speedHideStyleEl.textContent = '#speedSelectionPopdown, .speed-selection-popdown-container, .speed-selection-card, .speed-selection-outer-header, #statusSpeedChangeContainer, #statusSpeedTrigger, #speed-modal, #status-speed-modal { display: none !important; visibility: hidden !important; pointer-events: none !important; height: 0 !important; margin: 0 !important; padding: 0 !important; overflow: hidden !important; }';
+                document.head.appendChild(speedHideStyleEl);
+            }
+
+            // If News Ticker is disabled in config.js, immediately insert a style rule to hide it with !important before rendering
+            var isNewsOn = (cfg.newsV !== false && cfg.newsBarV !== false && cfg['news-line-v'] !== false);
+            if (!isNewsOn) {
+                document.documentElement.classList.add('news-ticker-disabled');
+                var newsHideStyleEl = document.createElement('style');
+                newsHideStyleEl.id = 'news-ticker-hide-override-style';
+                newsHideStyleEl.textContent = '#newsTickerLoginSection, #newsTickerStatusSection, [data-news-ticker], .ticker-container { display: none !important; visibility: hidden !important; pointer-events: none !important; height: 0 !important; margin: 0 !important; padding: 0 !important; overflow: hidden !important; }';
+                document.head.appendChild(newsHideStyleEl);
+            }
+
             // Early sync before first paint
             document.addEventListener('DOMContentLoaded', function() {
                 var c = window.siteConfig || {};
@@ -663,7 +683,7 @@
                     <!-- ========================================================================= -->
                     <!-- الشريط الإخباري المتحرك (تحت البنر) -->
                     <!-- ========================================================================= -->
-                    <section class="section">
+                    <section class="section" id="newsTickerLoginSection" data-news-ticker>
                         <div class="ticker-container">
                             <div class="ticker-content-track">
                                 <p class="marquee" data-news-line>بسم الله الرحمن الرحيم { قل للمؤمنين يغضوا من أبصارهم ويحفظوا فروجهم ذلك أزكى لهم إن الله خبير بما يصنعون } (النور:30)</p>
@@ -879,6 +899,17 @@
                 ========================================================== -->
                 <script>
                     (function initSpeedsFromConfig() {
+                        function isSpeedSelectionEnabled() {
+                            var cfg = window.siteConfig || {};
+                            if (cfg.speedV === false || cfg["speed-select"] === 0 || cfg["speed-select"] === false || cfg["speed-select"] === "0") {
+                                return false;
+                            }
+                            if (cfg.speedV === true || cfg["speed-select"] === 1 || cfg["speed-select"] === true || cfg["speed-select"] === "1") {
+                                return true;
+                            }
+                            return false;
+                        }
+
                         function getSpeedsList() {
                             var raw = (window.siteConfig && window.siteConfig.speedOptions) || (window.hotspotConfig || {})["speeds"] || [];
                             return raw.map(function (s) {
@@ -893,6 +924,50 @@
                         }
 
                         function run() {
+                            var enabled = isSpeedSelectionEnabled();
+                            if (!enabled) {
+                                document.body.classList.add("speed-selection-disabled");
+                                document.documentElement.classList.add("speed-selection-disabled");
+                                var pop = document.getElementById("speedSelectionPopdown");
+                                if (pop) {
+                                    pop.style.setProperty("display", "none", "important");
+                                    pop.classList.remove("speed-popdown-visible");
+                                }
+                                var statSp = document.getElementById("statusSpeedChangeContainer");
+                                if (statSp) statSp.style.setProperty("display", "none", "important");
+                                var statTrig = document.getElementById("statusSpeedTrigger");
+                                if (statTrig) statTrig.style.setProperty("display", "none", "important");
+                                var spSel = document.getElementById("speed");
+                                if (spSel) {
+                                    spSel.innerHTML = '<option value="" selected>سرعة الكرت المحددة تلقائياً</option>';
+                                    spSel.value = "";
+                                }
+                                var spChg = document.getElementById("speedchange");
+                                if (spChg) {
+                                    spChg.innerHTML = '<option value="" selected>سرعة الكرت المحددة تلقائياً</option>';
+                                    spChg.value = "";
+                                }
+                                try {
+                                    localStorage.removeItem("hotspot_speed");
+                                    localStorage.removeItem("hotspot_speed_name");
+                                    document.cookie = "speed2=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+                                    document.cookie = "speed=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+                                } catch (e) {}
+                                return;
+                            }
+
+                            document.body.classList.remove("speed-selection-disabled");
+                            document.documentElement.classList.remove("speed-selection-disabled");
+                            var pop = document.getElementById("speedSelectionPopdown");
+                            if (pop) {
+                                pop.style.removeProperty("display");
+                                pop.classList.add("speed-popdown-visible");
+                            }
+                            var statSp = document.getElementById("statusSpeedChangeContainer");
+                            if (statSp) statSp.style.removeProperty("display");
+                            var statTrig = document.getElementById("statusSpeedTrigger");
+                            if (statTrig) statTrig.style.removeProperty("display");
+
                             var speeds = getSpeedsList();
                             if (!speeds.length) return;
 
@@ -1079,6 +1154,8 @@
                                 }
                             }
                         }
+
+                        window.initSpeedsFromConfig = run;
 
                         // تشغيل بعد تحميل config.js
                         if (document.readyState === "loading") {
@@ -1317,7 +1394,7 @@
                         </div>
 
                         <!-- Modern Ticker / News Bar in Status -->
-                        <section class="section" style="margin-top: 10px; margin-bottom: 10px;">
+                        <section class="section" id="newsTickerStatusSection" data-news-ticker style="margin-top: 10px; margin-bottom: 10px;">
                             <div class="ticker-container">
                                 <div class="ticker-content-track">
                                     <p class="marquee" data-news-line>بسم الله الرحمن الرحيم { قل للمؤمنين يغضوا من أبصارهم ويحفظوا فروجهم ذلك أزكى لهم إن الله خبير بما يصنعون } (النور:30)</p>
@@ -3208,10 +3285,24 @@
                 });
 
                 // Sync News / Ticker
-                const newsText = config.textSlider1 || (window.hotspotConfig && window.hotspotConfig["news-line"]) || 'بسم الله الرحمن الرحيم { قل للمؤمنين يغضوا من أبصارهم ويحفظوا فروجهم ذلك أزكى لهم إن الله خبير بما يصنعون } (النور:30)';
-                document.querySelectorAll('[data-news-line]').forEach(p => {
-                    p.innerText = newsText;
-                });
+                const isNewsEnabled = (config.newsV !== false && config.newsBarV !== false && config['news-line-v'] !== false);
+                if (!isNewsEnabled) {
+                    document.body.classList.add('news-ticker-disabled');
+                    document.documentElement.classList.add('news-ticker-disabled');
+                    document.querySelectorAll('[data-news-ticker], #newsTickerLoginSection, #newsTickerStatusSection').forEach(el => {
+                        el.style.display = 'none';
+                    });
+                } else {
+                    document.body.classList.remove('news-ticker-disabled');
+                    document.documentElement.classList.remove('news-ticker-disabled');
+                    document.querySelectorAll('[data-news-ticker], #newsTickerLoginSection, #newsTickerStatusSection').forEach(el => {
+                        el.style.display = '';
+                    });
+                    const newsText = config.textSlider1 || (window.hotspotConfig && window.hotspotConfig["news-line"]) || config["news-line"] || 'بسم الله الرحمن الرحيم { قل للمؤمنين يغضوا من أبصارهم ويحفظوا فروجهم ذلك أزكى لهم إن الله خبير بما يصنعون } (النور:30)';
+                    document.querySelectorAll('[data-news-line]').forEach(p => {
+                        p.innerText = newsText;
+                    });
+                }
 
                 // 3. Sync WhatsApp links
                 const waScheme = `whatsapp://send?phone=${waPhone}&text=${encodedWaMsg}`;
@@ -3444,6 +3535,53 @@
                     el.style.display = isLoanEnabled ? '' : 'none';
                 });
 
+                // 12. Sync Speed Selection Visibility & Logic with window.siteConfig (speedV & speed-select)
+                const isSpeedEnabled = (config.speedV === true || (config.speedV !== false && config["speed-select"] !== 0 && config["speed-select"] !== false && config["speed-select"] !== "0"));
+                const speedPopdown = document.getElementById('speedSelectionPopdown');
+                const statusSpeedChangeContainer = document.getElementById('statusSpeedChangeContainer');
+                const statusSpeedTrigger = document.getElementById('statusSpeedTrigger');
+                const allSpeedElements = document.querySelectorAll('#speedSelectionPopdown, .speed-selection-popdown-container, #statusSpeedChangeContainer, #statusSpeedTrigger, #speed-modal, #status-speed-modal, .speed-selection-card, .speed-selection-outer-header');
+
+                if (isSpeedEnabled) {
+                    document.body.classList.remove('speed-selection-disabled');
+                    document.documentElement.classList.remove('speed-selection-disabled');
+                    if (speedPopdown) {
+                        speedPopdown.style.removeProperty('display');
+                        speedPopdown.classList.add('speed-popdown-visible');
+                    }
+                    if (statusSpeedChangeContainer) {
+                        statusSpeedChangeContainer.style.removeProperty('display');
+                    }
+                    if (statusSpeedTrigger) {
+                        statusSpeedTrigger.style.removeProperty('display');
+                    }
+                    if (typeof window.initSpeedsFromConfig === 'function') {
+                        window.initSpeedsFromConfig();
+                    }
+                } else {
+                    document.body.classList.add('speed-selection-disabled');
+                    document.documentElement.classList.add('speed-selection-disabled');
+                    allSpeedElements.forEach(function(el) {
+                        if (el) el.style.setProperty('display', 'none', 'important');
+                    });
+                    const speedSel = document.getElementById('speed');
+                    if (speedSel) {
+                        speedSel.innerHTML = '<option value="" selected>سرعة الكرت المحددة تلقائياً</option>';
+                        speedSel.value = '';
+                    }
+                    const speedChangeSel = document.getElementById('speedchange');
+                    if (speedChangeSel) {
+                        speedChangeSel.innerHTML = '<option value="" selected>سرعة الكرت المحددة تلقائياً</option>';
+                        speedChangeSel.value = '';
+                    }
+                    try {
+                        localStorage.removeItem('hotspot_speed');
+                        localStorage.removeItem('hotspot_speed_name');
+                        document.cookie = "speed2=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+                        document.cookie = "speed=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+                    } catch (e) {}
+                }
+
                 if (typeof checkIsBlocked === 'function') {
                     checkIsBlocked();
                 }
@@ -3581,10 +3719,22 @@
             };
 
             window.applySpeedLockForCard = function (cardNumber) {
+                const cfg = window.siteConfig || {};
+                const isSpeedEnabled = (cfg.speedV === true || (cfg.speedV !== false && cfg["speed-select"] !== 0 && cfg["speed-select"] !== false && cfg["speed-select"] !== "0"));
                 const popdownContainer = document.getElementById('speedSelectionPopdown');
+                const speedSel = document.getElementById('speed');
+
+                if (!isSpeedEnabled) {
+                    if (popdownContainer) {
+                        popdownContainer.classList.remove('speed-popdown-visible');
+                        popdownContainer.style.setProperty('display', 'none', 'important');
+                    }
+                    if (speedSel) speedSel.value = '';
+                    return;
+                }
+
                 const speedCard = document.querySelector('.speed-selection-card');
                 const speedOuterHeader = document.querySelector('.speed-selection-outer-header');
-                const speedSel = document.getElementById('speed');
                 const speedDisp = document.getElementById('selectedSpeedDisplay');
                 const pills = document.querySelectorAll('#speedPillsRow .speed-pill-btn');
 
@@ -3616,16 +3766,29 @@
             };
 
             window.applyStatusScreenFixedSpeedLock = function (userStr) {
-                // إتاحة خيارات تغيير السرعة في شاشة الحالة دائماً لكافة الكروت
+                const cfg = window.siteConfig || {};
+                const isSpeedEnabled = (cfg.speedV === true || (cfg.speedV !== false && cfg["speed-select"] !== 0 && cfg["speed-select"] !== false && cfg["speed-select"] !== "0"));
                 var statusSpeedContainer = document.getElementById('statusSpeedChangeContainer') || document.querySelector('#status .statusdiv');
                 var statusTrigger = document.getElementById('statusSpeedTrigger');
 
+                if (!isSpeedEnabled) {
+                    if (statusSpeedContainer) {
+                        statusSpeedContainer.style.setProperty('display', 'none', 'important');
+                    }
+                    if (statusTrigger) {
+                        statusTrigger.style.setProperty('display', 'none', 'important');
+                    }
+                    return;
+                }
+
+                // إتاحة خيارات تغيير السرعة في شاشة الحالة دائماً لكافة الكروت
                 if (statusSpeedContainer) {
                     statusSpeedContainer.style.removeProperty('display');
                     statusSpeedContainer.classList.remove('speed-locked-fixed');
                 }
 
                 if (statusTrigger) {
+                    statusTrigger.style.removeProperty('display');
                     statusTrigger.classList.remove('status-speed-locked');
                     statusTrigger.removeAttribute('title');
                 }

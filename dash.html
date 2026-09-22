@@ -999,8 +999,11 @@
                 <button class="btn btn-accent btn-sm" onclick="openLivePreviewModal()">
                     <i class="fas fa-eye"></i> معاينة حية
                 </button>
-                <button class="btn btn-primary" onclick="downloadConfigFile()">
-                    <i class="fas fa-download"></i> تحميل ملف config.js
+                <button class="btn btn-success btn-sm" onclick="saveConfigDirectly()" style="background: linear-gradient(135deg, #10b981, #059669); color: white; border: none; font-weight: 700;">
+                    <i class="fas fa-save"></i> حفظ الإعدادات
+                </button>
+                <button class="btn btn-primary btn-sm" onclick="downloadConfigFile()">
+                    <i class="fas fa-download"></i> تحميل config.js
                 </button>
             </div>
         </header>
@@ -1126,12 +1129,29 @@
                             <textarea class="form-control" id="welcomeMessageInput" placeholder="نص الرسالة الترحيبية..." oninput="updateConfigField('welcomeMessage', this.value)"></textarea>
                         </div>
 
-                        <!-- Marquee Text Slider -->
-                        <div class="form-group" style="margin-top: 18px;">
+                        <!-- Marquee Text Slider with Toggle -->
+                        <div class="feature-toggle-card" style="margin-top: 20px; border-color: rgba(239, 68, 68, 0.35);">
+                            <div class="feature-toggle-info">
+                                <div class="feature-toggle-icon" style="color: #ef4444; background: rgba(239, 68, 68, 0.15);"><i class="fas fa-bullhorn"></i></div>
+                                <div>
+                                    <div class="feature-toggle-title">شريط الأخبار والآيات المتحرك (News Ticker)</div>
+                                    <div class="feature-toggle-desc">إظهار أو إخفاء شريط الأخبار في صفحتي تسجيل الدخول والحالة (Status)</div>
+                                </div>
+                            </div>
+                            <div class="switch-container">
+                                <span class="status-badge" id="badgeNews">مفعل</span>
+                                <label class="switch">
+                                    <input type="checkbox" id="newsVToggle" onchange="updateNewsToggle(this.checked)">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 10px;">
                             <label class="form-label" for="textSlider1Input">
-                                <i class="fas fa-bullhorn"></i> شريط الأخبار المتحرك (Marquee Ticker)
+                                نص الشريط الإخباري المتحرك
                             </label>
-                            <textarea class="form-control" id="textSlider1Input" placeholder="النص المتحرك أو الآية القرآنية..." oninput="updateConfigField('textSlider1', this.value)"></textarea>
+                            <textarea class="form-control" id="textSlider1Input" placeholder="النص المتحرك أو الآية القرآنية..." oninput="updateNewsTextInput(this.value)"></textarea>
                         </div>
 
                     </div>
@@ -1283,45 +1303,68 @@
                 </div>
             </div>
 
-            <!-- SECTION 3: SPEED OPTIONS TABLE -->
+            <!-- SECTION 3: SPEED OPTIONS TABLE & MASTER TOGGLE -->
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
                         <h2 class="card-title">
                             <i class="fas fa-tachometer-alt-fast"></i> خيارات السرعات المخصصة (Speed Options)
                         </h2>
-                        <button class="btn btn-primary btn-sm" onclick="addNewSpeedRow()">
+                        <button class="btn btn-primary btn-sm" id="addNewSpeedBtn" onclick="addNewSpeedRow()">
                             <i class="fas fa-plus"></i> إضافة سرعة جديدة
                         </button>
                     </div>
 
                     <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="custom-table" id="speedTable">
-                                <thead>
-                                    <tr>
-                                        <th style="width: 50px; text-align: center;">#</th>
-                                        <th style="width: 35%;">اسم السرعة المعروض للمستخدم</th>
-                                        <th style="width: 35%;">قيمة السرعة في المايكروتك (Rate-Limit)</th>
-                                        <th style="width: 120px; text-align: center;">الافتراضية</th>
-                                        <th style="width: 60px; text-align: center;">إجراء</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="speedTableBody">
-                                    <!-- Dynamic Rows -->
-                                </tbody>
-                            </table>
+                        <!-- Master Speed Selection Feature Toggle -->
+                        <div class="feature-toggle-card" style="margin-bottom: 24px; border-color: rgba(223, 171, 82, 0.4);">
+                            <div class="feature-toggle-info">
+                                <div class="feature-toggle-icon" style="color: #dfab52; background: rgba(223, 171, 82, 0.15);"><i class="fas fa-tachometer-alt"></i></div>
+                                <div>
+                                    <div class="feature-toggle-title">تفعيل أزرار وخيارات السرعة في صفحتي تسجيل الدخول والحالة</div>
+                                    <div class="feature-toggle-desc">
+                                        عند التفعيل: تظهر أزرار السرعات وحاويتها في صفحة الدخول وشاشة الحالة للمستخدم.<br>
+                                        <span style="color: #f59e0b; font-weight: 600;">عند التعطيل:</span> تختفي خيارات وأزرار وحاويات السرعة نهائياً من كل مكان، ويعتمد تسجيل الدخول كلياً على السرعة المحددة لبروفايل الكرت من سيرفر المايكروتك دون إرسال أو فرض أي سرعة تلقائية.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="switch-container">
+                                <span class="status-badge" id="badgeSpeedV">معطل</span>
+                                <label class="switch">
+                                    <input type="checkbox" id="speedVToggle" onchange="updateSpeedToggle(this.checked)">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
                         </div>
 
-                        <!-- Permanent Speed Selector Indicator -->
-                        <div style="margin-top: 24px; padding: 16px 20px; background: rgba(16, 185, 129, 0.08); border: 1px dashed rgba(16, 185, 129, 0.35); border-radius: var(--radius-md);">
-                            <div style="display: flex; align-items: center; gap: 12px;">
-                                <div style="width: 36px; height: 36px; border-radius: 8px; background: rgba(16, 185, 129, 0.2); color: #10b981; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;">
-                                    <i class="fas fa-check-circle"></i>
-                                </div>
-                                <div>
-                                    <div style="font-weight: 700; color: #fff; font-size: 0.96rem;">أزرار السرعة ظاهرة ودائمة لجميع الكروت</div>
-                                    <div style="color: var(--text-muted); font-size: 0.83rem;">تم إلغاء حظر وإخفاء السرعات عن كروت 2 أو 3، وأصبحت أزرار السرعات ظاهرة ومتاحة دائماً لكافة الكروت وبشكل دائم.</div>
+                        <div id="speedOptionsTableContainer">
+                            <div class="table-responsive">
+                                <table class="custom-table" id="speedTable">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 50px; text-align: center;">#</th>
+                                            <th style="width: 35%;">اسم السرعة المعروض للمستخدم</th>
+                                            <th style="width: 35%;">قيمة السرعة في المايكروتك (Rate-Limit)</th>
+                                            <th style="width: 120px; text-align: center;">الافتراضية</th>
+                                            <th style="width: 60px; text-align: center;">إجراء</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="speedTableBody">
+                                        <!-- Dynamic Rows -->
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- Permanent Speed Selector Indicator -->
+                            <div style="margin-top: 24px; padding: 16px 20px; background: rgba(16, 185, 129, 0.08); border: 1px dashed rgba(16, 185, 129, 0.35); border-radius: var(--radius-md);">
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <div style="width: 36px; height: 36px; border-radius: 8px; background: rgba(16, 185, 129, 0.2); color: #10b981; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div>
+                                        <div style="font-weight: 700; color: #fff; font-size: 0.96rem;">أزرار السرعة متاحة لكافة الكروت عند التفعيل</div>
+                                        <div style="color: var(--text-muted); font-size: 0.83rem;">عند تفعيل خيار السرعات تكون متاحة لكافة الكروت بحرية تامة دون قيود. وعند التعطيل تسري سرعة سيرفر المايكروتك فقط.</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1604,6 +1647,11 @@
                 </p>
 
                 <div class="preview-box">
+                    <div id="previewNewsTicker" style="display: none; align-items: center; gap: 8px; padding: 10px 14px; border-radius: 12px; background: rgba(239, 68, 68, 0.12); border: 1px solid rgba(239, 68, 68, 0.35); margin-bottom: 10px; overflow: hidden;">
+                        <span style="background: #ef4444; color: #fff; font-size: 0.72rem; font-weight: 800; padding: 2px 8px; border-radius: 6px; white-space: nowrap;"><i class="fas fa-bullhorn"></i> أخبار</span>
+                        <div id="previewNewsText" style="font-size: 0.82rem; color: #fecaca; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"></div>
+                    </div>
+
                     <div id="previewQuranBtn" style="display: none; align-items: center; justify-content: space-between; padding: 12px 16px; border-radius: 12px; background: linear-gradient(135deg, rgba(223, 171, 82, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%); border: 1px solid rgba(223, 171, 82, 0.35); color: #dfab52; font-weight: 700;">
                         <div style="display: flex; align-items: center; gap: 10px;">
                             <i class="fas fa-quran" style="font-size: 1.25rem;"></i>
@@ -1624,6 +1672,17 @@
                             </div>
                         </div>
                         <span style="font-size: 0.8rem; background: #2563eb; color: #fff; padding: 4px 10px; border-radius: 8px; font-weight: 700;">مفعل</span>
+                    </div>
+
+                    <div id="previewSpeedBtn" style="display: none; align-items: center; justify-content: space-between; padding: 12px 16px; border-radius: 12px; background: rgba(223, 171, 82, 0.12); border: 1px solid rgba(223, 171, 82, 0.35); color: #dfab52; font-weight: 700; margin-top: 10px;">
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-tachometer-alt" style="font-size: 1.25rem; color: #dfab52;"></i>
+                            <div>
+                                <div style="font-size: 0.95rem; color: #fff;">خيارات السرعة للمستخدم <span style="font-size: 0.72rem; background: #dfab52; color: #000; padding: 1px 6px; border-radius: 10px; margin-right: 4px; font-weight: 800;">مفعلة</span></div>
+                                <div style="font-size: 0.75rem; color: #94a3b8; font-weight: normal;">أزرار اختيار السرعة ظاهرة في الدخول والحالة</div>
+                            </div>
+                        </div>
+                        <span style="font-size: 0.8rem; background: #dfab52; color: #000; padding: 4px 10px; border-radius: 8px; font-weight: 700;">مفعل</span>
                     </div>
 
                     <div class="preview-entertainment-row" id="previewEntertainmentRow">
@@ -1709,6 +1768,8 @@
             siteName: "BH-NET",
             welcomeMessage: "مرحبا بكم في شبكة BH-NET اللاسلكية",
             welcomeMessageV: true,
+            newsV: true,
+            newsBarV: true,
             erbV: true,
             textSlider1: "",
             supportPhone: "770807056",
@@ -1777,7 +1838,18 @@
             if (appConfig["enable-updates-blocker"] === undefined) {
                 appConfig["enable-updates-blocker"] = appConfig.updatesBlockerV ? 1 : 0;
             }
+            if (appConfig.speedV === undefined) {
+                appConfig.speedV = (appConfig["speed-select"] !== undefined) ? Boolean(appConfig["speed-select"] !== 0 && appConfig["speed-select"] !== false && appConfig["speed-select"] !== "0") : false;
+            }
+            if (appConfig["speed-select"] === undefined) {
+                appConfig["speed-select"] = appConfig.speedV ? 1 : 0;
+            }
             if (appConfig.welcomeMessageV === undefined) appConfig.welcomeMessageV = true;
+            if (appConfig.newsV === undefined) {
+                appConfig.newsV = (appConfig.newsBarV !== undefined) ? Boolean(appConfig.newsBarV) : (appConfig['news-line-v'] !== undefined) ? Boolean(appConfig['news-line-v']) : true;
+            }
+            if (appConfig.newsBarV === undefined) appConfig.newsBarV = appConfig.newsV;
+            if (appConfig['news-line-v'] === undefined) appConfig['news-line-v'] = appConfig.newsV;
             if (appConfig.erbV === undefined) appConfig.erbV = true;
             if (appConfig.imageV === undefined) appConfig.imageV = true;
             if (appConfig.offersBadgeV === undefined) appConfig.offersBadgeV = true;
@@ -1850,6 +1922,15 @@
             setToggle('quranVToggle', 'badgeQuran', Boolean(appConfig.quranV !== false));
             setToggle('updatesBlockerVToggle', 'badgeUpdatesBlocker', Boolean(appConfig.updatesBlockerV !== false && appConfig["enable-updates-blocker"] !== 0 && appConfig["enable-updates-blocker"] !== false));
             setToggle('welcomeMessageVToggle', 'badgeWelcome', Boolean(appConfig.welcomeMessageV));
+
+            const isNewsActive = Boolean(appConfig.newsV !== false && appConfig.newsBarV !== false && appConfig['news-line-v'] !== false);
+            setToggle('newsVToggle', 'badgeNews', isNewsActive);
+            const newsInput = document.getElementById('textSlider1Input');
+            if (newsInput) {
+                newsInput.disabled = !isNewsActive;
+                newsInput.style.opacity = isNewsActive ? '1' : '0.55';
+            }
+
             setToggle('mobaVToggle', 'badgeMoba', Boolean(appConfig.mobaV));
             setToggle('estrVToggle', 'badgeEstr', Boolean(appConfig.estrV));
             setToggle('imageVToggle', 'badgeImage', Boolean(appConfig.imageV));
@@ -1857,6 +1938,17 @@
             setToggle('offersBadgeVToggle', 'badgeOffersBadge', Boolean(appConfig.offersBadgeV !== false));
             setToggle('cookieVToggle', 'badgeCookie', Boolean(appConfig.enableHotCookie !== false));
             setToggle('blockerVToggle', 'badgeBlocker', Boolean(appConfig["enable-hot-blocker"] === undefined || appConfig["enable-hot-blocker"] === 1 || appConfig["enable-hot-blocker"] === true));
+
+            const isSpeedActive = Boolean(appConfig.speedV === true || (appConfig.speedV !== false && appConfig["speed-select"] !== 0 && appConfig["speed-select"] !== false && appConfig["speed-select"] !== "0"));
+            setToggle('speedVToggle', 'badgeSpeedV', isSpeedActive);
+            const tblCont = document.getElementById('speedOptionsTableContainer');
+            if (tblCont) {
+                tblCont.style.opacity = isSpeedActive ? '1' : '0.55';
+            }
+            const addBtn = document.getElementById('addNewSpeedBtn');
+            if (addBtn) {
+                addBtn.disabled = !isSpeedActive;
+            }
 
             // Dynamic tables & grids
             renderSpeedTable();
@@ -1908,6 +2000,50 @@
             }
             saveToCache();
             showToast(`تم ${isChecked ? 'تفعيل' : 'تعطيل'} شريط إيقاف التحديثات بنجاح`, 'info');
+        }
+
+        function updateNewsToggle(isChecked) {
+            appConfig.newsV = Boolean(isChecked);
+            appConfig.newsBarV = Boolean(isChecked);
+            appConfig['news-line-v'] = Boolean(isChecked);
+            const badge = document.getElementById('badgeNews');
+            if (badge) {
+                badge.textContent = isChecked ? 'مفعل' : 'معطل';
+                badge.className = `status-badge ${isChecked ? 'active' : 'inactive'}`;
+            }
+            const newsInput = document.getElementById('textSlider1Input');
+            if (newsInput) {
+                newsInput.disabled = !isChecked;
+                newsInput.style.opacity = isChecked ? '1' : '0.55';
+            }
+            saveToCache();
+            showToast(`تم ${isChecked ? 'تفعيل' : 'تعطيل'} الشريط الإخباري بنجاح`, 'info');
+        }
+
+        function updateNewsTextInput(value) {
+            appConfig.textSlider1 = value;
+            appConfig['news-line'] = value;
+            saveToCache();
+        }
+
+        function updateSpeedToggle(isChecked) {
+            appConfig.speedV = Boolean(isChecked);
+            appConfig["speed-select"] = isChecked ? 1 : 0;
+            const badge = document.getElementById('badgeSpeedV');
+            if (badge) {
+                badge.textContent = isChecked ? 'مفعل' : 'معطل';
+                badge.className = `status-badge ${isChecked ? 'active' : 'inactive'}`;
+            }
+            const tblCont = document.getElementById('speedOptionsTableContainer');
+            if (tblCont) {
+                tblCont.style.opacity = isChecked ? '1' : '0.55';
+            }
+            const addBtn = document.getElementById('addNewSpeedBtn');
+            if (addBtn) {
+                addBtn.disabled = !isChecked;
+            }
+            saveToCache();
+            showToast(`تم ${isChecked ? 'تفعيل' : 'تعطيل'} خيارات السرعات بنجاح`, 'info');
         }
 
         function updateConfigField(key, value) {
@@ -2171,11 +2307,51 @@
         function generateConfigJS() {
             if (appConfig.moba) appConfig['redirect-to-mobasher'] = appConfig.moba;
             if (appConfig.estr) appConfig['redirect-to-esterahah'] = appConfig.estr;
+            if (appConfig.speedV !== undefined) {
+                appConfig['speed-select'] = appConfig.speedV ? 1 : 0;
+            } else if (appConfig['speed-select'] !== undefined) {
+                appConfig.speedV = Boolean(appConfig['speed-select'] !== 0 && appConfig['speed-select'] !== false && appConfig['speed-select'] !== "0");
+            }
+            if (appConfig.updatesBlockerV !== undefined) {
+                appConfig['enable-updates-blocker'] = appConfig.updatesBlockerV ? 1 : 0;
+            }
+            if (appConfig.newsV !== undefined) {
+                appConfig.newsBarV = appConfig.newsV;
+                appConfig['news-line-v'] = appConfig.newsV;
+            }
             return `window.siteConfig = ${JSON.stringify(appConfig, null, 4)};\n`;
+        }
+
+        // SAVE CONFIG DIRECTLY TO SERVER / FILE
+        async function saveConfigDirectly() {
+            saveToCache();
+            try {
+                const res = await fetch('/api/save-config', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(appConfig)
+                });
+                const data = await res.json();
+                if (data && data.success) {
+                    showToast('تم حفظ الإعدادات في ملف config.js مباشرة بنجاح!', 'success');
+                    return;
+                }
+            } catch (e) {
+                console.warn('Direct save endpoint not reachable, downloading file instead:', e);
+            }
+            downloadConfigFile();
         }
 
         // DOWNLOAD FILE
         function downloadConfigFile() {
+            saveToCache();
+            try {
+                fetch('/api/save-config', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(appConfig)
+                }).catch(() => {});
+            } catch (e) {}
             const code = generateConfigJS();
             const blob = new Blob([code], { type: 'application/javascript;charset=utf-8' });
             const url = URL.createObjectURL(blob);
@@ -2187,7 +2363,7 @@
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
 
-            showToast('تم تحميل ملف config.js بنجاح!', 'success');
+            showToast('تم حفظ وتحميل ملف config.js بنجاح!', 'success');
         }
 
         // COPY CODE
@@ -2220,24 +2396,34 @@
         }
 
         function openLivePreviewModal() {
+            const newsTicker = document.getElementById('previewNewsTicker');
             const quranBtn = document.getElementById('previewQuranBtn');
             const updatesBtn = document.getElementById('previewUpdatesBtn');
+            const speedBtn = document.getElementById('previewSpeedBtn');
             const mobaBtn = document.getElementById('previewMobaBtn');
             const estrBtn = document.getElementById('previewEstrBtn');
             const emptyMsg = document.getElementById('previewEmptyMsg');
 
+            const isNews = (appConfig.newsV !== false && appConfig.newsBarV !== false && appConfig['news-line-v'] !== false);
             const isQuran = appConfig.quranV !== false;
             const isUpdates = appConfig.updatesBlockerV !== false && appConfig["enable-updates-blocker"] !== 0 && appConfig["enable-updates-blocker"] !== false;
+            const isSpeed = Boolean(appConfig.speedV === true || (appConfig.speedV !== false && appConfig["speed-select"] !== 0 && appConfig["speed-select"] !== false && appConfig["speed-select"] !== "0"));
             const isMoba = Boolean(appConfig.mobaV) && appConfig.moba && appConfig.moba.trim().length > 0;
             const isEstr = Boolean(appConfig.estrV) && appConfig.estr && appConfig.estr.trim().length > 0;
 
+            if (newsTicker) {
+                newsTicker.style.display = isNews ? 'flex' : 'none';
+                const newsTextEl = document.getElementById('previewNewsText');
+                if (newsTextEl) newsTextEl.textContent = appConfig.textSlider1 || appConfig['news-line'] || 'بسم الله الرحمن الرحيم { قل للمؤمنين يغضوا من أبصارهم... }';
+            }
             if (quranBtn) quranBtn.style.display = isQuran ? 'flex' : 'none';
             if (updatesBtn) updatesBtn.style.display = isUpdates ? 'flex' : 'none';
+            if (speedBtn) speedBtn.style.display = isSpeed ? 'flex' : 'none';
             mobaBtn.style.display = isMoba ? 'flex' : 'none';
             estrBtn.style.display = isEstr ? 'flex' : 'none';
             const entertainmentRow = document.getElementById('previewEntertainmentRow');
             if (entertainmentRow) entertainmentRow.style.display = (isMoba || isEstr) ? 'flex' : 'none';
-            emptyMsg.style.display = (!isQuran && !isMoba && !isEstr && !isUpdates) ? 'block' : 'none';
+            emptyMsg.style.display = (!isNews && !isQuran && !isMoba && !isEstr && !isUpdates && !isSpeed) ? 'block' : 'none';
 
             openModal('livePreviewModal');
         }
