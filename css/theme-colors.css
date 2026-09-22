@@ -752,6 +752,12 @@ button.login-submit:hover,
   margin-bottom: 6px !important;
 }
 
+.login-input-card .login-submit-wrapper {
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  width: 100% !important;
+}
+
 .updates-toggle-card {
   padding: 10px 12px !important;
   margin-bottom: 6px !important;
@@ -1287,17 +1293,17 @@ input[name="username"] {
   border:        1px solid rgba(223, 171, 82, 0.28) !important;
   border-radius: 16px !important;
   box-shadow:    0 8px 24px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
-  padding:       10px 12px !important;
-  margin-top:    6px !important;
-  margin-bottom: 4px !important;
-  gap:           6px !important;
+  padding:       11px 14px !important;
+  margin-top:    9px !important;
+  margin-bottom: 6px !important;
+  gap:           8px !important;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
 }
 
 .status-support-section {
-  margin-top:    6px !important;
-  margin-bottom: 4px !important;
+  margin-top:    9px !important;
+  margin-bottom: 6px !important;
 }
 
 .container {
@@ -2050,8 +2056,8 @@ tbody td:first-child {
   border:              1.5px solid rgba(223, 171, 82, 0.45) !important;
   border-radius:       20px !important;
   box-shadow:          0 10px 32px rgba(0, 0, 0, 0.7), 0 0 28px rgba(223, 171, 82, 0.16), inset 0 1px 0 rgba(255, 235, 180, 0.25) !important;
-  padding:             14px 14px 12px 14px !important;
-  margin-bottom:       6px !important;
+  padding:             12px 14px 10px 14px !important;
+  margin-bottom:       7px !important;
   text-align:          center !important;
   overflow:            hidden !important;
   backdrop-filter:     blur(16px) !important;
@@ -2119,14 +2125,27 @@ tbody td:first-child {
   box-shadow:   0 6px 20px rgba(223, 171, 82, 0.3) !important;
 }
 
+/* شريط الأخبار في صفحة الحالة */
+#newsTickerStatusSection,
+#status #newsTickerStatusSection {
+  margin-top:    7px !important;
+  margin-bottom: 7px !important;
+}
+
+/* بطاقة إيقاف التحديثات في صفحة الحالة */
+#statusUpdatesCard,
+.status-updates-card {
+  margin: 7px 0 !important;
+}
+
 /* بطاقة تغيير سرعة الكرت في صفحة الحالة */
 .statusdiv {
   background:          linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
   border:              1px solid rgba(223, 171, 82, 0.28) !important;
   border-radius:       16px !important;
   box-shadow:          0 8px 24px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
-  padding:             12px 14px !important;
-  margin:              6px 0 !important;
+  padding:             11px 14px !important;
+  margin:              7px 0 !important;
   backdrop-filter:     blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
 }
@@ -2197,8 +2216,8 @@ tbody td:first-child {
 }
 
 .status-grid-metrics {
-  gap: 6px !important;
-  margin: 6px 0 !important;
+  gap: 8px !important;
+  margin: 7px 0 !important;
 }
 
 .metric-card-glass {
@@ -2258,9 +2277,9 @@ tbody td:first-child {
   flex-direction: row !important;
   align-items: stretch !important;
   justify-content: center !important;
-  gap: 10px !important;
+  gap: 8px !important;
   width: 100% !important;
-  margin: 14px 0 !important;
+  margin: 7px 0 !important;
   box-sizing: border-box !important;
 }
 
@@ -2279,14 +2298,14 @@ tbody td:first-child {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 8px !important;
-  padding: 11px 14px !important;
-  min-height: 46px !important;
+  gap: 7px !important;
+  padding: 10px 12px !important;
+  min-height: 44px !important;
   border-radius: 12px !important;
   color: #FFFFFF !important;
   text-decoration: none !important;
   font-weight: 800 !important;
-  font-size: 0.92rem !important;
+  font-size: 0.9rem !important;
   white-space: nowrap !important;
   transition: all 0.24s cubic-bezier(0.16, 1, 0.3, 1) !important;
   box-sizing: border-box !important;
@@ -2390,10 +2409,11 @@ tbody td:first-child {
    ══════════════════════════════════════════════════════════════════ */
 .status-telemetry-dashboard {
   width: 100%;
-  margin-top: 14px;
+  margin-top: 9px !important;
+  margin-bottom: 6px !important;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px !important;
   box-sizing: border-box;
 }
 
@@ -2402,6 +2422,7 @@ tbody td:first-child {
   align-items: center;
   justify-content: space-between;
   padding: 0 4px;
+  margin-bottom: 0 !important;
 }
 
 .telemetry-header-title {
@@ -2455,13 +2476,14 @@ tbody td:first-child {
   position: relative;
   background: linear-gradient(165deg, #142038 0%, #0F182B 100%);
   border: 1.5px solid rgba(223, 171, 82, 0.35);
-  border-radius: 18px;
+  border-radius: 16px;
   padding: 8px 12px 10px 12px;
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.6), 0 0 20px rgba(223, 171, 82, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   overflow: hidden;
-  margin-bottom: 6px !important;
+  margin: 0 !important;
+  margin-bottom: 0 !important;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -2510,7 +2532,7 @@ tbody td:first-child {
 
 .gauge-center-content {
   position: absolute;
-  bottom: 6px;
+  bottom: 4px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -2526,21 +2548,21 @@ tbody td:first-child {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 800;
   color: #94A3B8;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 .gauge-sub-icon {
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
   fill: #DFAB52;
   filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5));
 }
 
 .gauge-main-display {
-  font-size: 1.75rem;
+  font-size: 1.65rem;
   font-weight: 900;
   color: #FFFFFF;
   background: linear-gradient(180deg, #FFFFFF 30%, #FDE68A 100%);
@@ -2548,7 +2570,7 @@ tbody td:first-child {
   -webkit-text-fill-color: transparent;
   text-shadow: 0 2px 14px rgba(223, 171, 82, 0.45);
   line-height: 1.15;
-  margin: 4px 0 2px 0;
+  margin: 2px 0 1px 0;
   white-space: nowrap;
   letter-spacing: -0.5px;
 }
@@ -2559,13 +2581,13 @@ tbody td:first-child {
   gap: 6px;
   background: rgba(13, 22, 38, 0.85);
   border: 1px solid rgba(223, 171, 82, 0.35);
-  padding: 4px 12px;
+  padding: 3px 10px;
   border-radius: 9999px;
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 800;
   color: #F8FAFC;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .gauge-status-dot {
@@ -2580,8 +2602,9 @@ tbody td:first-child {
 /* شبكة حركة البيانات: التنزيل والرفع جنباً إلى جنب (HUD Telemetry Flow Pods) */
 .traffic-flow-grid {
   display: flex;
-  gap: 12px;
+  gap: 8px !important;
   width: 100%;
+  margin: 0 !important;
   box-sizing: border-box;
 }
 
@@ -2590,15 +2613,15 @@ tbody td:first-child {
   min-width: 0;
   background: linear-gradient(165deg, #142038 0%, #0F182B 100%);
   border: 1.5px solid rgba(223, 171, 82, 0.28);
-  border-radius: 14px;
-  padding: 10px 10px;
+  border-radius: 13px;
+  padding: 8px 10px;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 5px;
 }
 
 .traffic-pod.download-pod {
@@ -2626,13 +2649,13 @@ tbody td:first-child {
 .traffic-pod-header {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 7px;
 }
 
 .traffic-icon-bubble {
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2647,8 +2670,8 @@ tbody td:first-child {
 }
 
 .traffic-icon-bubble.cyan svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   fill: #38BDF8;
   filter: drop-shadow(0 0 4px rgba(56, 189, 248, 0.6));
 }
@@ -2660,8 +2683,8 @@ tbody td:first-child {
 }
 
 .traffic-icon-bubble.emerald svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   fill: #34D399;
   filter: drop-shadow(0 0 4px rgba(16, 185, 129, 0.6));
 }
@@ -2672,14 +2695,14 @@ tbody td:first-child {
 }
 
 .traffic-type-title {
-  font-size: 0.88rem;
+  font-size: 0.84rem;
   font-weight: 800;
   color: #FFFFFF;
   line-height: 1.2;
 }
 
 .traffic-type-en {
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   font-weight: 700;
   color: #94A3B8;
   letter-spacing: 0.3px;
@@ -2693,7 +2716,7 @@ tbody td:first-child {
 }
 
 .traffic-metric-val {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 900;
   white-space: nowrap;
   overflow: hidden;
@@ -2714,7 +2737,7 @@ tbody td:first-child {
 /* شريط التدفق والنشاط الشبكي المصغر بتأثير أمواج مضيئة */
 .traffic-wave-track {
   width: 100%;
-  height: 5px;
+  height: 4px;
   background: rgba(0, 0, 0, 0.45);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 9999px;
@@ -2748,9 +2771,9 @@ tbody td:first-child {
   justify-content: space-between;
   background: linear-gradient(165deg, #142038 0%, #0F182B 100%);
   border: 1.5px solid rgba(223, 171, 82, 0.28);
-  border-radius: 16px;
-  padding: 10px 14px;
-  margin: 6px 0 !important;
+  border-radius: 14px;
+  padding: 8px 12px;
+  margin: 0 !important;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   transition: all 0.25s ease;
 }
@@ -2765,18 +2788,18 @@ tbody td:first-child {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
 }
 
 .session-hub-icon-row {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 6px;
 }
 
 .session-hub-svg {
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
 }
 
 .session-hub-svg.gold {
@@ -2790,13 +2813,13 @@ tbody td:first-child {
 }
 
 .session-hub-label {
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 800;
   color: #94A3B8;
 }
 
 .session-hub-val {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 900;
   color: #FFFFFF;
   letter-spacing: -0.3px;
@@ -2812,21 +2835,21 @@ tbody td:first-child {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 14px;
+  padding: 0 10px;
 }
 
 .session-divider-line {
   width: 1px;
-  height: 14px;
+  height: 12px;
   background: linear-gradient(180deg, transparent, rgba(223, 171, 82, 0.4), transparent);
 }
 
 .session-divider-dot {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   background: #DFAB52;
   border-radius: 50%;
-  margin: 4px 0;
+  margin: 3px 0;
   box-shadow: 0 0 8px #DFAB52;
 }
 
@@ -2834,7 +2857,7 @@ tbody td:first-child {
 .status-actions-row {
   display: flex !important;
   gap: 8px !important;
-  margin-top: 8px !important;
+  margin-top: 9px !important;
   margin-bottom: 6px !important;
 }
 
@@ -2844,10 +2867,10 @@ tbody td:first-child {
   background:    linear-gradient(135deg, #E8BD6D 0%, #DFAB52 50%, #C48E33 100%) !important;
   color:         #0A0E17 !important;
   font-weight:   900 !important;
-  font-size:     15px !important;
+  font-size:     14.5px !important;
   border:        1px solid rgba(255, 255, 255, 0.35) !important;
   border-radius: 14px !important;
-  min-height:    48px !important;
+  min-height:    46px !important;
   box-shadow:    0 4px 18px rgba(223, 171, 82, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.38) !important;
   text-shadow:   none !important;
   cursor:        pointer !important;
@@ -2901,7 +2924,7 @@ tbody td:first-child {
   border: 1px solid rgba(223, 171, 82, 0.45) !important;
   border-radius: 14px !important;
   padding: 6px 10px !important;
-  margin: 0 0 6px 0 !important;
+  margin: 0 0 7px 0 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;
