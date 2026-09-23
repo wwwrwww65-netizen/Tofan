@@ -4,60 +4,11 @@ window.siteConfig = {
     "subDecText": "لخدمات الإنترنت اللاسلكي",
     "welcomeMessage": "أهلاً بك زائرنا في شبكة الجامعة نت",
     "welcomeMessageV": true,
-    "newsV": false,
-    "newsBarV": false,
-    "erbV": false,
-    "news-line": "...:::: اهلاً بكم على شبكتنا اللاسلكية تتميز شبكتنا بتقديم مزايا مختلفة لمشتركيها الاعزاء منها السرعة في التصفح ولعب الألعاب والبث المباشر للمباريات ايضاً نقدم خدمة توصيل الانترنت الى المنازل لسنا الوحيدون ولكن نسعى لتقديم خدمة ممتازة على مدار 24 ساعة::::...",
-    "news-line2": "",
-    "textSlider1": "...:::: اهلاً بكم على شبكتنا اللاسلكية تتميز شبكتنا بتقديم مزايا مختلفة لمشتركيها الاعزاء منها السرعة في التصفح ولعب الألعاب والبث المباشر للمباريات ايضاً نقدم خدمة توصيل الانترنت الى المنازل لسنا الوحيدون ولكن نسعى لتقديم خدمة ممتازة على مدار 24 ساعة::::...",
     "supportPhone": "770776483",
     "service-number": "770776483",
     "callPhone": "770776483",
     "whatsappPhone": "967770776483",
     "whatsappMsg": "مرحبا خدمة عملاء شبكة الجامعة نت اللاسلكية",
-    "fixedSpeedCardPrefixes": [],
-    "speedV": false,
-    "speed-select": 0,
-    "speed-var": "speed",
-    "speed-option": "",
-    "defaultSpeed": "",
-    "speedOptions": [
-        {
-            "name": "سرعة أفتراضية",
-            "label": "سرعة أفتراضية",
-            "value": "",
-            "selected": true,
-            "isDefault": true
-        },
-        {
-            "name": "سرعة اقتصادية",
-            "label": "سرعة اقتصادية",
-            "value": "55987b0d-ca6d-464f-93c8-db9ac4a08888",
-            "selected": false,
-            "isDefault": false
-        },
-        {
-            "name": "سرعة متوسطة",
-            "label": "سرعة متوسطة",
-            "value": "55987b0d-ca6d-464f-93c8-db9ac4a08000",
-            "selected": false,
-            "isDefault": false
-        },
-        {
-            "name": "سرعة عالية",
-            "label": "سرعة عالية",
-            "value": "55987b0d-ca6d-464f-93c8-db9ac4a08111",
-            "selected": false,
-            "isDefault": false
-        },
-        {
-            "name": "سرعة قوية",
-            "label": "سرعة قوية",
-            "value": "55987b0d-ca6d-464f-93c8-db9ac4a08222",
-            "selected": false,
-            "isDefault": false
-        }
-    ],
     "imageCount": "7",
     "imageV": true,
     "packages": [
@@ -191,12 +142,7 @@ window.siteConfig = {
         }
     ],
     "offersTitle": "خدمات وعروض شبكة الجامعة نت 🔥",
-    "offers": "...:::: اهلاً بكم على شبكتنا اللاسلكية تتميز شبكتنا بتقديم مزايا مختلفة لمشتركيها الاعزاء منها السرعة في التصفح ولعب الألعاب والبث المباشر للمباريات ايضاً نقدم خدمة توصيل الانترنت الى المنازل لسنا الوحيدون ولكن نسعى لتقديم خدمة ممتازة على مدار 24 ساعة::::...",
-    "offersBadge": "جديد الخدمات",
-    "offersBadgeV": false,
-    "offersBtnText": "📺 بث واستراحة الشبكة",
-    "offersBtnUrl": "",
-    "offersBtnV": false,
+    "offers": "...:::: اهلاً بكم على شبكتنا اللاسلكية تتميز شبكتنا بتقديم مزايا مختلفة لمشتركيها الاعزاء منها السرعة في التصفح ولعب الألعاب ايضاً نقدم خدمة توصيل الانترنت الى المنازل لسنا الوحيدون ولكن نسعى لتقديم خدمة ممتازة على مدار 24 ساعة::::...",
     "loan-button": true,
     "loan-text": "أهلاً بك زائرنا في شبكة الجامعة نت",
     "salesPoints": [
@@ -211,22 +157,7 @@ window.siteConfig = {
             "name": "جميع البقائل المجاوة للشبكة"
         }
     ],
-    "popup-adv-time": 5,
-    "popup-adv-img-type": true,
-    "popup-adv-repeat-after": 120,
     "login-type": "passwordAsUser",
-    "estr": "https://kora.fiberlive.live/",
-    "estrV": false,
-    "moba": "fiberlive/live.html",
-    "mobaV": false,
-    "redirect-to-esterahah": "https://kora.fiberlive.live/",
-    "redirect-to-mobasher": "fiberlive/live.html",
-    "app-store-status-button": false,
-    "app-store-base-url": "",
-    "quranUrl": "",
-    "quranV": false,
-    "updatesBlockerV": false,
-    "enable-updates-blocker": 0,
     "enableHotCookie": true,
     "enable-hot-cookie": 1,
     "enable-hot-blocker": 1,
@@ -239,14 +170,7 @@ window.siteConfig = {
     "input-autocomplete": "on",
     "input-type": "text",
     "input-rm-white-spaces": 1,
-    "input-to-lower": 0,
-    "input-to-upper": 0,
     "input-to-arabic-numbers": 1,
-    "input-only-numbers": 0,
-    "input-no-numbers": 0,
-    "input-only-alphanumeric": 0,
-    "input-to-tel-type-when": 0,
-    "input-to-text-type-when": 0,
     "price-button": true,
     "sell-point-button": true,
     "show-date-field": true

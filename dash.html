@@ -985,7 +985,7 @@
                 </div>
                 <div class="brand-text">
                     <h1 id="headerNetworkName">لوحة تحكم الشبكة <span style="font-size: 0.9rem; color: #10b981; font-weight: 600; vertical-align: middle;"><i class="fas fa-circle-check"></i> جاهز</span></h1>
-                    <p>التحكم الكامل وتخصيص هوية الشبكة والروابط والسرعات والباقات بدون لمس الأكواد</p>
+                    <p>التحكم الكامل وتخصيص هوية الشبكة والروابط والباقات بدون لمس الأكواد</p>
                 </div>
             </div>
 
@@ -1012,11 +1012,11 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-icon" style="background: var(--primary-gradient);">
-                    <i class="fas fa-tachometer-alt"></i>
+                    <i class="fas fa-user-shield"></i>
                 </div>
                 <div class="stat-info">
-                    <div class="stat-num" id="statSpeedsCount">0</div>
-                    <div class="stat-label">السرعات المضافة</div>
+                    <div class="stat-num" id="statBlockerStatus">مفعل</div>
+                    <div class="stat-label">حماية التخمين والحظر</div>
                 </div>
             </div>
 
@@ -1129,150 +1129,25 @@
                             <textarea class="form-control" id="welcomeMessageInput" placeholder="نص الرسالة الترحيبية..." oninput="updateConfigField('welcomeMessage', this.value)"></textarea>
                         </div>
 
-                        <!-- Marquee Text Slider with Toggle -->
-                        <div class="feature-toggle-card" style="margin-top: 20px; border-color: rgba(239, 68, 68, 0.35);">
-                            <div class="feature-toggle-info">
-                                <div class="feature-toggle-icon" style="color: #ef4444; background: rgba(239, 68, 68, 0.15);"><i class="fas fa-bullhorn"></i></div>
-                                <div>
-                                    <div class="feature-toggle-title">شريط الأخبار والآيات المتحرك (News Ticker)</div>
-                                    <div class="feature-toggle-desc">إظهار أو إخفاء شريط الأخبار في صفحتي تسجيل الدخول والحالة (Status)</div>
-                                </div>
-                            </div>
-                            <div class="switch-container">
-                                <span class="status-badge" id="badgeNews">مفعل</span>
-                                <label class="switch">
-                                    <input type="checkbox" id="newsVToggle" onchange="updateNewsToggle(this.checked)">
-                                    <span class="slider"></span>
-                                </label>
-                            </div>
                         </div>
-
-                        <div class="form-group" style="margin-top: 10px;">
-                            <label class="form-label" for="textSlider1Input">
-                                نص الشريط الإخباري المتحرك
-                            </label>
-                            <textarea class="form-control" id="textSlider1Input" placeholder="النص المتحرك أو الآية القرآنية..." oninput="updateNewsTextInput(this.value)"></textarea>
-                        </div>
-
-                    </div>
                 </div>
             </div>
-
-            <!-- SECTION 2: LIVE BROADCAST, LOUNGE & HOLY QURAN -->
+            <!-- SECTION 2: ADS SLIDER & BANNER CAROUSEL -->
             <div class="col-6">
                 <div class="card">
                     <div class="card-header">
                         <h2 class="card-title">
-                            <i class="fas fa-tv"></i> البث المباشر واستراحة الشبكة والقرآن الكريم
+                            <i class="fas fa-images"></i> شريط الإعلانات والبنرات المتحرك (Banner Carousel)
                         </h2>
                     </div>
-
                     <div class="card-body">
-                        <!-- Holy Quran Toggle & URL -->
-                        <div class="feature-toggle-card" style="border-color: rgba(223, 171, 82, 0.35);">
-                            <div class="feature-toggle-info">
-                                <div class="feature-toggle-icon" style="color: #dfab52; background: rgba(223, 171, 82, 0.15);"><i class="fas fa-quran"></i></div>
-                                <div>
-                                    <div class="feature-toggle-title">شريط وزر القرآن الكريم (المصحف الشريف)</div>
-                                    <div class="feature-toggle-desc">إظهار أو إخفاء زر وشريط المصحف في صفحتي تسجيل الدخول والحالة (Status)</div>
-                                </div>
-                            </div>
-                            <div class="switch-container">
-                                <span class="status-badge" id="badgeQuran">مفعل</span>
-                                <label class="switch">
-                                    <input type="checkbox" id="quranVToggle" onchange="updateToggleField('quranV', this.checked, 'badgeQuran')">
-                                    <span class="slider"></span>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label" for="quranUrlInput"><i class="fas fa-link"></i> رابط مخصص لزر القرآن (اختياري)</label>
-                            <div style="display: flex; gap: 8px;">
-                                <input type="url" class="form-control" id="quranUrlInput" placeholder="اتركه فارغاً لفتح المصحف المدمج مجاناً، أو ضع رابط خارجي" oninput="updateConfigField('quranUrl', this.value)">
-                                <button class="btn btn-outline btn-icon" onclick="testLink('quranUrlInput')" title="تجربة الرابط"><i class="fas fa-external-link-alt"></i></button>
-                            </div>
-                            <div class="form-hint"><i class="fas fa-info-circle" style="color: #dfab52;"></i> إذا تُرك فارغاً؛ سيفتح زر القرآن قارئ المصحف الشريف المدمج بالشبكة تلقائياً بدون رصيد</div>
-                        </div>
-
-                        <!-- Updates & App Store Blocker Strip Toggle -->
-                        <div class="feature-toggle-card" style="margin-top: 24px; border-color: rgba(59, 130, 246, 0.35);">
-                            <div class="feature-toggle-info">
-                                <div class="feature-toggle-icon" style="color: #60a5fa; background: rgba(59, 130, 246, 0.15);"><i class="fas fa-shield-alt"></i></div>
-                                <div>
-                                    <div class="feature-toggle-title">شريط ومفتاح إيقاف التحديثات والمتجر (حفظ الرصيد)</div>
-                                    <div class="feature-toggle-desc">إظهار أو إخفاء شريط ومفتاح إيقاف التحديثات في صفحتي تسجيل الدخول والحالة (Status) والتحكم بعمل الميزة</div>
-                                </div>
-                            </div>
-                            <div class="switch-container">
-                                <span class="status-badge" id="badgeUpdatesBlocker">مفعل</span>
-                                <label class="switch">
-                                    <input type="checkbox" id="updatesBlockerVToggle" onchange="updateUpdatesBlockerToggle(this.checked)">
-                                    <span class="slider"></span>
-                                </label>
-                            </div>
-                        </div>
-
-                        <!-- Live Broadcast Toggle & URL -->
-                        <div class="feature-toggle-card" style="margin-top: 24px;">
-                            <div class="feature-toggle-info">
-                                <div class="feature-toggle-icon" style="color: #3b82f6; background: rgba(59, 130, 246, 0.15);"><i class="fas fa-video"></i></div>
-                                <div>
-                                    <div class="feature-toggle-title">زر البث المباشر والقنوات الرياضية</div>
-                                    <div class="feature-toggle-desc">إظهار زر في شاشة الحالة (Status) لمشاهدة المباريات</div>
-                                </div>
-                            </div>
-                            <div class="switch-container">
-                                <span class="status-badge" id="badgeMoba">مفعل</span>
-                                <label class="switch">
-                                    <input type="checkbox" id="mobaVToggle" onchange="updateToggleField('mobaV', this.checked, 'badgeMoba')">
-                                    <span class="slider"></span>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label" for="mobaInput"><i class="fas fa-link"></i> رابط البث المباشر</label>
-                            <div style="display: flex; gap: 8px;">
-                                <input type="url" class="form-control" id="mobaInput" placeholder="https://..." oninput="updateConfigField('moba', this.value)">
-                                <button class="btn btn-outline btn-icon" onclick="testLink('mobaInput')" title="تجربة الرابط"><i class="fas fa-external-link-alt"></i></button>
-                            </div>
-                        </div>
-
-                        <!-- Lounge / Break Toggle & URL -->
-                        <div class="feature-toggle-card" style="margin-top: 24px;">
-                            <div class="feature-toggle-info">
-                                <div class="feature-toggle-icon" style="color: #a855f7; background: rgba(168, 85, 247, 0.15);"><i class="fas fa-coffee"></i></div>
-                                <div>
-                                    <div class="feature-toggle-title">زر استراحة الشبكة والترفيه</div>
-                                    <div class="feature-toggle-desc">إظهار زر مخصص للاستراحة بجانب زر البث في شاشة الحالة</div>
-                                </div>
-                            </div>
-                            <div class="switch-container">
-                                <span class="status-badge" id="badgeEstr">معطل</span>
-                                <label class="switch">
-                                    <input type="checkbox" id="estrVToggle" onchange="updateToggleField('estrV', this.checked, 'badgeEstr')">
-                                    <span class="slider"></span>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label" for="estrInput"><i class="fas fa-link"></i> رابط الاستراحة</label>
-                            <div style="display: flex; gap: 8px;">
-                                <input type="url" class="form-control" id="estrInput" placeholder="مثال: http://10.0.0.1/lounge أو رابط خارجي" oninput="updateConfigField('estr', this.value)">
-                                <button class="btn btn-outline btn-icon" onclick="testLink('estrInput')" title="تجربة الرابط"><i class="fas fa-external-link-alt"></i></button>
-                            </div>
-                            <div class="form-hint"><i class="fas fa-lightbulb" style="color: #f59e0b;"></i> يمكنك تفعيل أو تعطيل الزر في أي وقت بالمفتاح بالأعلى</div>
-                        </div>
-
                         <!-- Ads & Image Slider Settings -->
-                        <div class="feature-toggle-card" style="margin-top: 24px;">
+                        <div class="feature-toggle-card">
                             <div class="feature-toggle-info">
                                 <div class="feature-toggle-icon" style="color: #10b981; background: rgba(16, 185, 129, 0.15);"><i class="fas fa-images"></i></div>
                                 <div>
-                                    <div class="feature-toggle-title">شريط الإعلانات والبنرات المتحرك (Banner Carousel)</div>
-                                    <div class="feature-toggle-desc">تفعيل أو إيقاف ظهور سلايدر البنرات الإعلانية في الصفحة الرئيسية</div>
+                                    <div class="feature-toggle-title">تفعيل سلايدر البنرات الإعلانية</div>
+                                    <div class="feature-toggle-desc">إظهار أو إخفاء سلايدر البنرات الإعلانية في الصفحة الرئيسية</div>
                                 </div>
                             </div>
                             <div class="switch-container">
@@ -1284,7 +1159,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
+                        <div class="form-group" style="margin-top: 14px;">
                             <label class="form-label" for="imageCountInput"><i class="fas fa-layer-group"></i> عدد صور البنر المعروضة</label>
                             <input type="number" class="form-control" id="imageCountInput" min="1" max="10" oninput="updateConfigField('imageCount', this.value); updateStats();">
                             
@@ -1295,84 +1170,14 @@
                                 <ul style="margin: 0; padding-right: 18px; color: var(--text-muted); font-size: 0.85rem; line-height: 1.7;">
                                     <li>المجلد المخصص للبنرات هو: <code style="color: #60a5fa; background: rgba(59, 130, 246, 0.15); padding: 2px 6px; border-radius: 4px; font-weight: 600;">adimg/</code></li>
                                     <li>قم بتسمية الصور بأرقام تسلسلية بصيغة JPG: <code style="color: #f59e0b;">1.jpg</code> و <code style="color: #f59e0b;">2.jpg</code> و <code style="color: #f59e0b;">3.jpg</code> ... حتى الرقم المحدد.</li>
-                                    <li>المقاس الموصى به لأفضل وضوح وسرعة: <strong>1200 × 500 بكسل</strong> (أو أي نسبة عرض 2.4:1 تقريباً).</li>
+                                    <li>المقاس الموصى به لأفضل دقة وجودة: <strong>1200 × 500 بكسل</strong> (أو أي نسبة عرض 2.4:1 تقريباً).</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- SECTION 3: SPEED OPTIONS TABLE & MASTER TOGGLE -->
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-header">
-                        <h2 class="card-title">
-                            <i class="fas fa-tachometer-alt-fast"></i> خيارات السرعات المخصصة (Speed Options)
-                        </h2>
-                        <button class="btn btn-primary btn-sm" id="addNewSpeedBtn" onclick="addNewSpeedRow()">
-                            <i class="fas fa-plus"></i> إضافة سرعة جديدة
-                        </button>
-                    </div>
-
-                    <div class="card-body">
-                        <!-- Master Speed Selection Feature Toggle -->
-                        <div class="feature-toggle-card" style="margin-bottom: 24px; border-color: rgba(223, 171, 82, 0.4);">
-                            <div class="feature-toggle-info">
-                                <div class="feature-toggle-icon" style="color: #dfab52; background: rgba(223, 171, 82, 0.15);"><i class="fas fa-tachometer-alt"></i></div>
-                                <div>
-                                    <div class="feature-toggle-title">تفعيل أزرار وخيارات السرعة في صفحتي تسجيل الدخول والحالة</div>
-                                    <div class="feature-toggle-desc">
-                                        عند التفعيل: تظهر أزرار السرعات وحاويتها في صفحة الدخول وشاشة الحالة للمستخدم.<br>
-                                        <span style="color: #f59e0b; font-weight: 600;">عند التعطيل:</span> تختفي خيارات وأزرار وحاويات السرعة نهائياً من كل مكان، ويعتمد تسجيل الدخول كلياً على السرعة المحددة لبروفايل الكرت من سيرفر المايكروتك دون إرسال أو فرض أي سرعة تلقائية.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="switch-container">
-                                <span class="status-badge" id="badgeSpeedV">معطل</span>
-                                <label class="switch">
-                                    <input type="checkbox" id="speedVToggle" onchange="updateSpeedToggle(this.checked)">
-                                    <span class="slider"></span>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div id="speedOptionsTableContainer">
-                            <div class="table-responsive">
-                                <table class="custom-table" id="speedTable">
-                                    <thead>
-                                        <tr>
-                                            <th style="width: 50px; text-align: center;">#</th>
-                                            <th style="width: 35%;">اسم السرعة المعروض للمستخدم</th>
-                                            <th style="width: 35%;">قيمة السرعة في المايكروتك (Rate-Limit)</th>
-                                            <th style="width: 120px; text-align: center;">الافتراضية</th>
-                                            <th style="width: 60px; text-align: center;">إجراء</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody id="speedTableBody">
-                                        <!-- Dynamic Rows -->
-                                    </tbody>
-                                </table>
-                            </div>
-
-                            <!-- Permanent Speed Selector Indicator -->
-                            <div style="margin-top: 24px; padding: 16px 20px; background: rgba(16, 185, 129, 0.08); border: 1px dashed rgba(16, 185, 129, 0.35); border-radius: var(--radius-md);">
-                                <div style="display: flex; align-items: center; gap: 12px;">
-                                    <div style="width: 36px; height: 36px; border-radius: 8px; background: rgba(16, 185, 129, 0.2); color: #10b981; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;">
-                                        <i class="fas fa-check-circle"></i>
-                                    </div>
-                                    <div>
-                                        <div style="font-weight: 700; color: #fff; font-size: 0.96rem;">أزرار السرعة متاحة لكافة الكروت عند التفعيل</div>
-                                        <div style="color: var(--text-muted); font-size: 0.83rem;">عند تفعيل خيار السرعات تكون متاحة لكافة الكروت بحرية تامة دون قيود. وعند التعطيل تسري سرعة سيرفر المايكروتك فقط.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SECTION 4: OFFERS & WHAT'S NEW MODAL CUSTOMIZATION -->
+            <!-- SECTION 3: OFFERS & WHAT'S NEW MODAL CUSTOMIZATION -->
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
@@ -1407,7 +1212,7 @@
                                         <div class="feature-toggle-icon" style="color: #38bdf8; background: rgba(56, 189, 248, 0.15);"><i class="fas fa-link"></i></div>
                                         <div>
                                             <div class="feature-toggle-title">زر رابط إضافي في نافذة العروض</div>
-                                            <div class="feature-toggle-desc">إظهار زر ينقل المستخدم لرابط مباشر (مثل البث أو القناة)</div>
+                                            <div class="feature-toggle-desc">إظهار زر ينقل المستخدم لرابط خارجي (مثل قناة تليجرام أو صفحة الشبكة)</div>
                                         </div>
                                     </div>
                                     <div class="switch-container">
@@ -1421,7 +1226,7 @@
 
                                 <div class="form-group">
                                     <label class="form-label" for="offersBtnTextInput"><i class="fas fa-tag"></i> اسم الزر المعروض</label>
-                                    <input type="text" class="form-control" id="offersBtnTextInput" placeholder="مثال: 📺 مشاهدة البث المباشر والمباريات" oninput="updateConfigField('offersBtnText', this.value)">
+                                    <input type="text" class="form-control" id="offersBtnTextInput" placeholder="مثال: 📢 انضم إلى قناتنا على تليجرام" oninput="updateConfigField('offersBtnText', this.value)">
                                 </div>
 
                                 <div class="form-group" style="margin-top: 14px;">
@@ -1430,7 +1235,7 @@
                                         <input type="url" class="form-control" id="offersBtnUrlInput" placeholder="https://..." oninput="updateConfigField('offersBtnUrl', this.value)">
                                         <button class="btn btn-outline btn-icon" onclick="testLink('offersBtnUrlInput')" title="تجربة الرابط"><i class="fas fa-external-link-alt"></i></button>
                                     </div>
-                                    <div class="form-hint"><i class="fas fa-lightbulb" style="color: #38bdf8;"></i> يمكنك وضع رابط البث المباشر، أو قناة تليجرام، أو صفحة فيسبوك للشبكة</div>
+                                    <div class="form-hint"><i class="fas fa-lightbulb" style="color: #38bdf8;"></i> يمكنك وضع رابط قناة تليجرام، أو صفحة فيسبوك، أو موقع الشبكة</div>
                                 </div>
 
                                 <!-- Free Offer Badge Customization -->
@@ -1461,7 +1266,7 @@
                 </div>
             </div>
 
-            <!-- SECTION 5: PACKAGES & PRICING -->
+            <!-- SECTION 4: PACKAGES & PRICING -->
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
@@ -1482,7 +1287,7 @@
                 </div>
             </div>
 
-            <!-- SECTION 6: SALES POINTS -->
+            <!-- SECTION 5: SALES POINTS -->
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
@@ -1502,7 +1307,7 @@
                 </div>
             </div>
 
-            <!-- SECTION 7: SECURITY, BLOCKER & COOKIES (نظام الحظر والحماية والتذكر) -->
+            <!-- SECTION 6: SECURITY, BLOCKER & COOKIES (نظام الحظر والحماية والتذكر) -->
             <div class="col-12">
                 <div class="card" style="border: 1px solid rgba(239, 68, 68, 0.25);">
                     <div class="card-header" style="background: rgba(239, 68, 68, 0.08);">
@@ -1597,7 +1402,7 @@
                                         <ul style="margin: 6px 16px 0 0; padding: 0;">
                                             <li>يقوم بحفظ كرت المستخدم تلقائياً في التخزين المحلي الآمن.</li>
                                             <li>يسمح بالضغط على زر "كرت سابق" لتعبئة الكرت بلمسة واحدة دون كتابته.</li>
-                                            <li>يتذكر اختيار المستخدم لسرعته المفضلة وخيار إيقاف التحديثات.</li>
+                                            <li>يحافظ على تسجيل الدخول السريع وتسهيل تجربة المستخدم.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1634,85 +1439,6 @@
 
     </div>
 
-    <!-- MODAL: LIVE PREVIEW -->
-    <div class="modal" id="livePreviewModal">
-        <div class="modal-box" style="max-width: 500px;">
-            <div class="modal-head">
-                <h3><i class="fas fa-eye"></i> معاينة حية لشاشة الحالة</h3>
-                <button class="modal-close" onclick="closeModal('livePreviewModal')">&times;</button>
-            </div>
-            <div class="modal-body">
-                <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px;">
-                    هكذا ستظهر أزرار الترفيه في شاشة الحالة (Status) وفق إعداداتك الحالية:
-                </p>
-
-                <div class="preview-box">
-                    <div id="previewNewsTicker" style="display: none; align-items: center; gap: 8px; padding: 10px 14px; border-radius: 12px; background: rgba(239, 68, 68, 0.12); border: 1px solid rgba(239, 68, 68, 0.35); margin-bottom: 10px; overflow: hidden;">
-                        <span style="background: #ef4444; color: #fff; font-size: 0.72rem; font-weight: 800; padding: 2px 8px; border-radius: 6px; white-space: nowrap;"><i class="fas fa-bullhorn"></i> أخبار</span>
-                        <div id="previewNewsText" style="font-size: 0.82rem; color: #fecaca; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"></div>
-                    </div>
-
-                    <div id="previewQuranBtn" style="display: none; align-items: center; justify-content: space-between; padding: 12px 16px; border-radius: 12px; background: linear-gradient(135deg, rgba(223, 171, 82, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%); border: 1px solid rgba(223, 171, 82, 0.35); color: #dfab52; font-weight: 700;">
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <i class="fas fa-quran" style="font-size: 1.25rem;"></i>
-                            <div>
-                                <div style="font-size: 0.95rem; color: #fff;">القرآن الكريم <span style="font-size: 0.72rem; background: #dfab52; color: #000; padding: 1px 6px; border-radius: 10px; margin-right: 4px; font-weight: 800;">مجاني</span></div>
-                                <div style="font-size: 0.75rem; color: #94a3b8; font-weight: normal;">المصحف الشريف كاملاً بدون رصيد</div>
-                            </div>
-                        </div>
-                        <span style="font-size: 0.8rem; background: #dfab52; color: #0f172a; padding: 4px 10px; border-radius: 8px; font-weight: 700;">قراءة</span>
-                    </div>
-
-                    <div id="previewUpdatesBtn" style="display: none; align-items: center; justify-content: space-between; padding: 12px 16px; border-radius: 12px; background: rgba(59, 130, 246, 0.12); border: 1px solid rgba(59, 130, 246, 0.35); color: #93c5fd; font-weight: 700; margin-top: 10px;">
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <i class="fas fa-shield-alt" style="font-size: 1.25rem; color: #60a5fa;"></i>
-                            <div>
-                                <div style="font-size: 0.95rem; color: #fff;">إيقاف التحديثات والمتجر <span style="font-size: 0.72rem; background: #2563eb; color: #fff; padding: 1px 6px; border-radius: 10px; margin-right: 4px; font-weight: 800;">توفير الرصيد</span></div>
-                                <div style="font-size: 0.75rem; color: #94a3b8; font-weight: normal;">حظر استهلاك الرصيد في الخلفية</div>
-                            </div>
-                        </div>
-                        <span style="font-size: 0.8rem; background: #2563eb; color: #fff; padding: 4px 10px; border-radius: 8px; font-weight: 700;">مفعل</span>
-                    </div>
-
-                    <div id="previewSpeedBtn" style="display: none; align-items: center; justify-content: space-between; padding: 12px 16px; border-radius: 12px; background: rgba(223, 171, 82, 0.12); border: 1px solid rgba(223, 171, 82, 0.35); color: #dfab52; font-weight: 700; margin-top: 10px;">
-                        <div style="display: flex; align-items: center; gap: 10px;">
-                            <i class="fas fa-tachometer-alt" style="font-size: 1.25rem; color: #dfab52;"></i>
-                            <div>
-                                <div style="font-size: 0.95rem; color: #fff;">خيارات السرعة للمستخدم <span style="font-size: 0.72rem; background: #dfab52; color: #000; padding: 1px 6px; border-radius: 10px; margin-right: 4px; font-weight: 800;">مفعلة</span></div>
-                                <div style="font-size: 0.75rem; color: #94a3b8; font-weight: normal;">أزرار اختيار السرعة ظاهرة في الدخول والحالة</div>
-                            </div>
-                        </div>
-                        <span style="font-size: 0.8rem; background: #dfab52; color: #000; padding: 4px 10px; border-radius: 8px; font-weight: 700;">مفعل</span>
-                    </div>
-
-                    <div class="preview-entertainment-row" id="previewEntertainmentRow">
-                        <div id="previewMobaBtn" class="preview-stream-btn" style="display: none;">
-                            <i class="fas fa-tv"></i>
-                            <span>البث المباشر</span>
-                        </div>
-
-                        <div id="previewEstrBtn" class="preview-lounge-btn" style="display: none;">
-                            <i class="fas fa-coffee"></i>
-                            <span>الإستراحة</span>
-                        </div>
-                    </div>
-
-                    <div id="previewEmptyMsg" style="display: none; text-align: center; color: var(--text-dim); padding: 15px;">
-                        <i class="fas fa-eye-slash" style="font-size: 2rem; margin-bottom: 8px; display: block;"></i>
-                        كافة أزرار الترفيه معطلة حالياً ولن تظهر للمستخدم
-                    </div>
-                </div>
-
-                <div style="margin-top: 20px; background: rgba(59, 130, 246, 0.08); border-radius: 8px; padding: 12px; font-size: 0.85rem; color: #93c5fd;">
-                    <i class="fas fa-circle-info"></i> تتحدث هذه المعاينة فورياً بمجرد تشغيل أو إيقاف مفاتيح التفعيل.
-                </div>
-            </div>
-            <div class="modal-foot">
-                <button class="btn btn-primary" onclick="closeModal('livePreviewModal')">إغلاق المعاينة</button>
-            </div>
-        </div>
-    </div>
-
     <!-- MODAL: SHOW / COPY CODE -->
     <div class="modal" id="codeModal">
         <div class="modal-box" style="max-width: 750px;">
@@ -1739,7 +1465,7 @@
             </div>
             <div class="modal-body">
                 <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px;">
-                    اختر ملف <code>config.js</code> من جهازك ليتم استيراد كافة الإعدادات والسرعات والباقات تلقائياً:
+                    اختر ملف <code>config.js</code> من جهازك ليتم استيراد كافة الإعدادات والباقات تلقائياً:
                 </p>
                 <input type="file" id="fileUploadInput" accept=".js,.json" class="form-control" onchange="handleFileImport(event)">
                 
@@ -1763,94 +1489,115 @@
 
     <!-- MAIN DASHBOARD SCRIPT -->
     <script>
-        // GLOBAL CONFIG STATE
         let appConfig = {
-            siteName: "BH-NET",
-            welcomeMessage: "مرحبا بكم في شبكة BH-NET اللاسلكية",
+            siteName: "الجامعة نت",
+            "network-name": "الجامعة نت",
+            subDecText: "لخدمات الإنترنت اللاسلكي",
+            welcomeMessage: "أهلاً بك زائرنا في شبكة الجامعة نت",
             welcomeMessageV: true,
-            newsV: true,
-            newsBarV: true,
-            erbV: true,
-            textSlider1: "",
-            supportPhone: "770807056",
-            whatsappPhone: "967770807056",
-            whatsappMsg: "مرحبا خدمة عملاء شبكة {network-name} اللاسلكية",
-            speedOptions: [],
+            supportPhone: "770776483",
+            "service-number": "770776483",
+            callPhone: "770776483",
+            whatsappPhone: "967770776483",
+            whatsappMsg: "مرحبا خدمة عملاء شبكة الجامعة نت اللاسلكية",
             imageCount: "7",
             imageV: true,
             packages: [],
-            offersTitle: "عروض ومميزات الشبكة الحصرية 🔥",
+            profiles: [],
+            offersTitle: "خدمات وعروض شبكة الجامعة نت 🔥",
             offers: "",
-            offersBtnText: "📺 مشاهدة البث المباشر والمباريات",
-            offersBtnUrl: "https://kor.fntvs.net/channel.php",
-            offersBtnV: true,
+            "loan-button": true,
+            "loan-text": "أهلاً بك زائرنا في شبكة الجامعة نت",
             salesPoints: [],
-            estr: "",
-            estrV: false,
-            moba: "https://kor.fntvs.net/channel.php",
-            mobaV: true,
-            quranUrl: "",
-            quranV: true,
+            "sell-points": [],
+            offersBadgeV: true,
+            offersBadge: "عرض مجاني",
+            "login-type": "passwordAsUser",
             enableHotCookie: true,
+            "enable-hot-cookie": 1,
+            "enable-hot-blocker": 1,
+            "clear-router-cookie": 1,
+            "clear-hot-cookie": 1,
+            "block-time": 1,
             "try-count": 5,
             "warn-when": 3,
-            "block-time": 5,
-            "warn-message": "تبقى لك {{restTryCount}} محاولات قبل أن يتم حظرك لمدة {{blockTime}} دقائق"
+            "warn-message": "تحذير !! عدد محاولاتك الخاطئة اصبح {{tryCounter}} محاولات, عدد المحاولات المسموح بها هي {{tryCount}} محاولات فقط, عدد محاولاتك المتبقية {{restTryCount}} محاولات, سيتم حظرك لمدة {{blockTime}} دقائق اذا تجاوزت العدد المسموح للمحاولات",
+            "input-autocomplete": "on",
+            "input-type": "text",
+            "input-rm-white-spaces": 1,
+            "input-to-arabic-numbers": 1,
+            "price-button": true,
+            "sell-point-button": true,
+            "show-date-field": true
         };
 
+        // CLEANING HELPER TO PREVENT ANY LEFTOVERS OF REMOVED FEATURES
+        function cleanConfig(obj) {
+            if (!obj || typeof obj !== "object") return {};
+            const clean = Object.assign({}, obj);
+            const forbiddenKeys = [
+                "speedOptions", "speedV", "speed-select", "defaultSpeed", "fixedSpeedCardPrefixes",
+                "quranV", "quranUrl",
+                "updatesBlockerV", "enable-updates-blocker",
+                "hotspot_speed", "hotspot_speed_name", "hotspot_updates", "speed2",
+                "newsV", "newsBarV", "erbV", "textSlider1", "news-line", "news-line-v", "news-bar-v",
+                "moba", "mobaV", "estr", "estrV", "redirect-to-mobasher", "redirect-to-esterahah"
+            ];
+            forbiddenKeys.forEach(k => delete clean[k]);
+
+            // Sync aliases
+            if (clean.siteName) clean["network-name"] = clean.siteName;
+            if (clean.supportPhone) {
+                clean["service-number"] = clean.supportPhone;
+                clean["callPhone"] = clean.supportPhone;
+            }
+            if (Array.isArray(clean.salesPoints)) {
+                clean["sell-points"] = clean.salesPoints.map(item => (typeof item === "string" ? { name: item } : item));
+            }
+            if (Array.isArray(clean.packages)) {
+                clean["profiles"] = clean.packages.map(p => ({
+                    price: p.price || "",
+                    time: p.time || "",
+                    transfer: p.transfer || p.size || "",
+                    validity: p.validity || p.vl || ""
+                }));
+            }
+            if (clean.enableHotCookie !== undefined) {
+                clean["enable-hot-cookie"] = clean.enableHotCookie ? 1 : 0;
+            }
+            return clean;
+        }
+
         // INITIALIZE ON LOAD
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener("DOMContentLoaded", function () {
             loadInitialConfig();
             renderAll();
         });
 
         function loadInitialConfig() {
             // Check if window.siteConfig exists from config.js
-            if (window.siteConfig && typeof window.siteConfig === 'object') {
+            if (window.siteConfig && typeof window.siteConfig === "object") {
                 appConfig = JSON.parse(JSON.stringify(window.siteConfig));
             }
 
             // Also check localStorage for unsaved edits
-            const cached = localStorage.getItem('mikrotik_bhnet_dash_config');
+            const cached = localStorage.getItem("mikrotik_bhnet_dash_config");
             if (cached) {
                 try {
                     const parsed = JSON.parse(cached);
-                    if (parsed && typeof parsed === 'object') {
+                    if (parsed && typeof parsed === "object") {
                         appConfig = Object.assign({}, appConfig, parsed);
                     }
                 } catch (e) {
-                    console.warn('Could not parse cached config');
+                    console.warn("Could not parse cached config");
                 }
             }
 
+            // Clean legacy keys
+            appConfig = cleanConfig(appConfig);
+
             // Ensure defaults
-            if (appConfig.estr === undefined && appConfig['redirect-to-esterahah']) appConfig.estr = appConfig['redirect-to-esterahah'];
-            if (appConfig.moba === undefined && appConfig['redirect-to-mobasher']) appConfig.moba = appConfig['redirect-to-mobasher'];
-            if (appConfig['redirect-to-esterahah'] === undefined && appConfig.estr) appConfig['redirect-to-esterahah'] = appConfig.estr;
-            if (appConfig['redirect-to-mobasher'] === undefined && appConfig.moba) appConfig['redirect-to-mobasher'] = appConfig.moba;
-            if (appConfig.estrV === undefined) appConfig.estrV = Boolean(appConfig.estr && appConfig.estr.trim().length > 0);
-            if (appConfig.mobaV === undefined) appConfig.mobaV = true;
-            if (appConfig.quranV === undefined) appConfig.quranV = true;
-            if (appConfig.quranUrl === undefined) appConfig.quranUrl = "";
-            if (appConfig.updatesBlockerV === undefined) {
-                appConfig.updatesBlockerV = (appConfig["enable-updates-blocker"] !== undefined) ? Boolean(appConfig["enable-updates-blocker"] !== 0 && appConfig["enable-updates-blocker"] !== false) : true;
-            }
-            if (appConfig["enable-updates-blocker"] === undefined) {
-                appConfig["enable-updates-blocker"] = appConfig.updatesBlockerV ? 1 : 0;
-            }
-            if (appConfig.speedV === undefined) {
-                appConfig.speedV = (appConfig["speed-select"] !== undefined) ? Boolean(appConfig["speed-select"] !== 0 && appConfig["speed-select"] !== false && appConfig["speed-select"] !== "0") : false;
-            }
-            if (appConfig["speed-select"] === undefined) {
-                appConfig["speed-select"] = appConfig.speedV ? 1 : 0;
-            }
             if (appConfig.welcomeMessageV === undefined) appConfig.welcomeMessageV = true;
-            if (appConfig.newsV === undefined) {
-                appConfig.newsV = (appConfig.newsBarV !== undefined) ? Boolean(appConfig.newsBarV) : (appConfig['news-line-v'] !== undefined) ? Boolean(appConfig['news-line-v']) : true;
-            }
-            if (appConfig.newsBarV === undefined) appConfig.newsBarV = appConfig.newsV;
-            if (appConfig['news-line-v'] === undefined) appConfig['news-line-v'] = appConfig.newsV;
-            if (appConfig.erbV === undefined) appConfig.erbV = true;
             if (appConfig.imageV === undefined) appConfig.imageV = true;
             if (appConfig.offersBadgeV === undefined) appConfig.offersBadgeV = true;
             if (appConfig.offersBadge === undefined) appConfig.offersBadge = "عرض مجاني";
@@ -1858,100 +1605,65 @@
             if (appConfig.enableHotCookie === undefined) appConfig.enableHotCookie = true;
             if (appConfig["try-count"] === undefined) appConfig["try-count"] = 5;
             if (appConfig["warn-when"] === undefined) appConfig["warn-when"] = 3;
-            if (appConfig["block-time"] === undefined) appConfig["block-time"] = 5;
-            if (appConfig["warn-message"] === undefined) appConfig["warn-message"] = "تبقى لك {{restTryCount}} محاولات قبل أن يتم حظرك لمدة {{blockTime}} دقائق";
-            if (!appConfig.fixedSpeedCardPrefixes || !Array.isArray(appConfig.fixedSpeedCardPrefixes)) {
-                appConfig.fixedSpeedCardPrefixes = [];
-            }
-            if (!appConfig.supportPhone) appConfig.supportPhone = "770807056";
-            if (!appConfig.whatsappPhone) appConfig.whatsappPhone = "967770807056";
+            if (appConfig["block-time"] === undefined) appConfig["block-time"] = 1;
+            if (appConfig["warn-message"] === undefined) appConfig["warn-message"] = "تحذير !! عدد محاولاتك الخاطئة اصبح {{tryCounter}} محاولات, عدد المحاولات المسموح بها هي {{tryCount}} محاولات فقط, عدد محاولاتك المتبقية {{restTryCount}} محاولات, سيتم حظرك لمدة {{blockTime}} دقائق اذا تجاوزت العدد المسموح للمحاولات";
+            if (!appConfig.supportPhone) appConfig.supportPhone = "770776483";
+            if (!appConfig.whatsappPhone) appConfig.whatsappPhone = "967770776483";
             if (!appConfig.whatsappMsg) appConfig.whatsappMsg = "مرحبا خدمة عملاء شبكة {network-name} اللاسلكية";
         }
 
         function saveToCache() {
             try {
-                localStorage.setItem('mikrotik_bhnet_dash_config', JSON.stringify(appConfig));
+                const clean = cleanConfig(appConfig);
+                localStorage.setItem("mikrotik_bhnet_dash_config", JSON.stringify(clean));
             } catch (e) {}
         }
 
         // RENDER ALL FIELDS
         function renderAll() {
             // Inputs
-            document.getElementById('siteNameInput').value = appConfig.siteName || '';
-            if (document.getElementById('subDecTextInput')) {
-                document.getElementById('subDecTextInput').value = appConfig.subDecText || 'للإنترنت اللاسلكي';
+            if (document.getElementById("siteNameInput")) document.getElementById("siteNameInput").value = appConfig.siteName || "";
+            if (document.getElementById("subDecTextInput")) {
+                document.getElementById("subDecTextInput").value = appConfig.subDecText || "لخدمات الإنترنت اللاسلكي";
             }
-            document.getElementById('supportPhoneInput').value = appConfig.supportPhone || '';
-            document.getElementById('whatsappPhoneInput').value = appConfig.whatsappPhone || '';
-            document.getElementById('whatsappMsgInput').value = appConfig.whatsappMsg || '';
-            document.getElementById('welcomeMessageInput').value = appConfig.welcomeMessage || '';
-            document.getElementById('textSlider1Input').value = appConfig.textSlider1 || '';
-            document.getElementById('quranUrlInput').value = appConfig.quranUrl || '';
-            document.getElementById('mobaInput').value = appConfig.moba || '';
-            document.getElementById('estrInput').value = appConfig.estr || '';
-            document.getElementById('imageCountInput').value = appConfig.imageCount || '0';
-            appConfig.fixedSpeedCardPrefixes = [];
-            if (document.getElementById('fixedSpeedPrefixesInput')) {
-                document.getElementById('fixedSpeedPrefixesInput').value = '';
-            }
-            
+            if (document.getElementById("supportPhoneInput")) document.getElementById("supportPhoneInput").value = appConfig.supportPhone || "";
+            if (document.getElementById("whatsappPhoneInput")) document.getElementById("whatsappPhoneInput").value = appConfig.whatsappPhone || "";
+            if (document.getElementById("whatsappMsgInput")) document.getElementById("whatsappMsgInput").value = appConfig.whatsappMsg || "";
+            if (document.getElementById("welcomeMessageInput")) document.getElementById("welcomeMessageInput").value = appConfig.welcomeMessage || "";
+            if (document.getElementById("imageCountInput")) document.getElementById("imageCountInput").value = appConfig.imageCount || "7";
+
             // Offers Modal Fields
-            document.getElementById('offersTitleInput').value = appConfig.offersTitle || '';
-            document.getElementById('offersInput').value = appConfig.offers || '';
-            document.getElementById('offersBtnTextInput').value = appConfig.offersBtnText || '';
-            document.getElementById('offersBtnUrlInput').value = appConfig.offersBtnUrl || '';
-            if (document.getElementById('offersBadgeInput')) {
-                document.getElementById('offersBadgeInput').value = appConfig.offersBadge !== undefined ? appConfig.offersBadge : 'عرض مجاني';
+            if (document.getElementById("offersTitleInput")) document.getElementById("offersTitleInput").value = appConfig.offersTitle || "";
+            if (document.getElementById("offersInput")) document.getElementById("offersInput").value = appConfig.offers || "";
+            if (document.getElementById("offersBtnTextInput")) document.getElementById("offersBtnTextInput").value = appConfig.offersBtnText || "";
+            if (document.getElementById("offersBtnUrlInput")) document.getElementById("offersBtnUrlInput").value = appConfig.offersBtnUrl || "";
+            if (document.getElementById("offersBadgeInput")) {
+                document.getElementById("offersBadgeInput").value = appConfig.offersBadge !== undefined ? appConfig.offersBadge : "عرض مجاني";
             }
 
             // Security & Blocker Fields
-            if (document.getElementById('tryCountInput')) {
-                document.getElementById('tryCountInput').value = appConfig["try-count"] || 5;
+            if (document.getElementById("tryCountInput")) {
+                document.getElementById("tryCountInput").value = appConfig["try-count"] || 5;
             }
-            if (document.getElementById('warnWhenInput')) {
-                document.getElementById('warnWhenInput').value = appConfig["warn-when"] || 3;
+            if (document.getElementById("warnWhenInput")) {
+                document.getElementById("warnWhenInput").value = appConfig["warn-when"] || 3;
             }
-            if (document.getElementById('blockTimeInput')) {
-                document.getElementById('blockTimeInput').value = appConfig["block-time"] || 5;
+            if (document.getElementById("blockTimeInput")) {
+                document.getElementById("blockTimeInput").value = appConfig["block-time"] || 1;
             }
-            if (document.getElementById('warnMsgInput')) {
-                document.getElementById('warnMsgInput').value = appConfig["warn-message"] || "تبقى لك {{restTryCount}} محاولات قبل أن يتم حظرك لمدة {{blockTime}} دقائق";
+            if (document.getElementById("warnMsgInput")) {
+                document.getElementById("warnMsgInput").value = appConfig["warn-message"] || "تحذير !! عدد محاولاتك الخاطئة اصبح {{tryCounter}} محاولات, عدد المحاولات المسموح بها هي {{tryCount}} محاولات فقط, عدد محاولاتك المتبقية {{restTryCount}} محاولات, سيتم حظرك لمدة {{blockTime}} دقائق اذا تجاوزت العدد المسموح للمحاولات";
             }
 
             // Toggles
-            setToggle('quranVToggle', 'badgeQuran', Boolean(appConfig.quranV !== false));
-            setToggle('updatesBlockerVToggle', 'badgeUpdatesBlocker', Boolean(appConfig.updatesBlockerV !== false && appConfig["enable-updates-blocker"] !== 0 && appConfig["enable-updates-blocker"] !== false));
-            setToggle('welcomeMessageVToggle', 'badgeWelcome', Boolean(appConfig.welcomeMessageV));
-
-            const isNewsActive = Boolean(appConfig.newsV !== false && appConfig.newsBarV !== false && appConfig['news-line-v'] !== false);
-            setToggle('newsVToggle', 'badgeNews', isNewsActive);
-            const newsInput = document.getElementById('textSlider1Input');
-            if (newsInput) {
-                newsInput.disabled = !isNewsActive;
-                newsInput.style.opacity = isNewsActive ? '1' : '0.55';
-            }
-
-            setToggle('mobaVToggle', 'badgeMoba', Boolean(appConfig.mobaV));
-            setToggle('estrVToggle', 'badgeEstr', Boolean(appConfig.estrV));
-            setToggle('imageVToggle', 'badgeImage', Boolean(appConfig.imageV));
-            setToggle('offersBtnVToggle', 'badgeOffersBtn', Boolean(appConfig.offersBtnV));
-            setToggle('offersBadgeVToggle', 'badgeOffersBadge', Boolean(appConfig.offersBadgeV !== false));
-            setToggle('cookieVToggle', 'badgeCookie', Boolean(appConfig.enableHotCookie !== false));
-            setToggle('blockerVToggle', 'badgeBlocker', Boolean(appConfig["enable-hot-blocker"] === undefined || appConfig["enable-hot-blocker"] === 1 || appConfig["enable-hot-blocker"] === true));
-
-            const isSpeedActive = Boolean(appConfig.speedV === true || (appConfig.speedV !== false && appConfig["speed-select"] !== 0 && appConfig["speed-select"] !== false && appConfig["speed-select"] !== "0"));
-            setToggle('speedVToggle', 'badgeSpeedV', isSpeedActive);
-            const tblCont = document.getElementById('speedOptionsTableContainer');
-            if (tblCont) {
-                tblCont.style.opacity = isSpeedActive ? '1' : '0.55';
-            }
-            const addBtn = document.getElementById('addNewSpeedBtn');
-            if (addBtn) {
-                addBtn.disabled = !isSpeedActive;
-            }
+            setToggle("welcomeMessageVToggle", "badgeWelcome", Boolean(appConfig.welcomeMessageV));
+            setToggle("imageVToggle", "badgeImage", Boolean(appConfig.imageV));
+            setToggle("offersBtnVToggle", "badgeOffersBtn", Boolean(appConfig.offersBtnV));
+            setToggle("offersBadgeVToggle", "badgeOffersBadge", Boolean(appConfig.offersBadgeV !== false));
+            setToggle("cookieVToggle", "badgeCookie", Boolean(appConfig.enableHotCookie !== false));
+            setToggle("blockerVToggle", "badgeBlocker", Boolean(appConfig["enable-hot-blocker"] === undefined || appConfig["enable-hot-blocker"] === 1 || appConfig["enable-hot-blocker"] === true));
 
             // Dynamic tables & grids
-            renderSpeedTable();
             renderPackages();
             renderSalesPoints();
             updateHeaderName();
@@ -1963,8 +1675,8 @@
             const badge = document.getElementById(badgeId);
             if (input) input.checked = isChecked;
             if (badge) {
-                badge.textContent = isChecked ? 'مفعل' : 'معطل';
-                badge.className = `status-badge ${isChecked ? 'active' : 'inactive'}`;
+                badge.textContent = isChecked ? "مفعل" : "معطل";
+                badge.className = `status-badge ${isChecked ? "active" : "inactive"}`;
             }
         }
 
@@ -1972,212 +1684,60 @@
             appConfig[key] = Boolean(value);
             const badge = document.getElementById(badgeId);
             if (badge) {
-                badge.textContent = value ? 'مفعل' : 'معطل';
-                badge.className = `status-badge ${value ? 'active' : 'inactive'}`;
+                badge.textContent = value ? "مفعل" : "معطل";
+                badge.className = `status-badge ${value ? "active" : "inactive"}`;
             }
             saveToCache();
-            showToast(`تم ${value ? 'تفعيل' : 'تعطيل'} الإعداد بنجاح`, 'info');
+            showToast(`تم ${value ? "تفعيل" : "تعطيل"} الإعداد بنجاح`, "info");
         }
 
         function updateBlockerToggle(isChecked) {
             appConfig["enable-hot-blocker"] = isChecked ? 1 : 0;
-            const badge = document.getElementById('badgeBlocker');
+            const badge = document.getElementById("badgeBlocker");
             if (badge) {
-                badge.textContent = isChecked ? 'مفعل' : 'معطل';
-                badge.className = `status-badge ${isChecked ? 'active' : 'inactive'}`;
+                badge.textContent = isChecked ? "مفعل" : "معطل";
+                badge.className = `status-badge ${isChecked ? "active" : "inactive"}`;
             }
             saveToCache();
-            showToast(`تم ${isChecked ? 'تفعيل' : 'تعطيل'} نظام الحظر بنجاح`, 'info');
-        }
-
-        function updateUpdatesBlockerToggle(isChecked) {
-            appConfig.updatesBlockerV = Boolean(isChecked);
-            appConfig["enable-updates-blocker"] = isChecked ? 1 : 0;
-            const badge = document.getElementById('badgeUpdatesBlocker');
-            if (badge) {
-                badge.textContent = isChecked ? 'مفعل' : 'معطل';
-                badge.className = `status-badge ${isChecked ? 'active' : 'inactive'}`;
-            }
-            saveToCache();
-            showToast(`تم ${isChecked ? 'تفعيل' : 'تعطيل'} شريط إيقاف التحديثات بنجاح`, 'info');
-        }
-
-        function updateNewsToggle(isChecked) {
-            appConfig.newsV = Boolean(isChecked);
-            appConfig.newsBarV = Boolean(isChecked);
-            appConfig['news-line-v'] = Boolean(isChecked);
-            const badge = document.getElementById('badgeNews');
-            if (badge) {
-                badge.textContent = isChecked ? 'مفعل' : 'معطل';
-                badge.className = `status-badge ${isChecked ? 'active' : 'inactive'}`;
-            }
-            const newsInput = document.getElementById('textSlider1Input');
-            if (newsInput) {
-                newsInput.disabled = !isChecked;
-                newsInput.style.opacity = isChecked ? '1' : '0.55';
-            }
-            saveToCache();
-            showToast(`تم ${isChecked ? 'تفعيل' : 'تعطيل'} الشريط الإخباري بنجاح`, 'info');
-        }
-
-        function updateNewsTextInput(value) {
-            appConfig.textSlider1 = value;
-            appConfig['news-line'] = value;
-            saveToCache();
-        }
-
-        function updateSpeedToggle(isChecked) {
-            appConfig.speedV = Boolean(isChecked);
-            appConfig["speed-select"] = isChecked ? 1 : 0;
-            const badge = document.getElementById('badgeSpeedV');
-            if (badge) {
-                badge.textContent = isChecked ? 'مفعل' : 'معطل';
-                badge.className = `status-badge ${isChecked ? 'active' : 'inactive'}`;
-            }
-            const tblCont = document.getElementById('speedOptionsTableContainer');
-            if (tblCont) {
-                tblCont.style.opacity = isChecked ? '1' : '0.55';
-            }
-            const addBtn = document.getElementById('addNewSpeedBtn');
-            if (addBtn) {
-                addBtn.disabled = !isChecked;
-            }
-            saveToCache();
-            showToast(`تم ${isChecked ? 'تفعيل' : 'تعطيل'} خيارات السرعات بنجاح`, 'info');
+            updateStats();
+            showToast(`تم ${isChecked ? "تفعيل" : "تعطيل"} نظام الحظر بنجاح`, "info");
         }
 
         function updateConfigField(key, value) {
             appConfig[key] = value;
-            if (key === 'moba') {
-                appConfig['redirect-to-mobasher'] = value;
-            }
-            if (key === 'estr') {
-                appConfig['redirect-to-esterahah'] = value;
-            }
             saveToCache();
         }
 
         function updateHeaderName() {
-            const el = document.getElementById('headerNetworkName');
+            const el = document.getElementById("headerNetworkName");
             if (el) {
-                const name = appConfig.siteName || 'لوحة تحكم الشبكة';
-                el.innerHTML = `${name} <span style="font-size: 0.9rem; color: #10b981; font-weight: 600; vertical-align: middle;"><i class="fas fa-circle-check"></i> متصل</span>`;
+                const name = appConfig.siteName || "لوحة تحكم الشبكة";
+                el.innerHTML = `${name} <span style="font-size: 0.9rem; color: #10b981; font-weight: 600; vertical-align: middle;"><i class="fas fa-circle-check"></i> جاهز</span>`;
             }
         }
 
         function updateStats() {
-            document.getElementById('statSpeedsCount').textContent = (appConfig.speedOptions || []).length;
-            document.getElementById('statPackagesCount').textContent = (appConfig.packages || []).length;
-            document.getElementById('statSalesCount').textContent = (appConfig.salesPoints || []).length;
-            document.getElementById('statImagesCount').textContent = appConfig.imageCount || '0';
-        }
+            const statPackages = document.getElementById("statPackagesCount");
+            if (statPackages) statPackages.textContent = (appConfig.packages || []).length;
 
-        // SPEED OPTIONS
-        function renderSpeedTable() {
-            const tbody = document.getElementById('speedTableBody');
-            tbody.innerHTML = '';
+            const statSales = document.getElementById("statSalesCount");
+            if (statSales) statSales.textContent = (appConfig.salesPoints || []).length;
 
-            if (!appConfig.speedOptions || appConfig.speedOptions.length === 0) {
-                tbody.innerHTML = `
-                    <tr>
-                        <td colspan="5" class="empty-box">
-                            <i class="fas fa-bolt"></i>
-                            <p>لا توجد سرعات مضافة بعد</p>
-                        </td>
-                    </tr>`;
-                return;
+            const statImages = document.getElementById("statImagesCount");
+            if (statImages) statImages.textContent = appConfig.imageCount || "7";
+
+            const statBlocker = document.getElementById("statBlockerStatus");
+            if (statBlocker) {
+                const isBlockedOn = (appConfig["enable-hot-blocker"] === undefined || appConfig["enable-hot-blocker"] === 1 || appConfig["enable-hot-blocker"] === true);
+                statBlocker.textContent = isBlockedOn ? (`${appConfig["try-count"] || 5} محاولات`) : "معطل";
             }
-
-            appConfig.speedOptions.forEach((spd, index) => {
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td style="text-align: center; color: var(--text-muted); font-weight: 700;">${index + 1}</td>
-                    <td>
-                        <input type="text" value="${spd.label || ''}" placeholder="اسم السرعة" oninput="editSpeed(${index}, 'label', this.value)">
-                    </td>
-                    <td>
-                        <input type="text" value="${spd.value || ''}" placeholder="مثال: 4M/8M أو فارغ" oninput="editSpeed(${index}, 'value', this.value)">
-                    </td>
-                    <td style="text-align: center;">
-                        <input type="radio" name="defaultSpeedRadio" ${spd.selected ? 'checked' : ''} onchange="setDefaultSpeed(${index})" style="width: 18px; height: 18px; cursor: pointer; accent-color: #3b82f6;">
-                    </td>
-                    <td style="text-align: center;">
-                        <button class="btn btn-danger btn-sm btn-icon" onclick="deleteSpeed(${index})" title="حذف"><i class="fas fa-trash"></i></button>
-                    </td>
-                `;
-                tbody.appendChild(tr);
-            });
-        }
-
-        function addNewSpeedRow() {
-            if (!appConfig.speedOptions) appConfig.speedOptions = [];
-            const isFirst = appConfig.speedOptions.length === 0;
-            const newLabel = `سرعة جديدة ${appConfig.speedOptions.length + 1}`;
-            appConfig.speedOptions.push({
-                name: newLabel,
-                label: newLabel,
-                value: "1024K/4096K",
-                selected: isFirst,
-                isDefault: isFirst
-            });
-            if (isFirst) {
-                appConfig.defaultSpeed = "1024K/4096K";
-            }
-            saveToCache();
-            renderSpeedTable();
-            updateStats();
-            showToast('تمت إضافة سرعة جديدة', 'success');
-        }
-
-        function editSpeed(index, field, value) {
-            if (appConfig.speedOptions && appConfig.speedOptions[index]) {
-                appConfig.speedOptions[index][field] = value;
-                if (field === 'label') {
-                    appConfig.speedOptions[index].name = value;
-                }
-                if (field === 'value' && (appConfig.speedOptions[index].selected || appConfig.speedOptions[index].isDefault)) {
-                    appConfig.defaultSpeed = value || "";
-                }
-                saveToCache();
-            }
-        }
-
-        function setDefaultSpeed(index) {
-            if (appConfig.speedOptions) {
-                appConfig.speedOptions.forEach((spd, i) => {
-                    spd.selected = (i === index);
-                    spd.isDefault = (i === index);
-                });
-                if (appConfig.speedOptions[index]) {
-                    appConfig.defaultSpeed = appConfig.speedOptions[index].value || "";
-                }
-                saveToCache();
-                showToast(`تم تعيين "${appConfig.speedOptions[index].label || appConfig.speedOptions[index].name}" كسرعة افتراضية`, 'info');
-            }
-        }
-
-        function deleteSpeed(index) {
-            if (confirm('هل أنت متأكد من حذف هذه السرعة؟')) {
-                appConfig.speedOptions.splice(index, 1);
-                saveToCache();
-                renderSpeedTable();
-                updateStats();
-                showToast('تم حذف السرعة', 'warning');
-            }
-        }
-
-        function updateFixedSpeedPrefixes(val) {
-            const raw = (val || '').split(',');
-            const cleaned = raw.map(s => s.trim()).filter(s => s.length > 0);
-            appConfig.fixedSpeedCardPrefixes = cleaned;
-            saveToCache();
         }
 
         // PACKAGES
         function renderPackages() {
-            const grid = document.getElementById('packagesGrid');
-            grid.innerHTML = '';
-
+            const grid = document.getElementById("packagesGrid");
+            if (!grid) return;
+            grid.innerHTML = "";
             if (!appConfig.packages || appConfig.packages.length === 0) {
                 grid.innerHTML = `
                     <div class="col-12 empty-box" style="grid-column: 1 / -1;">
@@ -2186,76 +1746,75 @@
                     </div>`;
                 return;
             }
-
             appConfig.packages.forEach((pkg, index) => {
-                const card = document.createElement('div');
-                card.className = 'package-item';
+                const card = document.createElement("div");
+                card.className = "package-card";
                 card.innerHTML = `
-                    <div class="pkg-row">
-                        <span class="pkg-label">اسم الباقة / الصلاحية</span>
-                        <input type="text" class="pkg-input" value="${pkg.vl || ''}" placeholder="مثال: باقة 3 أيام" oninput="editPackage(${index}, 'vl', this.value)">
+                    <div class="package-header">
+                        <span class="package-tag">باقة ${index + 1}</span>
+                        <button class="btn btn-danger btn-sm btn-icon" onclick="deletePackage(${index})" title="حذف الباقة"><i class="fas fa-trash"></i></button>
                     </div>
-
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
-                        <div class="pkg-row">
-                            <span class="pkg-label">الوقت</span>
-                            <input type="text" class="pkg-input" value="${pkg.time || ''}" placeholder="مفتوح" oninput="editPackage(${index}, 'time', this.value)">
-                        </div>
-                        <div class="pkg-row">
-                            <span class="pkg-label">حجم الرصيد</span>
-                            <input type="text" class="pkg-input" value="${pkg.size || ''}" placeholder="1.5 جيجا" oninput="editPackage(${index}, 'size', this.value)">
-                        </div>
+                    <div class="form-group" style="margin-bottom: 8px;">
+                        <label class="form-label" style="font-size: 0.75rem;">السعر</label>
+                        <input type="text" class="form-control form-control-sm" value="${pkg.price || ""}" placeholder="مثال: 100 ريال" oninput="editPackage(${index}, price, this.value)">
                     </div>
-
-                    <div class="pkg-row">
-                        <span class="pkg-label">السعر</span>
-                        <input type="text" class="pkg-input pkg-price-input" value="${pkg.price || ''}" placeholder="200 ريال" oninput="editPackage(${index}, 'price', this.value)">
+                    <div class="form-group" style="margin-bottom: 8px;">
+                        <label class="form-label" style="font-size: 0.75rem;">الرصيد / الحجم</label>
+                        <input type="text" class="form-control form-control-sm" value="${pkg.transfer || pkg.size || ""}" placeholder="مثال: 400 ميجا" oninput="editPackage(${index}, transfer, this.value)">
                     </div>
-
-                    <div class="pkg-actions">
-                        <button class="btn btn-danger btn-sm" onclick="deletePackage(${index})"><i class="fas fa-trash"></i> حذف الباقة</button>
+                    <div class="form-group" style="margin-bottom: 8px;">
+                        <label class="form-label" style="font-size: 0.75rem;">الوقت</label>
+                        <input type="text" class="form-control form-control-sm" value="${pkg.time || ""}" placeholder="مثال: 4 ساعات" oninput="editPackage(${index}, time, this.value)">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 0;">
+                        <label class="form-label" style="font-size: 0.75rem;">الصلاحية</label>
+                        <input type="text" class="form-control form-control-sm" value="${pkg.validity || pkg.vl || ""}" placeholder="مثال: 4 يوم" oninput="editPackage(${index}, validity, this.value)">
                     </div>
                 `;
                 grid.appendChild(card);
             });
         }
 
-        function addNewPackageCard() {
+        function addNewPackage() {
             if (!appConfig.packages) appConfig.packages = [];
             appConfig.packages.push({
-                vl: `باقة جديدة ${appConfig.packages.length + 1}`,
-                time: "مفتوح",
-                size: "5 جيجا",
-                price: "500 ريال"
+                price: "100 ريال",
+                time: "4 ساعات",
+                transfer: "400 ميجا",
+                size: "400 ميجا",
+                validity: "4 يوم",
+                vl: "4 يوم"
             });
             saveToCache();
             renderPackages();
             updateStats();
-            showToast('تمت إضافة باقة جديدة', 'success');
+            showToast("تمت إضافة باقة جديدة", "success");
         }
 
         function editPackage(index, field, value) {
             if (appConfig.packages && appConfig.packages[index]) {
                 appConfig.packages[index][field] = value;
+                if (field === "transfer") appConfig.packages[index].size = value;
+                if (field === "validity") appConfig.packages[index].vl = value;
                 saveToCache();
             }
         }
 
         function deletePackage(index) {
-            if (confirm('هل أنت متأكد من حذف هذه الباقة؟')) {
+            if (confirm("هل أنت متأكد من حذف هذه الباقة؟")) {
                 appConfig.packages.splice(index, 1);
                 saveToCache();
                 renderPackages();
                 updateStats();
-                showToast('تم حذف الباقة', 'warning');
+                showToast("تم حذف الباقة", "warning");
             }
         }
 
         // SALES POINTS
         function renderSalesPoints() {
-            const list = document.getElementById('salesList');
-            list.innerHTML = '';
-
+            const list = document.getElementById("salesList");
+            if (!list) return;
+            list.innerHTML = "";
             if (!appConfig.salesPoints || appConfig.salesPoints.length === 0) {
                 list.innerHTML = `
                     <div class="empty-box">
@@ -2264,13 +1823,12 @@
                     </div>`;
                 return;
             }
-
             appConfig.salesPoints.forEach((point, index) => {
-                const item = document.createElement('div');
-                item.className = 'sales-item';
+                const item = document.createElement("div");
+                item.className = "sales-item";
                 item.innerHTML = `
                     <div class="sales-index">${index + 1}</div>
-                    <input type="text" class="sales-input" value="${point || ''}" placeholder="اسم البقالة أو الموزع والموقع..." oninput="editSalesPoint(${index}, this.value)">
+                    <input type="text" class="sales-input" value="${point || ""}" placeholder="اسم البقالة أو الموزع والموقع..." oninput="editSalesPoint(${index}, this.value)">
                     <button class="btn btn-danger btn-sm btn-icon" onclick="deleteSalesPoint(${index})" title="حذف"><i class="fas fa-trash"></i></button>
                 `;
                 list.appendChild(item);
@@ -2279,11 +1837,11 @@
 
         function addNewSalesPoint() {
             if (!appConfig.salesPoints) appConfig.salesPoints = [];
-            appConfig.salesPoints.push("نقطة بيع جديدة / الموقع");
+            appConfig.salesPoints.push("نقطة بيع جديدة " + (appConfig.salesPoints.length + 1));
             saveToCache();
             renderSalesPoints();
             updateStats();
-            showToast('تمت إضافة نقطة بيع جديدة', 'success');
+            showToast("تمت إضافة نقطة بيع جديدة", "success");
         }
 
         function editSalesPoint(index, value) {
@@ -2294,50 +1852,38 @@
         }
 
         function deleteSalesPoint(index) {
-            if (confirm('هل أنت متأكد من حذف نقطة البيع هذه؟')) {
+            if (confirm("هل أنت متأكد من حذف نقطة البيع هذه؟")) {
                 appConfig.salesPoints.splice(index, 1);
                 saveToCache();
                 renderSalesPoints();
                 updateStats();
-                showToast('تم حذف نقطة البيع', 'warning');
+                showToast("تم حذف نقطة البيع", "warning");
             }
         }
 
         // GENERATE CONFIG CODE STRING
         function generateConfigJS() {
-            if (appConfig.moba) appConfig['redirect-to-mobasher'] = appConfig.moba;
-            if (appConfig.estr) appConfig['redirect-to-esterahah'] = appConfig.estr;
-            if (appConfig.speedV !== undefined) {
-                appConfig['speed-select'] = appConfig.speedV ? 1 : 0;
-            } else if (appConfig['speed-select'] !== undefined) {
-                appConfig.speedV = Boolean(appConfig['speed-select'] !== 0 && appConfig['speed-select'] !== false && appConfig['speed-select'] !== "0");
-            }
-            if (appConfig.updatesBlockerV !== undefined) {
-                appConfig['enable-updates-blocker'] = appConfig.updatesBlockerV ? 1 : 0;
-            }
-            if (appConfig.newsV !== undefined) {
-                appConfig.newsBarV = appConfig.newsV;
-                appConfig['news-line-v'] = appConfig.newsV;
-            }
-            return `window.siteConfig = ${JSON.stringify(appConfig, null, 4)};\n`;
+            const clean = cleanConfig(appConfig);
+            return `window.siteConfig = ${JSON.stringify(clean, null, 4)};\n`;
         }
 
         // SAVE CONFIG DIRECTLY TO SERVER / FILE
         async function saveConfigDirectly() {
             saveToCache();
+            const clean = cleanConfig(appConfig);
             try {
-                const res = await fetch('/api/save-config', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(appConfig)
+                const res = await fetch("/api/save-config", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(clean)
                 });
                 const data = await res.json();
                 if (data && data.success) {
-                    showToast('تم حفظ الإعدادات في ملف config.js مباشرة بنجاح!', 'success');
+                    showToast("تم حفظ الإعدادات في ملف config.js مباشرة بنجاح!", "success");
                     return;
                 }
             } catch (e) {
-                console.warn('Direct save endpoint not reachable, downloading file instead:', e);
+                console.warn("Direct save endpoint not reachable, downloading file instead:", e);
             }
             downloadConfigFile();
         }
@@ -2345,94 +1891,61 @@
         // DOWNLOAD FILE
         function downloadConfigFile() {
             saveToCache();
+            const clean = cleanConfig(appConfig);
             try {
-                fetch('/api/save-config', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(appConfig)
+                fetch("/api/save-config", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(clean)
                 }).catch(() => {});
             } catch (e) {}
             const code = generateConfigJS();
-            const blob = new Blob([code], { type: 'application/javascript;charset=utf-8' });
+            const blob = new Blob([code], { type: "application/javascript;charset=utf-8" });
             const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
+            const a = document.createElement("a");
             a.href = url;
-            a.download = 'config.js';
+            a.download = "config.js";
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
 
-            showToast('تم حفظ وتحميل ملف config.js بنجاح!', 'success');
+            showToast("تم حفظ وتحميل ملف config.js بنجاح!", "success");
         }
 
         // COPY CODE
         function copyConfigCode() {
             const code = generateConfigJS();
             navigator.clipboard.writeText(code).then(() => {
-                showToast('تم نسخ كود config.js إلى الحافظة!', 'success');
+                showToast("تم نسخ كود config.js إلى الحافظة!", "success");
             }).catch(() => {
-                showToast('تعذر النسخ تلقائياً، يرجى النسخ اليدوي', 'error');
+                showToast("تعذر النسخ تلقائياً، يرجى النسخ اليدوي", "error");
             });
         }
 
         // MODALS
         function openModal(id) {
-            document.getElementById(id).classList.add('show');
+            document.getElementById(id).classList.add("show");
         }
 
         function closeModal(id) {
-            document.getElementById(id).classList.remove('show');
+            document.getElementById(id).classList.remove("show");
         }
 
         function openCodeModal() {
-            document.getElementById('codeContainer').textContent = generateConfigJS();
-            openModal('codeModal');
+            document.getElementById("codeContainer").textContent = generateConfigJS();
+            openModal("codeModal");
         }
 
         function openImportModal() {
-            document.getElementById('rawCodeImport').value = '';
-            openModal('importModal');
-        }
-
-        function openLivePreviewModal() {
-            const newsTicker = document.getElementById('previewNewsTicker');
-            const quranBtn = document.getElementById('previewQuranBtn');
-            const updatesBtn = document.getElementById('previewUpdatesBtn');
-            const speedBtn = document.getElementById('previewSpeedBtn');
-            const mobaBtn = document.getElementById('previewMobaBtn');
-            const estrBtn = document.getElementById('previewEstrBtn');
-            const emptyMsg = document.getElementById('previewEmptyMsg');
-
-            const isNews = (appConfig.newsV !== false && appConfig.newsBarV !== false && appConfig['news-line-v'] !== false);
-            const isQuran = appConfig.quranV !== false;
-            const isUpdates = appConfig.updatesBlockerV !== false && appConfig["enable-updates-blocker"] !== 0 && appConfig["enable-updates-blocker"] !== false;
-            const isSpeed = Boolean(appConfig.speedV === true || (appConfig.speedV !== false && appConfig["speed-select"] !== 0 && appConfig["speed-select"] !== false && appConfig["speed-select"] !== "0"));
-            const isMoba = Boolean(appConfig.mobaV) && appConfig.moba && appConfig.moba.trim().length > 0;
-            const isEstr = Boolean(appConfig.estrV) && appConfig.estr && appConfig.estr.trim().length > 0;
-
-            if (newsTicker) {
-                newsTicker.style.display = isNews ? 'flex' : 'none';
-                const newsTextEl = document.getElementById('previewNewsText');
-                if (newsTextEl) newsTextEl.textContent = appConfig.textSlider1 || appConfig['news-line'] || 'بسم الله الرحمن الرحيم { قل للمؤمنين يغضوا من أبصارهم... }';
-            }
-            if (quranBtn) quranBtn.style.display = isQuran ? 'flex' : 'none';
-            if (updatesBtn) updatesBtn.style.display = isUpdates ? 'flex' : 'none';
-            if (speedBtn) speedBtn.style.display = isSpeed ? 'flex' : 'none';
-            mobaBtn.style.display = isMoba ? 'flex' : 'none';
-            estrBtn.style.display = isEstr ? 'flex' : 'none';
-            const entertainmentRow = document.getElementById('previewEntertainmentRow');
-            if (entertainmentRow) entertainmentRow.style.display = (isMoba || isEstr) ? 'flex' : 'none';
-            emptyMsg.style.display = (!isNews && !isQuran && !isMoba && !isEstr && !isUpdates && !isSpeed) ? 'block' : 'none';
-
-            openModal('livePreviewModal');
+            document.getElementById("rawCodeImport").value = "";
+            openModal("importModal");
         }
 
         // IMPORT LOGIC
         function handleFileImport(event) {
             const file = event.target.files[0];
             if (!file) return;
-
             const reader = new FileReader();
             reader.onload = function (e) {
                 parseAndApplyConfig(e.target.result);
@@ -2441,9 +1954,9 @@
         }
 
         function importFromRawText() {
-            const text = document.getElementById('rawCodeImport').value;
-            if (!text || text.trim() === '') {
-                showToast('الرجاء إدخال الكود أو اختيار ملف', 'warning');
+            const text = document.getElementById("rawCodeImport").value;
+            if (!text || text.trim() === "") {
+                showToast("الرجاء إدخال الكود أو اختيار ملف", "warning");
                 return;
             }
             parseAndApplyConfig(text);
@@ -2452,58 +1965,61 @@
         function parseAndApplyConfig(content) {
             try {
                 let jsonStr = content;
-                if (content.includes('window.siteConfig')) {
-                    const startIdx = content.indexOf('{');
-                    const endIdx = content.lastIndexOf('}');
+                if (content.includes("window.siteConfig")) {
+                    const startIdx = content.indexOf("{");
+                    const endIdx = content.lastIndexOf("}");
                     if (startIdx !== -1 && endIdx !== -1) {
                         jsonStr = content.substring(startIdx, endIdx + 1);
                     }
                 }
                 const parsed = JSON.parse(jsonStr);
-                if (parsed && typeof parsed === 'object') {
-                    appConfig = Object.assign({}, appConfig, parsed);
+                if (parsed && typeof parsed === "object") {
+                    const cleaned = cleanConfig(parsed);
+                    appConfig = Object.assign({}, appConfig, cleaned);
                     saveToCache();
                     renderAll();
-                    closeModal('importModal');
-                    showToast('تم استيراد وتطبيق الإعدادات بنجاح!', 'success');
+                    closeModal("importModal");
+                    showToast("تم استيراد وتطبيق الإعدادات بنجاح!", "success");
                 } else {
-                    throw new Error('Invalid format');
+                    throw new Error("Invalid format");
                 }
             } catch (err) {
-                showToast('فشل قراءة الملف، تأكد من صحة كود config.js', 'error');
+                showToast("فشل قراءة الملف، تأكد من صحة كود config.js", "error");
             }
         }
 
         function testLink(inputId) {
-            const val = document.getElementById(inputId).value;
-            if (val && val.trim().length > 0 && val.startsWith('http')) {
-                window.open(val.trim(), '_blank');
+            const el = document.getElementById(inputId);
+            if (!el) return;
+            const val = el.value;
+            if (val && val.trim().length > 0 && val.startsWith("http")) {
+                window.open(val.trim(), "_blank");
             } else {
-                showToast('يرجى كتابة رابط صحيح يبدأ بـ http:// أو https://', 'warning');
+                showToast("الرجاء إدخال رابط يبدأ بـ http:// أو https://", "warning");
             }
         }
 
-        // TOAST ENGINE
-        function showToast(msg, type = 'info') {
-            const container = document.getElementById('toastContainer');
-            const toast = document.createElement('div');
+        // TOAST NOTIFICATIONS
+        function showToast(message, type = "info") {
+            const container = document.getElementById("toastContainer");
+            const toast = document.createElement("div");
             toast.className = `toast ${type}`;
-            
-            let icon = 'info-circle';
-            if (type === 'success') icon = 'check-circle';
-            if (type === 'warning') icon = 'exclamation-triangle';
-            if (type === 'error') icon = 'times-circle';
 
-            toast.innerHTML = `<i class="fas fa-${icon}"></i> <span>${msg}</span>`;
+            let icon = "fa-info-circle";
+            if (type === "success") icon = "fa-check-circle";
+            if (type === "warning") icon = "fa-exclamation-triangle";
+            if (type === "error") icon = "fa-times-circle";
+
+            toast.innerHTML = `<i class="fas ${icon}"></i> <span>${message}</span>`;
             container.appendChild(toast);
 
             setTimeout(() => {
-                toast.style.opacity = '0';
-                toast.style.transform = 'translateX(-50px)';
-                toast.style.transition = 'all 0.3s ease';
-                setTimeout(() => toast.remove(), 300);
+                toast.style.animation = "slideInLeft 0.3s ease reverse forwards";
+                setTimeout(() => {
+                    if (toast.parentNode) toast.parentNode.removeChild(toast);
+                }, 300);
             }, 3000);
         }
-    </script>
+</script>
 </body>
 </html>
