@@ -1,1 +1,3670 @@
-root--color-gold-rich#DFAB52--color-gold-dark#C48E33--color-gold-glowrgba(223171820.42)--color-gold-main#D49E48--color-gold-light#E8BD6D--color-gold-ultra#FDF2DD--color-primary#DFAB52--color-primary-dark#C48E33--color-primary-light#E8BD6D--color-primary-glowrgba(223171820.45)--color-text-main#FFFFFF--color-text-title#FFFFFF--color-text-gold#DFAB52--color-text-sub#CBD5E1--color-text-dim#94A3B8--color-text-placeholder#64748B--color-green#10B981--color-green-light#34D399--color-red#EF4444--color-cyan#DFAB52--color-bg-page#060911--color-bg-header#080E1A--color-bg-card#131E35--color-bg-card-hover#192744--color-bg-input#0C1424--color-bg-surface#16233D--color-gold-palergba(223171820.14)--color-gold-borderrgba(223171820.42)--color-borderrgba(223171820.25)--color-border-midrgba(223171820.35)--color-border-focus#DFAB52--shadow-card0 10px 30px rgba(0000.65)0 0 0 1px rgba(223171820.22)--shadow-card-hover0 14px 36px rgba(0000.75)0 0 16px rgba(223171820.25)--shadow-btn0 4px 18px rgba(223171820.45)inset 0 1px 0 rgba(2552552550.38)--shadow-nav0 -4px 30px rgba(0000.75)0 -1px 0 rgba(223171820.2)--glow-gold0 0 14px rgba(223171820.45)htmlbody.container.screen.screen-content.screen__content.login#login#status.screen-backgroundbackgroundvar(--color-bg-page) !importantbackground-colorvar(--color-bg-page) !importantcolorvar(--color-text-main) !importantbodybackground-color#060911 !importantbackground-imageradial-gradient(circle at 50% 12%rgba(223171820.09) 0%transparent 50%)radial-gradient(circle at 80% 80%rgba(1219340.8) 0%transparent 60%)radial-gradient(circle at 20% 50%rgba(814260.9) 0%transparent 60%) !importantbackground-attachmentfixed !important.screen-background-shape.screen-background-shape1.screen-background-shape2.screen-background-shape3.screen-background-shape4.screen-background-shape5.screen-background-shape6.screen-background-shape7.screen-background-shape8.floating-iconsdisplaynone !important.aloula-hero-cardpositionrelative !importantmargin-top0 !importantbackgroundradial-gradient(120% 100% at 50% 120%rgba(223171820.16) 0%rgba(196142510.08) 35%#080e1a 75%#050811 100%) !importantborder1.5px solid rgba(223171820.45) !importantborder-radius20px !importantpadding13px 14px !importantmargin-bottom6px !importantbox-shadow0 10px 32px rgba(0000.7)0 0 28px rgba(223171820.16)inset 0 1px 0 rgba(2552351800.25) !importantwidth100% !importantbox-sizingborder-box !importantoverflowhidden !importantbackdrop-filterblur(16px) !important-webkit-backdrop-filterblur(16px) !important.aloula-flame-ambient-layerpositionabsolute !importantinset0 !importantwidth100% !importantheight100% !importantpointer-eventsnone !importantz-index1 !importantoverflowhidden !important.flame-glow-basepositionabsolute !importantbottom-18px !importantleft10% !importantright10% !importantheight50px !importantbackgroundradial-gradient(ellipse at bottomrgba(223171820.38) 0%rgba(2321891090.15) 50%transparent 80%) !importantfilterblur(8px) !importantanimationflamePulse 3s ease-in-out infinite alternate !importantwill-changeopacitytransform !important.flame-emberpositionabsolute !importantborder-radius50% !importantpointer-eventsnone !importantwill-changetransformopacity !important.flame-ember.ember-1width5pxheight5pxbackground#FDF2DDbox-shadow0 0 10px 3px rgba(223171820.9)0 0 4px #fffbottom12pxleft22%animationemberRise1 3.2s infinite ease-in-out.flame-ember.ember-2width4pxheight4pxbackground#DFAB52box-shadow0 0 8px 2px rgba(196142510.85)bottom8pxleft45%animationemberRise2 3.8s infinite ease-in-out 0.6s.flame-ember.ember-3width6pxheight6pxbackground#E8BD6Dbox-shadow0 0 12px 4px rgba(223171820.95)0 0 3px #fffbottom15pxleft70%animationemberRise3 3.5s infinite ease-in-out 1.2s.flame-ember.ember-4width3.5pxheight3.5pxbackground#C48E33box-shadow0 0 8px 2px rgba(223171820.9)bottom6pxleft33%animationemberRise1 4s infinite ease-in-out 1.8s.flame-ember.ember-5width4.5pxheight4.5pxbackground#F0C97Fbox-shadow0 0 10px 3px rgba(223171820.9)bottom10pxleft82%animationemberRise2 3.4s infinite ease-in-out 0.9s.flame-ember.ember-6width3pxheight3pxbackground#DFAB52box-shadow0 0 6px 2px rgba(196142510.8)bottom14pxleft58%animationemberRise3 4.2s infinite ease-in-out 2.1s.flame-ember.ember-7width4pxheight4pxbackground#E5B562box-shadow0 0 8px 2px rgba(223171820.85)bottom16pxleft12%animationemberRise2 3.6s infinite ease-in-out 1.5s.flame-ember.ember-8width5pxheight5pxbackground#DFAB52box-shadow0 0 10px 3px rgba(223171820.9)bottom11pxright18%animationemberRise1 3.7s infinite ease-in-out 0.3s@keyframes flamePulse0%opacity0.65transformscaleX(0.95)100%opacity1transformscaleX(1.05)@keyframes emberRise10%transformtranslate3d(000) scale(0.6)opacity020%opacity0.9570%opacity0.85transformtranslate3d(-8px-45px0) scale(1.1)100%transformtranslate3d(-14px-80px0) scale(0.3)opacity0@keyframes emberRise20%transformtranslate3d(000) scale(0.5)opacity025%opacity165%opacity0.75transformtranslate3d(10px-50px0) scale(1)100%transformtranslate3d(18px-90px0) scale(0.2)opacity0@keyframes emberRise30%transformtranslate3d(000) scale(0.6)opacity018%opacity0.9560%opacity0.8transformtranslate3d(-6px-40px0) scale(1.2)100%transformtranslate3d(-10px-75px0) scale(0.25)opacity0.aloula-bg-glow-layerpositionabsolute !importantinset0 !importantwidth100% !importantheight100% !importantpointer-eventsnone !importantz-index1 !importantoverflowhidden !important.aloula-bg-waveswidth100% !importantheight100% !importantdisplayblock !importantopacity0.9 !important.aloula-top-bardisplayflex !importantjustify-contentflex-start !importantalign-itemscenter !importantwidth100% !importantdirectionrtl !importantpositionrelative !importantz-index3 !importantmargin-bottom6px !important.aloula-status-pilldisplayinline-flex !importantalign-itemscenter !importantgap5px !importantbackgroundrgba(714260.85) !importantborder1px solid rgba(161851290.45) !importantborder-radius9999px !importantpadding4px 10px !importantcolor#34D399 !importantfont-size11.5px !importantfont-weight800 !importantbox-shadow0 2px 8px rgba(0000.5)0 0 10px rgba(161851290.2) !important.aloula-main-rowdisplayflex !importantalign-itemscenter !importantjustify-contentspace-between !importantgap8px !importantwidth100% !importantdirectionrtl !importantpositionrelative !importantz-index3 !importantmargin0 !important.aloula-brand-colflex1 1 auto !importantdisplayflex !importantflex-directioncolumn !importantalign-itemscenter !importantjustify-contentcenter !importanttext-aligncenter !importantmin-width0 !important.aloula-title-wrapdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantwidth100% !important.aloula-title-linedisplayinline-flex !importantalign-itemscenter !importantjustify-contentcenter !importantgap10px !importantdirectionrtl !importantpositionrelative !important.brand-name-whitepositionrelative !importantdisplayinline-flex !importantalign-itemscenter !importantjustify-contentcenter !important.brand-name-white .name-textfont-sizeclamp(28px8.8vw40px) !importantfont-weight900 !importantcolor#FFFFFF !important-webkit-text-fill-color#FFFFFF !importantline-height1.15 !importantletter-spacing-0.5px !importantwhite-spacenowrap !importanttext-shadow0 4px 18px rgba(0000.95)0 0 16px rgba(2552552550.3) !important.brand-net-goldfont-sizeclamp(28px8.8vw40px) !importantfont-weight900 !importantbackgroundlinear-gradient(135deg#FFF0B8 0%#F5D78E 25%#DFAB52 60%#B88022 100%) !important-webkit-background-cliptext !important-webkit-text-fill-colortransparent !importantline-height1.15 !importantletter-spacing-0.5px !importantwhite-spacenowrap !importantfilterdrop-shadow(0 4px 12px rgba(223171820.65)) drop-shadow(0 2px 8px rgba(0000.95)) !important.aloula-subtitle-linedisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantgap6px !importantmargin-top6px !importantdirectionrtl !importantwidth100% !important.sub-dec-linewidth22px !importantheight1px !importantbackgroundlinear-gradient(90degtransparent#DFAB52) !importantopacity0.7 !important.aloula-subtitle-linelast-child .sub-dec-linebackgroundlinear-gradient(90deg#DFAB52transparent) !important.sub-dec-dotfont-size7px !importantcolor#DFAB52 !importantopacity0.9 !importantline-height1 !important.sub-dec-textfont-sizeclamp(12px3.5vw14px) !importantfont-weight800 !importantcolor#E5B562 !importantletter-spacing0.4px !importantwhite-spacenowrap !importanttext-shadow0 1px 4px rgba(0000.9) !important.aloula-halo-colflex-shrink0 !importantwidth96px !importantheight96px !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantpositionrelative !importantmargin-top0 !important.aloula-halo-orbpositionrelative !importantwidth86px !importantheight86px !importantborder-radius50% !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !important.halo-ring-outerpositionabsolute !importantinset-5px !importantborder-radius50% !importantborder1px solid rgba(223171820.35) !importantbox-shadow0 0 16px rgba(223171820.3) !important.halo-ring-innerpositionabsolute !importantinset1px !importantborder-radius50% !importantborder1.5px solid rgba(223171820.65) !importantbackgroundradial-gradient(circle#101B2E 0%#060B14 100%) !importantbox-shadow0 0 18px rgba(223171820.45)inset 0 0 16px rgba(223171820.3) !important.halo-sparkpositionabsolute !importantwidth4px !importantheight4px !importantborder-radius50% !importantbackground#FFF8DC !importantbox-shadow0 0 8px 2px rgba(223171820.9) !importantz-index4 !important.spark-1top4pxright12px.spark-2bottom8pxleft8pxwidth3pxheight3px.spark-3top34pxright-2pxwidth2.5pxheight2.5px.aloula-halo-wifi-svgwidth48px !importantheight48px !importantpositionrelative !importantz-index3 !importantfilterdrop-shadow(0 2px 12px rgba(0000.85)) !important.aloula-halo-wifi-svg .wifi-sigfill#DFAB52 !importantanimationwifiHaloPulse 2s infinite ease-in-out !importanttransform-origin12px 19.5px !important.aloula-halo-wifi-svg .wifi-sig-dotfill#FFFFFF !importantanimation-delay0s !important.aloula-halo-wifi-svg .wifi-sig-1fill#FDE68A !importantanimation-delay0.25s !important.aloula-halo-wifi-svg .wifi-sig-2fill#DFAB52 !importantanimation-delay0.5s !important.aloula-halo-wifi-svg .wifi-sig-3fill#C48E33 !importantanimation-delay0.75s !important@keyframes wifiHaloPulse0%opacity0.5transformscale(0.96)30%65%opacity1transformscale(1)filterdrop-shadow(0 0 8px rgba(223171820.9))100%opacity0.5transformscale(0.96).aloula-features-stripdisplayflex !importantalign-itemscenter !importantjustify-contentspace-around !importantwidth100% !importantpadding-top8px !importantborder-top1px solid rgba(223171820.18) !importantdirectionrtl !importantpositionrelative !importantz-index3 !importantbox-sizingborder-box !important.aloula-feature-itemdisplayflex !importantflex-directioncolumn !importantalign-itemscenter !importantgap4px !importantflex1 !importanttext-aligncenter !important.aloula-feat-iconwidth17px !importantheight17px !importantfill#DFAB52 !importantfilterdrop-shadow(0 0 6px rgba(223171820.6)) !important.aloula-feat-textfont-size11px !importantfont-weight700 !importantcolor#CBD5E1 !importantline-height1.15 !importantwhite-spacenowrap !important.aloula-feat-dividerwidth1px !importantheight22px !importantbackgroundrgba(223171820.2) !importantflex-shrink0 !important.network-hero-card.network-features-strip-carddisplaynone !important.ads-carousel-wrappermargin-bottom6px !important.section#newsTickerLoginSectionmargin-bottom6px !important.ticker-containerbackgroundlinear-gradient(165deg#131E35 0%#0E1729 100%) !importantborder1px solid rgba(223171820.28) !importantborder-radius12px !importantbox-shadow0 4px 18px rgba(0000.5)inset 0 1px 0 rgba(2552552550.08) !importantpadding6px 12px !important.marqueecolor#F3D08A !importantfont-weight700 !importanttext-shadow0 1px 4px rgba(0000.7) !importanth1color#DFAB52 !importantbackgroundnone !important-webkit-text-fill-color#DFAB52 !importantfilterdrop-shadow(0 2px 6px rgba(0000.7)) !importanttext-shadownone !important.carousel-dotbackgroundrgba(223171820.25) !important.carousel-dot.activebackground#DFAB52 !importantbox-shadow0 0 10px var(--color-primary-glow) !important.carousel-nav-btnbackgroundrgba(813240.88) !importantborder1px solid rgba(223171820.38) !importantcolor#DFAB52 !importantbackdrop-filterblur(8px) !important.carousel-nav-btnhoverbackgroundrgba(223171820.2) !importantborder-color#DFAB52 !importantbox-shadow0 0 10px rgba(223171820.45) !important.points-notice-alertbackgroundvar(--color-bg-card) !importantborder1px solid var(--color-border) !importantborder-radius14px !importantbox-shadowvar(--shadow-card) !important.notice-icon-wrapbackgroundrgba(23968680.15) !importantborder1px solid rgba(23968680.3) !important.notice-iconfillvar(--color-red) !important.notice-tagcolorvar(--color-red) !important.notice-textcolorvar(--color-text-sub) !important.login-submit-btn.button.login-submitbutton.login-submit#mainLoginBtnbackgroundlinear-gradient(135deg#E8BD6D 0%#DFAB52 50%#C48E33 100%) !importantcolor#0A0602 !importantfont-weight900 !importantfont-size17px !importanttext-shadownone !importantborder1px solid rgba(2552351800.5) !importantborder-radius14px !importantmin-height50px !importantbox-shadow0 6px 24px rgba(223171820.45)0 2px 6px rgba(0000.6)inset 0 1px 0 rgba(2552552550.45) !importantletter-spacing0.4px !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantgap8px !importantpositionrelative !importantoverflowhidden !importanttransitionall 0.25s cubic-bezier(0.400.21) !important.login-btn-wifi-iconwidth20px !importantheight20px !importantfill#0A0602 !importantflex-shrink0 !importanttransitiontransform 0.2s ease !important.login-submit-btnhover.button.login-submithoverbutton.login-submithover#mainLoginBtnhoverbackgroundlinear-gradient(135deg#F0C97F 0%#E5B562 50%#D19A3F 100%) !importantbox-shadow0 8px 30px rgba(223171820.6)0 2px 8px rgba(0000.7) !importanttransformtranslateY(-1px) !importantcolor#000000 !important.login-submit-btnactive#mainLoginBtnactivetransformscale(0.98) !importantbox-shadow0 3px 12px rgba(223171820.45) !important.login-submit-btnhover .login-btn-wifi-icontransformscale(1.1) !important.login-submit-btn .button-text.button.login-submit .button-textcolor#0A0602 !importantfill#0A0602 !importanttext-shadownone !importantfilternone !importantfont-weight900 !important.login-formdisplayflex !importantflex-directioncolumn !importantgap0 !importantwidth100% !important.app-cardbackgroundlinear-gradient(165deg#142038 0%#0F182B 100%) !importantborder1px solid rgba(223171820.28) !importantborder-radius16px !importantbox-shadow0 8px 24px rgba(0000.55)inset 0 1px 0 rgba(2552552550.1) !importantmargin-bottom6px !importantbox-sizingborder-box !importantpositionrelative !importanttransitionbox-shadow 0.25s easetransform 0.25s easeborder-color 0.25s ease !important.app-cardhoverbackgroundlinear-gradient(165deg#182642 0%#121C32 100%) !importantborder-colorrgba(223171820.5) !importantbox-shadow0 10px 28px rgba(0000.65)0 0 16px rgba(223171820.18) !important.speed-selection-outer-headerdisplayflex !importantalign-itemscenter !importantjustify-contentspace-between !importantmargin-bottom3px !importantpadding0 4px !importantgap8px !importantwidth100% !importantbox-sizingborder-box !important.speed-selection-cardpadding4px 8px !importantmargin-bottom5px !important.login-input-cardpadding12px 14px !importantmargin-bottom6px !important.login-input-card .login-submit-wrappermargin-top10px !importantmargin-bottom0 !importantwidth100% !important.updates-toggle-cardpadding10px 12px !importantmargin-bottom6px !important.updates-toggle-card .toggle-container-modernbordernone !importantbox-shadownone !importantpadding0 !importantbackgroundtransparent !importantborder-radius0 !important.card-section-headerdisplayflex !importantalign-itemscenter !importantjustify-contentspace-between !importantmargin-bottom12px !importantgap8px !important.card-section-title-wrapdisplayflex !importantalign-itemscenter !importantgap8px !important.card-section-iconwidth28px !importantheight28px !importantborder-radius8px !importantbackgroundvar(--color-gold-pale) !importantborder1px solid var(--color-gold-border) !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantflex-shrink0 !important.card-section-icon svgwidth15px !importantheight15px !importantfill#DFAB52 !importantfilterdrop-shadow(0 0 5px rgba(223171820.5)) !important.card-section-titlefont-size14.5px !importantfont-weight800 !importantcolor#FFFFFF !important.selected-speed-badgefont-size11.5px !importantfont-weight800 !importantcolor#0A0E17 !importantbackgroundlinear-gradient(135deg#E8BD6D 0%#DFAB52 100%) !importantbordernone !importantpadding3px 10px !importantborder-radius20px !importantwhite-spacenowrap !importantbox-shadow0 2px 8px rgba(223171820.4) !important.speed-slider-wrapperpositionrelative !importantdisplayflex !importantalign-itemscenter !importantwidth100% !importantgap6px !importantbox-sizingborder-box !important.speed-slider-nav-btndisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantwidth30px !importantheight34px !importantborder-radius10px !importantbackground#080D18 !importantborder1px solid rgba(223171820.25) !importantcursorpointer !importantflex-shrink0 !importanttransitionall 0.2s ease !importantpadding0 !importantoutlinenone !important.speed-slider-nav-btn svgwidth16px !importantheight16px !importantfill#CBD5E1 !importanttransitionfill 0.2s ease !important.speed-slider-nav-btnhoverbackground#121D33 !importantborder-color#DFAB52 !importantbox-shadow0 0 10px rgba(223171820.4) !important.speed-slider-nav-btnhover svgfill#DFAB52 !important.speed-pills-rowdisplayflex !importantflex-directionrow !importantalign-itemscenter !importantjustify-contentflex-start !importantflex-wrapnowrap !importantoverflow-xauto !importantscroll-behaviorsmooth !importantgap8px !importantwidth100% !importantpadding2px 2px 2px 2px !importantscrollbar-widthnone !important-ms-overflow-stylenone !important-webkit-overflow-scrollingtouch !importantcursorgrab !important.speed-pills-row-webkit-scrollbardisplaynone !important.speed-pill-btndisplayinline-flex !importantalign-itemscenter !importantjustify-contentcenter !importantgap5px !importantflex0 0 calc((100% - 16px) / 2.5) !importantwidthcalc((100% - 16px) / 2.5) !importantmin-widthcalc((100% - 16px) / 2.5) !importantmax-widthcalc((100% - 16px) / 2.5) !importantpadding5px 6px !importantmin-height32px !importantborder-radius9999px !importantbackground#0D1628 !importantborder1px solid rgba(223171820.35) !importantcolor#F1F5F9 !importantfont-size12.5px !importantfont-weight700 !importantcursorpointer !importanttransitionall 0.22s cubic-bezier(0.400.21) !importantuser-selectnone !importantoutlinenone !importantbox-sizingborder-box !importantwhite-spacenowrap !important.speed-pill-btnhoverbackground#101A2E !importantborder-color#DFAB52 !importantcolor#FFFFFF !important.speed-pill-btn .pill-dotwidth6px !importantheight6px !importantborder-radius50% !importantbackground#64748B !importanttransitionall 0.2s ease !importantflex-shrink0 !important.speed-pill-btn .pill-textfont-size12px !importantfont-weight700 !importantline-height1 !importantcolor#F1F5F9 !importantwhite-spacenowrap !importantoverflowhidden !importanttext-overflowellipsis !importanttext-aligncenter !important.speed-pill-btn.activebackgroundlinear-gradient(135deg#FF6600 0%#FF9900 50%#E5A82E 100%) !importantborder-color#FFF3DD !importantcolor#0A0602 !importantbox-shadow0 3px 14px rgba(25510200.45) !importanttransformtranslateY(-1px) !important.speed-pill-btn.active .pill-dotbackground#0A0602 !importantbox-shadow0 0 4px rgba(0000.4) !important.speed-pill-btn.active .pill-textcolor#0A0602 !importantfont-weight900 !important.input-card-headerdisplayflex !importantalign-itemscenter !importantgap8px !importantmargin-bottom6px !important.input-card-header .input-label-textfont-size14px !importantfont-weight700 !importantcolor#DFAB52 !importantline-height1.4 !important.login-submit-wrapperwidth100% !importantmargin-bottom6px !important.login-submit-wrapper .login-submit-btn.login-submit-btnwidth100% !importantmargin0 !important.login-cardbackgroundtransparent !importantbordernone !importantbox-shadownone !importantpadding0 !important.login-cardbeforedisplaynone !important.card-header pcolor#DFAB52 !importanttext-shadownone !important.card-header .subtitlecolor#CBD5E1 !important.input-label-textcolor#DFAB52 !important.input-wrapper-glassbackground#09101C !importantborder1.5px solid rgba(223171820.38) !importantborder-radius14px !importantbox-shadow0 4px 18px rgba(0000.6)inset 0 1px 1px rgba(2552552550.08) !importanttransitionall 0.25s ease !important.input-wrapper-glassfocus-withinbackground#0D1628 !importantborder-color#DFAB52 !importantbox-shadow0 0 0 3px rgba(223171820.28)0 0 22px rgba(223171820.25) !important.input-icon-badgebackgroundrgba(223171820.16) !importantborder1px solid rgba(223171820.45) !importantcolor#DFAB52 !important.input-icon-badge svgfill#DFAB52 !importantfilterdrop-shadow(0 0 5px rgba(223171820.6)) !important.input-icon-badge.camera-scan-btnbackground#0E1729 !importantborder1px solid rgba(223171820.4) !important.input-icon-badge.camera-scan-btn svgfill#DFAB52 !important.input-icon-badge.camera-scan-btnhoverbackgroundrgba(223171820.25) !importantborder-color#DFAB52 !importantbox-shadow0 0 12px rgba(223171820.5) !important.login-inputinput[name="username"]color#FFFFFF !importantfont-weight800 !importantletter-spacing1px !important.login-inputplaceholdercolor#94A3B8 !importantopacity1 !importantfont-weight600 !importantletter-spacingnormal !important.prev-card-pill-btnbackground#101A2E !importantborder1px solid rgba(223171820.38) !importantcolor#E2E8F0 !importantborder-radius9px !importantfont-weight700 !importanttransitionall 0.2s ease !important.prev-card-pill-btnhoverbackgroundrgba(223171820.22) !importantborder-color#DFAB52 !importantcolor#DFAB52 !importantbox-shadow0 0 10px rgba(223171820.35) !important.speed-titlecolor#FFFFFF !important.section-iconfill#DFAB52 !important.speed-modal-trigger-btnbackgroundvar(--color-bg-card) !importantborder1px solid var(--color-border) !importantcolor#FFFFFF !importantborder-radius12px !importantbox-shadownone !important.speed-modal-trigger-btnhoverborder-color#DFAB52 !importantbox-shadow0 0 12px rgba(223171820.35) !important.speed-trigger-labelcolor#CBD5E1 !important.speed-trigger-selectedcolor#FFFFFF !importantfont-weight800 !important.speed-trigger-badgebackgroundlinear-gradient(135deg#E8BD6D 0%#DFAB52 100%) !importantcolor#0A0E17 !importantbordernone !importantbox-shadow0 2px 8px rgba(223171820.45) !importantfont-weight800 !important.speed-trigger-iconbackgroundvar(--color-gold-pale) !importantborder1px solid var(--color-gold-border) !important.speed-trigger-icon svgfill#DFAB52 !important.speed-cards-listdisplayflex !importantflex-directioncolumn !importantgap8px !importantmargin-bottom6px !important.speed-card-optiondisplayflex !importantalign-itemscenter !importantgap12px !importantbackgroundvar(--color-bg-input) !importantborder1.5px solid rgba(223171820.25) !importantborder-radius14px !importantpadding12px 14px !importantcolor#FFFFFF !importantcursorpointer !importanttransitionall 0.22s ease !importantbox-shadow0 2px 8px rgba(0000.3) !importantpositionrelative !important.speed-card-optionhoverborder-color#DFAB52 !importantbackground#121D33 !importanttransformtranslateY(-1px) !importantbox-shadow0 4px 14px rgba(223171820.25) !important.speed-card-optionhover .speed-card-namecolor#DFAB52 !important.speed-card-optionhover .speed-card-indicatorborder-color#DFAB52 !important.speed-card-option.activebackgroundlinear-gradient(135deg#E8BD6D 0%#DFAB52 50%#C48E33 100%) !importantborder-color#FDF2DD !importantcolor#0A0E17 !importantbox-shadow0 4px 16px rgba(223171820.5) !importanttransformtranslateY(-1px) !important.speed-card-indicatorwidth20px !importantheight20px !importantborder-radius50% !importantborder2px solid rgba(223171820.5) !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantflex-shrink0 !importantbackground#080D18 !importanttransitionall 0.2s ease !important.speed-radio-dotwidth8px !importantheight8px !importantborder-radius50% !importantbackgroundtransparent !importanttransitionall 0.2s ease !important.speed-card-option.active .speed-card-indicatorborder-color#0A0E17 !importantbackground#FFFFFF !important.speed-card-option.active .speed-radio-dotbackground#0A0E17 !important.speed-card-infoflex1 !importantdisplayflex !importantalign-itemscenter !importanttext-alignright !important.speed-card-namefont-size0.96rem !importantfont-weight800 !importantcolor#FFFFFF !importantletter-spacing0.2px !importanttransitioncolor 0.2s ease !important.speed-card-option.active .speed-card-namecolor#0A0E17 !importantfont-weight900 !important.speed-card-badgedisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantpadding4px 10px !importantbackgroundrgba(223171820.15) !importantborder1px solid rgba(223171820.35) !importantborder-radius8px !importantflex-shrink0 !important.speed-badge-valfont-size0.86rem !importantfont-weight900 !importantcolor#DFAB52 !importantline-height1 !important.speed-card-option.active .speed-card-badgebackgroundrgba(0000.15) !importantborder-colorrgba(0000.25) !important.speed-card-option.active .speed-badge-valcolor#0A0E17 !important.toggle-container-modernbackgroundvar(--color-bg-card) !importantborder1px solid var(--color-border) !importantborder-radius14px !importantbox-shadowvar(--shadow-card) !importantbackdrop-filternone !important-webkit-backdrop-filternone !important.toggle-container-modernhoverborder-colorvar(--color-gold-border) !importantbox-shadow0 4px 16px rgba(223171820.25) !important.toggle-titlecolor#DFAB52 !importantfont-weight800 !important.toggle-title spancolor#DFAB52 !important.toggle-desccolor#CBD5E1 !important.toggle-switch-modernbackground#080D18 !importantborder1px solid rgba(223171820.28) !important.toggle-switch-modern.activebackground#DFAB52 !importantborder-color#DFAB52 !important.toggle-switch-modern .toggle-knobbackground#FFFFFF !importantbox-shadow0 2px 6px rgba(0000.4) !important.toggle-status-labelcolor#CBD5E1 !importantbackground#080D18 !importantborder1px solid rgba(223171820.22) !important.toggle-status-label.activecolor#FFFFFF !importantbackgroundvar(--color-green) !importantborder-colorvar(--color-green) !importantbox-shadow0 0 10px rgba(161851290.4) !important.customer-support-sectionbackgroundlinear-gradient(165deg#131E35 0%#0E1729 100%) !importantborder1px solid rgba(223171820.32) !importantborder-radius14px !importantbox-shadow0 6px 18px rgba(0000.5)inset 0 1px 0 rgba(2552552550.08) !importantpadding7px 10px 8px 10px !importantmargin-top7px !importantmargin-bottom4px !importantdisplayflex !importantflex-directioncolumn !importantgap6px !importantbackdrop-filternone !important-webkit-backdrop-filternone !important.status-support-sectionmargin-top7px !importantmargin-bottom4px !important.support-headerdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantgap5px !important.support-header-iconwidth13px !importantheight13px !importantfill#DFAB52 !importantfilterdrop-shadow(0 0 4px rgba(223171820.5)) !important.support-titlecolor#DFAB52 !importantfont-size0.75rem !importantfont-weight800 !importanttext-shadownone !important.support-actions-griddisplaygrid !importantgrid-template-columnsrepeat(21fr) !importantgap8px !importantwidth100% !important.support-btndisplayflex !importantflex-directioncolumn !importantalign-itemscenter !importantjustify-contentcenter !importantgap3px !importantpadding6px 4px 5px 4px !importantmin-height50px !importantborder-radius11px !importanttext-decorationnone !importantcursorpointer !importanttransitionall 0.2s cubic-bezier(0.400.21) !importanttouch-actionmanipulation !importantpositionrelative !importantoverflowhidden !important.support-btn .support-btn-iconwidth18px !importantheight18px !importantflex-shrink0 !importantmargin-bottom0px !importanttransitiontransform 0.2s ease !important.support-btn spanfont-size0.72rem !importantfont-weight800 !importanttext-aligncenter !importantline-height1.15 !importantwhite-spacenowrap !important.support-btnactivetransformscale(0.96) !important.support-btnhover .support-btn-icontransformscale(1.1) !important.support-btn-whatsappbackgroundlinear-gradient(165deg#10232A 0%#0B191E 100%) !importantborder1px solid rgba(372111020.45) !importantcolor#E2E8F0 !importantbox-shadow0 4px 14px rgba(0000.4)inset 0 1px 0 rgba(2552552550.08) !important.support-btn-whatsapp .support-btn-iconfill#25D366 !importantfilterdrop-shadow(0 0 6px rgba(372111020.5)) !important.support-btn-whatsapphoverbackgroundlinear-gradient(165deg#142F38 0%#0E222A 100%) !importantborder-color#25D366 !importantcolor#FFFFFF !importanttransformtranslateY(-2px) !importantbox-shadow0 6px 18px rgba(372111020.35) !important.support-btn-callbackgroundlinear-gradient(165deg#241D17 0%#15141D 100%) !importantborder1px solid rgba(223171820.45) !importantcolor#E2E8F0 !importantbox-shadow0 4px 14px rgba(0000.4)inset 0 1px 0 rgba(2552552550.08) !important.support-btn-call .support-btn-iconfill#DFAB52 !importantfilterdrop-shadow(0 0 6px rgba(223171820.55)) !important.support-btn-callhoverbackgroundlinear-gradient(165deg#30261D 0%#1E1A27 100%) !importantborder-color#DFAB52 !importantcolor#FFFFFF !importanttransformtranslateY(-2px) !importantbox-shadow0 6px 18px rgba(223171820.4) !important.bottom-nav-barpositionfixed !importantbottomcalc(4px + env(safe - area-inset - bottom, 0px)) !importantright50% !importanttransformtranslateX(50%) !importantwidthcalc(100% - 18px) !importantmax-width480px !importantheight60px !importantbackgroundrgba(1016290.42) !importantborder1px solid rgba(223171820.25) !importantborder-top1px solid rgba(2552552550.22) !importantborder-radius20px !importantbackdrop-filterblur(28px) saturate(190%) !important-webkit-backdrop-filterblur(28px) saturate(190%) !importantbox-shadow0 10px 32px rgba(0000.45)0 0 20px rgba(223171820.12)inset 0 1px 1px rgba(2552552550.18) !importantz-index100 !important@media (max-width480px).bottom-nav-barbottomcalc(3px + env(safe - area-inset - bottom, 0px)) !importantheight56px !importantwidthcalc(100% - 14px) !important.nav-item-btncolorrgba(2482502520.75) !importanttransitionall 0.22s cubic-bezier(0.1610.31) !important.nav-item-btn svgfillrgba(2482502520.75) !importantfilterdrop-shadow(0 1px 2px rgba(0000.5)) !important.nav-item-btnhovercolor#DFAB52 !importantbackgroundrgba(223171820.16) !important.nav-item-btnhover svgfill#DFAB52 !importantfilterdrop-shadow(0 0 6px rgba(223171820.6)) !important.nav-item-btn.activecolor#DFAB52 !importantbackgroundrgba(223171820.2) !importantborder1px solid rgba(223171820.48) !importantbox-shadow0 2px 12px rgba(223171820.3)inset 0 1px 0 rgba(2552552550.25) !importanttext-shadow0 1px 4px rgba(0000.6) !important.nav-item-btn.active svgfill#DFAB52 !importantfilterdrop-shadow(0 0 8px rgba(223171820.85)) !important.appnot(#status)not(#quran-modal)#price#sell-point#loan#speed-modal#status-speed-modal#app-store#block.loyalty-modal.popup-overlaybackgroundrgba(59170.58) !importantbackground-colorrgba(59170.58) !importantbackdrop-filterblur(8px) saturate(130%) !important-webkit-backdrop-filterblur(8px) saturate(130%) !importantoverscroll-behaviorcontain !importanttouch-actionpan-y !important.modal-sheet-cardbackgroundvar(--color-bg-card) !importantborder1px solid rgba(223171820.32) !importantborder-radius20px !importantbox-shadow0 25px 50px rgba(0000.8)0 0 24px rgba(223171820.18) !importantcolorvar(--color-text-main) !importantmax-heightmin(85vhcalc(100dvh - 36px)) !importantoverflow-yauto !importantoverflow-xhidden !important-webkit-overflow-scrollingtouch !importantoverscroll-behaviorcontain !importanttouch-actionpan-y !important.modal-sheet-card-webkit-scrollbarwidth5px !important.modal-sheet-card-webkit-scrollbar-trackbackgroundrgba(2552552550.03) !importantborder-radius9999px !important.modal-sheet-card-webkit-scrollbar-thumbbackgroundrgba(223171820.45) !importantborder-radius9999px !important.modal-sheet-card-webkit-scrollbar-thumbhoverbackgroundrgba(223171820.75) !important.modal-headerpositionsticky !importanttop0 !importantz-index10 !importantbackgroundvar(--color-bg-card#0C1322) !importantborder-bottom1px solid rgba(223171820.18) !importantpadding-top4px !importantpadding-bottom10px !importantmargin-top-4px !importantmargin-bottom14px !important.modal-header .titlecolor#DFAB52 !importantfont-weight900 !importanttext-shadownone !important.modal-header .title spancolor#DFAB52 !important.modal-title-iconfill#DFAB52 !importantfilterdrop-shadow(0 0 5px rgba(223171820.5)) !important.modal-close-btnbackground#080D18 !importantborder1px solid rgba(223171820.28) !importantcolor#CBD5E1 !importantborder-radius9999px !importantfont-weight700 !importanttransitionall 0.2s ease !important.modal-close-btnhoverbackgroundrgba(23968680.2) !importantborder-colorrgba(23968680.6) !importantcolor#FCA5A5 !importanttransformtranslateY(-1px) !importantbox-shadow0 2px 8px rgba(23968680.3) !important.modal-cancel-btn.modal-sheet-card .button.modal-cancel-btn.app .button.modal-cancel-btn.app button.modal-cancel-btn.app-logout.button.app-submitbackgroundlinear-gradient(135deg#E8BD6D 0%#DFAB52 50%#C48E33 100%) !importantcolor#0A0E17 !importantfont-weight900 !importantfont-size15px !importantborder1px solid rgba(2552552550.35) !importantborder-radius14px !importantmin-height46px !importantbox-shadow0 4px 18px rgba(223171820.45)inset 0 1px 0 rgba(2552552550.38) !importanttext-shadownone !importantcursorpointer !importanttransitionall 0.25s cubic-bezier(0.1610.31) !important.modal-cancel-btn svg.modal-sheet-card .button.modal-cancel-btn svg.app .button.modal-cancel-btn svg.app button.modal-cancel-btn svg.app-logout.button.app-submit svgfill#0A0E17 !importantfilternone !important.modal-cancel-btnhover.modal-sheet-card .button.modal-cancel-btnhover.app .button.modal-cancel-btnhover.app button.modal-cancel-btnhover.app-logout.button.app-submithoverbackgroundlinear-gradient(135deg#F0C97F 0%#E5B562 50%#D19A3F 100%) !importantcolor#000000 !importanttransformtranslateY(-2px) !importantbox-shadow0 8px 24px rgba(223171820.6)inset 0 1px 0 rgba(2552552550.5) !important.fab-support.modal-sheet-card .fab-support.app .fab-supportbackground#080D18 !importantborder1px solid var(--color-gold-border) !importantcolor#DFAB52 !importantborder-radius12px !importantpadding10px 14px !importantmargin-top10px !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantgap8px !importanttext-decorationnone !importantfont-weight800 !importantbox-shadow0 2px 8px rgba(0000.3) !importanttransitionall 0.25s ease !important.fab-support svg.modal-sheet-card .fab-support svg.app .fab-support svgfill#DFAB52 !importantwidth18px !importantheight18px !importantfilterdrop-shadow(0 0 4px rgba(223171820.5)) !important.fab-support span.modal-sheet-card .fab-support span.app .fab-support spancolor#DFAB52 !importantfont-weight800 !important.fab-supporthover.modal-sheet-card .fab-supporthover.app .fab-supporthoverbackgroundvar(--color-gold-pale) !importantborder-color#DFAB52 !importantcolor#FFFFFF !importanttransformtranslateY(-1px) !importantbox-shadow0 4px 16px rgba(223171820.4) !important.fab-supporthover spancolor#FFFFFF !important.points-auth-tabs.price-tabs.modal-tab-groupbackground#080D18 !importantborder1px solid rgba(223171820.22) !importantborder-radius12px !important.points-tab-btn.price-tab-btn.modal-tab-btncolor#CBD5E1 !importantbackgroundtransparent !important.points-tab-btn.active.price-tab-btn.active.modal-tab-btn.activebackgroundlinear-gradient(135deg#E8BD6D 0%#DFAB52 50%#C48E33 100%) !importantcolor#0A0E17 !importantfont-weight800 !importantbordernone !importantbox-shadow0 2px 10px rgba(223171820.5) !important.points-tab-btn.active svgfill#0A0E17 !important.points-instruction-boxbackgroundrgba(223171820.08) !importantborder1px solid var(--color-gold-border) !importantborder-radius12px !important.instruction-icon-wrapbackgroundvar(--color-gold-pale) !importantborder1px solid var(--color-gold-border) !important.instruction-icon-wrap svgfill#DFAB52 !importantfilterdrop-shadow(0 0 5px rgba(223171820.5)) !important.instruction-text strongcolor#FFFFFF !important.instruction-text pcolor#CBD5E1 !important.points-modal-body .login-inputcolor#FFFFFF !important.points-modal-body .login-inputplaceholdercolorvar(--color-text-placeholder) !important.points-link-btncolor#DFAB52 !importantfont-weight800 !important.saved-card-item.card-type-item.loan-bodybackgroundvar(--color-bg-card) !importantborder1px solid rgba(223171820.2) !importantborder-radius14px !importantcolor#FFFFFF !important.card-type-item .card-namecolor#FFFFFF !important.card-type-item .card-pointscolor#DFAB52 !importantfont-weight800 !important.card-codebackground#080D18 !importantborder1px dashed rgba(223171820.42) !importantcolor#DFAB52 !important.loan-highlight-badgebackgroundvar(--color-gold-pale) !importantborder1px solid var(--color-gold-border) !importantcolor#DFAB52 !important.price-div tablewidth100% !importantborder-collapseseparate !importantborder-spacing0 6px !importantthead thbackground#0C1424 !importantcolor#DFAB52 !importantborder1px solid rgba(223171820.25) !importantfont-weight800 !importantpadding10px 8px !importanttext-aligncenter !importantborder-radius8px !importanttbody trbackgroundvar(--color-bg-input) !importantborder1px solid rgba(223171820.15) !importanttransitionall 0.2s ease !importanttbody trhoverbackground#121D33 !importantborder-colorrgba(223171820.5) !importanttbody tdcolor#FFFFFF !importantfont-weight600 !importanttext-aligncenter !importantpadding10px 6px !importanttbody tdfirst-childcolor#DFAB52 !importantfont-weight900 !important.sell-point-div tableborder-collapseseparate !importantborder-spacing0 8px !importantbordernone !importantbackgroundtransparent !importantwidth100% !importantbox-shadownone !important.sell-point-div tbody trbackgroundvar(--color-bg-input) !importantborder1px solid rgba(223171820.22) !importantborder-radius12px !importanttransitionall 0.25s ease !importantbox-shadow0 2px 8px rgba(0000.3) !important.sell-point-div tbody trnth-child(even)background#0C1424 !important.sell-point-div tbody trhoverbackground#121E36 !importantborder-color#DFAB52 !importanttransformtranslateY(-1px) !importantbox-shadow0 4px 14px rgba(223171820.3) !important.sell-point-div tbody tdpadding14px 16px !importantfont-size0.95rem !importantcolor#FFFFFF !importantfont-weight700 !importanttext-alignright !importantbordernone !importantborder-radius12px !important.sell-point-div tbody tdbeforecontent"" !importantdisplayinline-block !importantwidth20px !importantheight20px !importantmargin-left10px !importantbackground-imageurl("dataimage/svg+xml%3Csvg xmlns='http//www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23DFAB52' stroke='%23C48E33' stroke-width='0.5'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z'/%3E%3C/svg%3E") !importantbackground-sizecontain !importantbackground-repeatno-repeat !importantbackground-positioncenter !importantvertical-alignmiddle !importanttransformtranslateY(-2px) !important.loan-bodybackgroundvar(--color-bg-card) !importantborder1px solid rgba(223171820.28) !importantborder-radius16px !importantpadding16px !importantcolor#FFFFFF !importantbox-shadowvar(--shadow-card) !important#loan-news-title.loan-body [data-news-title="true"]color#DFAB52 !importantfont-weight800 !importantfont-size1.05rem !important#loan-news-content.loan-body [data-news-content="true"]color#CBD5E1 !importantline-height1.7 !important#loan-news-content b.loan-body [data-news-content="true"] bcolor#DFAB52 !important.loan-highlight-badgebackgroundvar(--color-gold-pale) !importantborder1px solid var(--color-gold-border) !importantcolor#DFAB52 !importantfont-weight800 !importantborder-radius8px !importantpadding6px 12px !important#loan-news-extra-header strong#loan-news-extra-titlecolor#DFAB52 !importantfont-weight800 !important#loan-news-extra-contentcolor#CBD5E1 !important#loan-news-extra-badgebackgroundlinear-gradient(135deg#E8BD6D 0%#DFAB52 50%#C48E33 100%) !importantcolor#0A0E17 !importantfont-weight900 !importantbordernone !importantbox-shadow0 4px 14px rgba(223171820.4) !important#grid .app-item.sell-point-div .app-itembackgroundvar(--color-bg-card) !importantborder1px solid rgba(223171820.22) !importantborder-radius14px !importantcolor#FFFFFF !importanttransitionall 0.25s ease !important#grid .app-itemhover.sell-point-div .app-itemhoverbackground#101A2E !importantborder-color#DFAB52 !importanttransformtranslateY(-2px) !importantbox-shadow0 6px 18px rgba(223171820.3) !important.modal-sheet-card .support-phone-btn.modal-support-btnbackground#080D18 !importantborder1px solid var(--color-gold-border) !importantcolor#DFAB52 !important.modal-sheet-card .support-phone-btn svg.modal-support-btn svgfill#DFAB52 !important.redirect-loading-overlaybackgroundvar(--color-bg-page) !importantbackdrop-filternone !important-webkit-backdrop-filternone !important.redirect-ambient-glow-burgundy.redirect-ambient-glow-cyandisplaynone !important.redirect-loading-cardbackgroundvar(--color-bg-card) !importantborder1px solid rgba(223171820.25) !importantborder-radius24px !importantbox-shadow0 20px 50px rgba(0000.75)0 0 20px rgba(223171820.18) !importantcolor#FFFFFF !important.redirect-loading-titlecolor#FFFFFF !importanttext-shadownone !importantfont-weight900 !important.redirect-loading-subtitlecolor#CBD5E1 !important.redirect-progress-trackbackground#080D18 !importantbordernone !important.redirect-progress-barbackgroundlinear-gradient(90deg#C48E33 0%#DFAB52 50%#E8BD6D 100%) !importantbox-shadow0 0 12px rgba(223171820.6) !important.redirect-spinner-outerborder-top-color#DFAB52 !importantborder-right-color#C48E33 !important.redirect-spinner-innerborder-bottom-color#E8BD6D !importantborder-left-color#DFAB52 !important.redirect-center-iconbackground#DFAB52 !importantbox-shadow0 0 16px rgba(223171820.55) !important.redirect-badge-securebackgroundvar(--color-gold-pale) !importantborder1px solid var(--color-gold-border) !importantcolor#DFAB52 !important.redirect-badge-secure svgfill#DFAB52 !important-webkit-scrollbarwidth5px-webkit-scrollbar-trackbackgroundtransparent-webkit-scrollbar-thumbbackgroundrgba(223171820.38)border-radius9999px-webkit-scrollbar-thumbhoverbackgroundrgba(223171820.75)*scrollbar-colorrgba(223171820.38) transparent.nt-banner.nt-card.announcement-bannerbackgroundvar(--color-bg-card) !importantborder1px solid rgba(223171820.25) !importantbox-shadow0 16px 40px rgba(0000.65)0 0 16px rgba(223171820.2) !importantborder-radius18px !importantcolor#FFFFFF !importantfont-family'Almarai''Tajawal'sans-serif !important.error-containerz-index99999 !important.error#error-toastbackgroundvar(--color-bg-card) !importantborder1px solid rgba(223171820.35) !importantbox-shadow0 16px 40px rgba(0000.7)0 0 14px rgba(223171820.22) !importantborder-radius16px !importantpadding12px 16px !importantbackdrop-filterblur(16px) !important-webkit-backdrop-filterblur(16px) !importantdirectionrtl !importantfont-family'Almarai''Tajawal'sans-serif !importantpositionrelative !importantoverflowhidden !important.errorafter#error-toastaftercontent"" !importantpositionabsolute !importantbottom0 !importantright0 !importantleft0 !importantheight3px !importantbackgroundlinear-gradient(90deg#C48E33 0%#DFAB52 50%#E8BD6D 100%) !importantbox-shadow0 0 8px rgba(223171820.6) !important.toast-icon-wrapbackgroundvar(--color-gold-pale) !importantborder1px solid var(--color-gold-border) !importantborder-radius10px !important.toast-icon-wrap svgfill#DFAB52 !importantfilterdrop-shadow(0 0 4px rgba(223171820.5)) !important.error p#error#error.action-notice-toast p#action-notice-msgcolor#FFFFFF !importantfont-size14px !importantfont-weight800 !importantmargin0 !important.action-notice-toast span#action-notice-subdisplaynone !important.action-notice-toast.notice-logoutborder-colorrgba(23968680.45) !importantbox-shadow0 16px 40px rgba(0000.75)0 0 16px rgba(23968680.2) !important.action-notice-toast.notice-logout .toast-icon-wrapbackgroundrgba(23968680.15) !importantborder-colorrgba(23968680.45) !important.action-notice-toast.notice-logout .toast-icon-wrap svgfill#F87171 !importantfilterdrop-shadow(0 0 4px rgba(23968680.5)) !important.action-notice-toast.notice-logout span#action-notice-subcolor#FDA4AF !important.action-notice-toast.notice-logoutafterbackgroundlinear-gradient(90deg#F43F5E 0%#E11D48 100%) !importantbox-shadow0 0 8px rgba(22529720.6) !important.error-close-btnbackgroundtransparent !importantcolorvar(--color-text-sub) !important.error-close-btnhovercolor#EF4444 !important#statusbackgroundtransparent !importantpadding0 !importantmargin0 !important#status .modal-sheet-cardbackgroundtransparent !importantbordernone !importantbox-shadownone !importantbackdrop-filternone !important-webkit-backdrop-filternone !importantcolorvar(--color-text-main) !important.status-header-cardpositionrelative !importantbackgroundradial-gradient(120% 100% at 50% 120%rgba(223171820.16) 0%rgba(196142510.08) 35%#080e1a 75%#050811 100%) !importantborder1.5px solid rgba(223171820.45) !importantborder-radius20px !importantbox-shadow0 10px 32px rgba(0000.7)0 0 28px rgba(223171820.16)inset 0 1px 0 rgba(2552351800.25) !importantpadding12px 14px 10px 14px !importantmargin-bottom7px !importanttext-aligncenter !importantoverflowhidden !importantbackdrop-filterblur(16px) !important-webkit-backdrop-filterblur(16px) !important.status-badge-livebackgroundrgba(161851290.12) !importantborder1px solid rgba(522111530.4) !importantcolor#6EE7B7 !importantfont-weight800 !importantborder-radius9999px !importantbox-shadow0 0 14px rgba(161851290.2) !important.status-badge-textcolor#6EE7B7 !importantfont-weight800 !important#status-title.status-header-card h2.title.status-header-card .titlecolor#DFAB52 !importantbackgroundnone !important-webkit-text-fill-color#DFAB52 !importantfont-weight900 !importantfont-size1.3rem !importanttext-shadow0 2px 8px rgba(0000.5) !important.status-header-card pcolor#CBD5E1 !important.status-header-card p acolor#DFAB52 !importantfont-weight800 !importanttext-decorationunderline !important.entertainment-links .stream-card-linkbackgroundlinear-gradient(165deg#142038 0%#0F182B 100%) !importantborder1px solid rgba(223171820.28) !importantcolor#FFFFFF !importantborder-radius14px !importantbox-shadow0 6px 18px rgba(0000.45)inset 0 1px 0 rgba(2552552550.08) !importantfont-weight800 !importanttransitionall 0.25s ease !important.entertainment-links .stream-card-link svgfill#DFAB52 !importantfilterdrop-shadow(0 0 4px rgba(223171820.5)) !important.entertainment-links .stream-card-linkhoverbackgroundlinear-gradient(165deg#182642 0%#121C32 100%) !importantborder-color#DFAB52 !importantcolor#DFAB52 !importanttransformtranslateY(-2px) !importantbox-shadow0 6px 20px rgba(223171820.3) !important#newsTickerStatusSection#status #newsTickerStatusSectionmargin-top7px !importantmargin-bottom7px !important#statusUpdatesCard.status-updates-cardmargin7px 0 !important.statusdivbackgroundlinear-gradient(165deg#142038 0%#0F182B 100%) !importantborder1px solid rgba(223171820.28) !importantborder-radius16px !importantbox-shadow0 8px 24px rgba(0000.55)inset 0 1px 0 rgba(2552552550.1) !importantpadding11px 14px !importantmargin7px 0 !importantbackdrop-filterblur(16px) !important-webkit-backdrop-filterblur(16px) !important.status-metric-labelcolor#FFFFFF !importantfont-weight800 !important.status-metric-label svgfill#DFAB52 !importantfilterdrop-shadow(0 0 4px rgba(223171820.5)) !important#sspeedcolor#DFAB52 !importantfont-weight900 !importantfont-size1rem !important.statusdiv pcolor#CBD5E1 !important.status-select-triggerbackground#080D18 !importantborder1px solid rgba(223171820.35) !importantborder-radius12px !importantpadding12px 14px !importantcolor#FFFFFF !importantbox-shadow0 2px 8px rgba(0000.4) !importantfont-weight800 !importanttransitionall 0.25s ease !important.status-select-triggerhoverbackground#101A2E !importantborder-color#DFAB52 !importantcolor#DFAB52 !importanttransformtranslateY(-1px) !importantbox-shadow0 4px 14px rgba(223171820.3) !important.status-trigger-contentcolor#FFFFFF !importantfont-weight800 !important.status-select-triggerhover .status-trigger-contentcolor#DFAB52 !important.status-trigger-iconfill#DFAB52 !importantfilterdrop-shadow(0 0 4px rgba(223171820.5)) !important.status-trigger-chevronfill#DFAB52 !important.status-metrics-section-titlecolor#DFAB52 !importantfont-weight800 !importantfont-size1rem !important.status-grid-metricsgap8px !importantmargin7px 0 !important.metric-card-glassbackgroundlinear-gradient(165deg#142038 0%#0F182B 100%) !importantborder1px solid rgba(223171820.25) !importantborder-radius14px !importantbox-shadow0 6px 18px rgba(0000.45)inset 0 1px 0 rgba(2552552550.08) !importantpadding14px 10px !importantbackdrop-filterblur(14px) !important-webkit-backdrop-filterblur(14px) !importanttransitionall 0.25s ease !important.metric-card-glasshoverbackgroundlinear-gradient(165deg#182642 0%#121C32 100%) !importantborder-colorrgba(223171820.5) !importanttransformtranslateY(-2px) !importantbox-shadow0 8px 22px rgba(0000.55)0 0 12px rgba(223171820.2) !important.metric-titlecolor#CBD5E1 !importantfont-weight700 !importantfont-size0.82rem !important.metric-iconfill#DFAB52 !importantfilterdrop-shadow(0 0 4px rgba(223171820.5)) !important.metric-valcolor#FFFFFF !importantfont-weight900 !importantfont-size1.1rem !important.metric-val.goldcolor#DFAB52 !important.metric-val.emeraldcolor#34D399 !important.metric-val.cyancolor#DFAB52 !important.entertainment-linksdisplayflex !importantflex-directionrow !importantalign-itemsstretch !importantjustify-contentcenter !importantgap8px !importantwidth100% !importantmargin7px 0 !importantbox-sizingborder-box !important.entertainment-links[style*="displaynone"].entertainment-links.hidden.stream-card-link[style*="displaynone"].stream-card-link.hidden.stream-card-link[hidden]displaynone !important.stream-card-linkflex1 1 0 !importantmin-width0 !importantwidth100% !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantgap7px !importantpadding10px 12px !importantmin-height44px !importantborder-radius12px !importantcolor#FFFFFF !importanttext-decorationnone !importantfont-weight800 !importantfont-size0.9rem !importantwhite-spacenowrap !importanttransitionall 0.24s cubic-bezier(0.1610.31) !importantbox-sizingborder-box !importantdirectionrtl !importantpositionrelative !importantoverflowhidden !important.stream-card-link.live-stream-btn.stream-card-link[data-mobasher]backgroundlinear-gradient(135deg#DC2626 0%#B91C1C 48%#881337 100%) !importantborder1px solid rgba(2542052110.45) !importantbox-shadow0 4px 18px rgba(22038380.38)inset 0 1px 0 rgba(2552552550.25) !important.stream-card-link.live-stream-btnhover.stream-card-link[data-mobasher]hoverbackgroundlinear-gradient(135deg#EF4444 0%#DC2626 50%#9F1239 100%) !importantborder-colorrgba(2542052110.8) !importanttransformtranslateY(-2px) !importantbox-shadow0 6px 24px rgba(23968680.55)0 0 16px rgba(24463940.4) !important.stream-card-link.estr-card-link.stream-card-link.lounge-btn.stream-card-link[data-estr].stream-card-link[data-esterahah]backgroundlinear-gradient(135deg#6366F1 0%#4F46E5 48%#312E81 100%) !importantborder1px solid rgba(1992102540.45) !importantbox-shadow0 4px 18px rgba(991022410.38)inset 0 1px 0 rgba(2552552550.25) !important.stream-card-link.estr-card-linkhover.stream-card-link.lounge-btnhover.stream-card-link[data-estr]hover.stream-card-link[data-esterahah]hoverbackgroundlinear-gradient(135deg#818CF8 0%#6366F1 50%#3730A3 100%) !importantborder-colorrgba(1992102540.8) !importanttransformtranslateY(-2px) !importantbox-shadow0 6px 24px rgba(991022410.55)0 0 16px rgba(1291402480.4) !important.stream-card-link svgwidth19px !importantheight19px !importantfill#FFFFFF !importantflex-shrink0 !importantfilterdrop-shadow(0 1px 3px rgba(0000.4)) !importanttransitiontransform 0.22s ease !important.stream-card-link spancolor#FFFFFF !importantfont-weight800 !importantletter-spacing0.2px !importantoverflowhidden !importanttext-overflowellipsis !importantwhite-spacenowrap !importanttext-shadow0 1px 3px rgba(0000.35) !important.stream-card-linkhover svgtransformscale(1.12) !important.stream-card-linkactivetransformscale(0.97) !important.live-dot-pulsewidth8pxheight8pxbackground-color#FFFFFFborder-radius50%box-shadow0 0 0 0 rgba(2552552550.7)animationlivePulseAnim 1.6s infinite cubic-bezier(0.66001)flex-shrink0margin-left2px@keyframes livePulseAnim0%box-shadow0 0 0 0 rgba(2552552550.8)opacity170%box-shadow0 0 0 7px rgba(2552552550)opacity0.7100%box-shadow0 0 0 0 rgba(2552552550)opacity1.status-telemetry-dashboardwidth100%margin-top9px !importantmargin-bottom6px !importantdisplayflexflex-directioncolumngap8px !importantbox-sizingborder-box.telemetry-header-bardisplayflexalign-itemscenterjustify-contentspace-betweenpadding0 4pxmargin-bottom0 !important.telemetry-header-titledisplayflexalign-itemscentergap8pxcolor#DFAB52font-weight800font-size0.98rem.telemetry-header-iconwidth18pxheight18pxfill#DFAB52filterdrop-shadow(0 0 4px rgba(223171820.4)).telemetry-live-syncdisplayflexalign-itemscentergap6pxbackgroundrgba(522111530.12)border1px solid rgba(522111530.3)padding3px 9pxborder-radius20px.sync-dot-pulsewidth6pxheight6pxbackground#34D399border-radius50%box-shadow0 0 6px #34D399animationsyncPulse 2s infinite ease-in-out@keyframes syncPulse0%100%transformscale(1)opacity150%transformscale(1.3)opacity0.5.sync-textfont-size0.72remfont-weight700color#34D399.status-gauge-podpositionrelativebackgroundlinear-gradient(165deg#142038 0%#0F182B 100%)border1.5px solid rgba(223171820.35)border-radius16pxpadding8px 12px 10px 12pxbox-shadow0 10px 32px rgba(0000.6)0 0 20px rgba(223171820.12)inset 0 1px 0 rgba(2552552550.12)backdrop-filterblur(16px)-webkit-backdrop-filterblur(16px)overflowhiddenmargin0 !importantmargin-bottom0 !importanttransitionall 0.3s cubic-bezier(0.1610.31).status-gauge-podhoverbackgroundlinear-gradient(165deg#182642 0%#121C32 100%)border-colorrgba(223171820.55)box-shadow0 12px 36px rgba(0000.7)0 0 24px rgba(223171820.22)inset 0 1px 0 rgba(2552552550.2)transformtranslateY(-2px).gauge-ambient-glowpositionabsolutetop35%left50%transformtranslate(-50%-50%)width180pxheight90pxbackgroundradial-gradient(ellipsergba(223171820.16) 0%rgba(561892480.08) 50%transparent 80%)filterblur(18px)pointer-eventsnonez-index0.gauge-meter-wrapperpositionrelativewidth100%max-width280pxmargin0 autodisplayflexflex-directioncolumnalign-itemscenterjustify-contentcenterz-index1.gauge-svgwidth100%heightautodisplayblockfilterdrop-shadow(0 4px 12px rgba(0000.5)).gauge-progress-arctransitionstroke-dashoffset 0.9s cubic-bezier(0.1610.31).gauge-center-contentpositionabsolutebottom4pxleft50%transformtranslateX(-50%)displayflexflex-directioncolumnalign-itemscenterjustify-contentcentertext-aligncenterwidth90%pointer-eventsnone.gauge-subtitledisplayflexalign-itemscentergap6pxfont-size0.78remfont-weight800color#94A3B8margin-bottom1px.gauge-sub-iconwidth14pxheight14pxfill#DFAB52filterdrop-shadow(0 0 4px rgba(223171820.5)).gauge-main-displayfont-size1.65remfont-weight900color#FFFFFFbackgroundlinear-gradient(180deg#FFFFFF 30%#FDE68A 100%)-webkit-background-cliptext-webkit-text-fill-colortransparenttext-shadow0 2px 14px rgba(223171820.45)line-height1.15margin2px 0 1px 0white-spacenowrapletter-spacing-0.5px.gauge-status-badgedisplayinline-flexalign-itemscentergap6pxbackgroundrgba(1322380.85)border1px solid rgba(223171820.35)padding3px 10pxborder-radius9999pxfont-size0.72remfont-weight800color#F8FAFCbox-shadow0 4px 12px rgba(0000.4)inset 0 1px 0 rgba(2552552550.1)margin-top2px.gauge-status-dotwidth7pxheight7pxbackground#10B981border-radius50%box-shadow0 0 8px #10B981animationsyncPulse 2s infinite ease-in-out.traffic-flow-griddisplayflexgap8px !importantwidth100%margin0 !importantbox-sizingborder-box.traffic-podflex1 1 0min-width0backgroundlinear-gradient(165deg#142038 0%#0F182B 100%)border1.5px solid rgba(223171820.28)border-radius13pxpadding8px 10pxbox-shadow0 8px 22px rgba(0000.5)inset 0 1px 0 rgba(2552552550.1)backdrop-filterblur(14px)-webkit-backdrop-filterblur(14px)transitionall 0.28s cubic-bezier(0.1610.31)displayflexflex-directioncolumngap5px.traffic-pod.download-podborder-colorrgba(561892480.32).traffic-pod.download-podhoverbackgroundlinear-gradient(165deg#16243F 0%#111B30 100%)border-colorrgba(561892480.65)transformtranslateY(-2px)box-shadow0 10px 26px rgba(0000.6)0 0 16px rgba(561892480.28).traffic-pod.upload-podborder-colorrgba(161851290.32).traffic-pod.upload-podhoverbackgroundlinear-gradient(165deg#16243F 0%#111B30 100%)border-colorrgba(161851290.65)transformtranslateY(-2px)box-shadow0 10px 26px rgba(0000.6)0 0 16px rgba(161851290.28).traffic-pod-headerdisplayflexalign-itemscentergap7px.traffic-icon-bubblewidth28pxheight28pxborder-radius8pxdisplayflexalign-itemscenterjustify-contentcenterflex-shrink0box-shadowinset 0 1px 0 rgba(2552552550.2).traffic-icon-bubble.cyanbackgroundlinear-gradient(135degrgba(561892480.25) 0%rgba(141161440.25) 100%)border1px solid rgba(561892480.45)color#38BDF8.traffic-icon-bubble.cyan svgwidth16pxheight16pxfill#38BDF8filterdrop-shadow(0 0 4px rgba(561892480.6)).traffic-icon-bubble.emeraldbackgroundlinear-gradient(135degrgba(161851290.25) 0%rgba(51501050.25) 100%)border1px solid rgba(161851290.45)color#34D399.traffic-icon-bubble.emerald svgwidth16pxheight16pxfill#34D399filterdrop-shadow(0 0 4px rgba(161851290.6)).traffic-label-groupdisplayflexflex-directioncolumn.traffic-type-titlefont-size0.84remfont-weight800color#FFFFFFline-height1.2.traffic-type-enfont-size0.64remfont-weight700color#94A3B8letter-spacing0.3px.traffic-val-rowdisplayflexalign-itemsbaselinejustify-contentflex-startmargin-top1px.traffic-metric-valfont-size1.15remfont-weight900white-spacenowrapoverflowhiddentext-overflowellipsisletter-spacing-0.3px.traffic-metric-val.cyan-glowcolor#E0F2FEtext-shadow0 0 12px rgba(561892480.45).traffic-metric-val.emerald-glowcolor#D1FAE5text-shadow0 0 12px rgba(161851290.45).traffic-wave-trackwidth100%height4pxbackgroundrgba(0000.45)border1px solid rgba(2552552550.08)border-radius9999pxoverflowhiddenpositionrelative.traffic-wave-barheight100%border-radius9999pxtransitionwidth 0.6s cubic-bezier(0.1610.31)positionrelative.traffic-wave-bar.cyan-barwidth68%backgroundlinear-gradient(90deg#0284C7 0%#38BDF8 70%#BAE6FD 100%)box-shadow0 0 10px rgba(561892480.7).traffic-wave-bar.emerald-barwidth48%backgroundlinear-gradient(90deg#059669 0%#10B981 70%#A7F3D0 100%)box-shadow0 0 10px rgba(161851290.7).status-session-hubdisplayflexalign-itemscenterjustify-contentspace-betweenbackgroundlinear-gradient(165deg#142038 0%#0F182B 100%)border1.5px solid rgba(223171820.28)border-radius14pxpadding8px 12pxmargin0 !importantbox-shadow0 8px 24px rgba(0000.5)inset 0 1px 0 rgba(2552552550.1)transitionall 0.25s ease.status-session-hubhoverbackgroundlinear-gradient(165deg#182642 0%#121C32 100%)border-colorrgba(223171820.45)box-shadow0 10px 28px rgba(0000.6)inset 0 1px 0 rgba(2552552550.15).session-hub-itemflex1displayflexflex-directioncolumngap3px.session-hub-icon-rowdisplayflexalign-itemscentergap6px.session-hub-svgwidth15pxheight15px.session-hub-svg.goldfill#DFAB52filterdrop-shadow(0 0 4px rgba(223171820.5)).session-hub-svg.cyanfill#38BDF8filterdrop-shadow(0 0 4px rgba(561892480.5)).session-hub-labelfont-size0.78remfont-weight800color#94A3B8.session-hub-valfont-size1.15remfont-weight900color#FFFFFFletter-spacing-0.3px.session-hub-val.gold-glowcolor#DFAB52text-shadow0 0 10px rgba(223171820.4).session-hub-dividerdisplayflexflex-directioncolumnalign-itemscenterjustify-contentcenterpadding0 10px.session-divider-linewidth1pxheight12pxbackgroundlinear-gradient(180degtransparentrgba(223171820.4)transparent).session-divider-dotwidth5pxheight5pxbackground#DFAB52border-radius50%margin3px 0box-shadow0 0 8px #DFAB52.status-actions-rowdisplayflex !importantgap8px !importantmargin-top9px !importantmargin-bottom6px !important.status-actions-row button.btn-danger-glass.btn-secondary-glassbackgroundlinear-gradient(135deg#E8BD6D 0%#DFAB52 50%#C48E33 100%) !importantcolor#0A0E17 !importantfont-weight900 !importantfont-size14.5px !importantborder1px solid rgba(2552552550.35) !importantborder-radius14px !importantmin-height46px !importantbox-shadow0 4px 18px rgba(223171820.45)inset 0 1px 0 rgba(2552552550.38) !importanttext-shadownone !importantcursorpointer !importanttransitionall 0.25s cubic-bezier(0.1610.31) !important.status-actions-row button svg.btn-danger-glass svg.btn-secondary-glass svgfill#0A0E17 !importantfilternone !important.status-actions-row buttonhover.btn-danger-glasshover.btn-secondary-glasshoverbackgroundlinear-gradient(135deg#F0C97F 0%#E5B562 50%#D19A3F 100%) !importantcolor#000000 !importanttransformtranslateY(-2px) !importantbox-shadow0 8px 24px rgba(223171820.6)inset 0 1px 0 rgba(2552552550.5) !important.status-actions-row buttonactive.btn-danger-glassactive.btn-secondary-glassactivetransformscale(0.97) !importantbox-shadow0 2px 8px rgba(223171820.3) !important.block-card-warningbackgroundvar(--color-bg-card) !importantborder1.5px solid rgba(23968680.5) !importantborder-radius20px !importantbox-shadow0 16px 45px rgba(0000.75)0 0 20px rgba(23968680.2) !important.countdown-badgebackground#080D18 !importantborder1px solid var(--color-gold-border) !importantcolor#FFFFFF !importantborder-radius9999px !important.quran-strip-cardwidth100% !importantbackgroundlinear-gradient(135degrgba(2032560.98) 0%rgba(1524430.98) 100%) !importantborder1px solid rgba(223171820.45) !importantborder-radius14px !importantpadding6px 10px !importantmargin0 0 7px 0 !importantdisplayflex !importantalign-itemscenter !importantjustify-contentspace-between !importantgap8px !importantbox-shadow0 6px 20px rgba(0000.5)0 0 16px rgba(223171820.15)inset 0 1px 0 rgba(2552552550.1) !importantdirectionrtl !importantpositionrelative !importantoverflowhidden !importantbox-sizingborder-box !importanttransitiontransform 0.2s easeborder-color 0.2s easebox-shadow 0.2s ease !important.quran-strip-cardbeforecontent"" !importantpositionabsolute !importanttop0 !importantright0 !importantbottom0 !importantwidth4px !importantbackgroundlinear-gradient(180deg#E8BD6D#DFAB52#C48E33) !important.quran-strip-cardhoverborder-colorrgba(223171820.7) !importantbox-shadow0 8px 25px rgba(0000.6)0 0 20px rgba(223171820.25) !important.quran-strip-infodisplayflex !importantalign-itemscenter !importantgap8px !importantmin-width0 !importantflex1 1 auto !importantoverflowhidden !important.quran-icon-wrapwidth36px !importantheight36px !importantborder-radius9px !importantbackgroundlinear-gradient(135degrgba(223171820.22) 0%rgba(223171820.08) 100%) !importantborder1px solid rgba(223171820.45) !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantflex-shrink0 !importantbox-shadow0 2px 8px rgba(0000.4)inset 0 1px 1px rgba(2552552550.2) !important.quran-icon-wrap svgwidth20px !importantheight20px !importantfill#DFAB52 !important.quran-text-groupdisplayflex !importantflex-directioncolumn !importantjustify-contentcenter !importantmin-width0 !importantflex1 1 auto !importantoverflowhidden !important.quran-title-rowdisplayflex !importantalign-itemscenter !importantgap5px !importantmin-width0 !importantoverflowhidden !important.quran-main-titlefont-size0.88rem !importantfont-weight900 !importantcolor#FFFFFF !importantletter-spacing-0.2px !importantwhite-spacenowrap !importantline-height1.2 !important.quran-free-badgebackgroundrgba(161851290.2) !importantborder1px solid rgba(161851290.5) !importantcolor#34d399 !importantfont-size9.5px !importantfont-weight800 !importantpadding1px 5px !importantborder-radius5px !importantline-height1.2 !importantwhite-spacenowrap !importantflex-shrink0 !importantbox-shadownone !important.quran-sub-labelfont-size0.71rem !importantcolor#94A3B8 !importantmargin-top2px !importantwhite-spacenowrap !importantoverflowhidden !importanttext-overflowellipsis !importantdisplayblock !importantline-height1.2 !important.quran-strip-actionsdisplayflex !importantalign-itemscenter !importantgap5px !importantflex-shrink0 !important.quran-btndisplayinline-flex !importantalign-itemscenter !importantjustify-contentcenter !importantgap4px !importantpadding5px 9px !importantborder-radius8px !importantfont-size0.78rem !importantfont-weight800 !importanttext-decorationnone !importantcursorpointer !importanttransitionall 0.2s cubic-bezier(0.400.21) !importantbordernone !importantline-height1.2 !importantwhite-spacenowrap !importantmin-height32px !important.quran-btn svgwidth13px !importantheight13px !importantflex-shrink0 !important.quran-btn-readbackgroundlinear-gradient(135deg#E8BD6D 0%#DFAB52 50%#C48E33 100%) !importantcolor#0A0E17 !importantborder1px solid rgba(2552552550.35) !importantbox-shadow0 3px 12px rgba(223171820.35) !important.quran-btn-read svgfill#0A0E17 !important.quran-btn-readhoverbackgroundlinear-gradient(135deg#F0C97F 0%#E5B562 50%#D19A3F 100%) !importantbox-shadow0 4px 16px rgba(223171820.5) !importanttransformtranslateY(-1px) !important.quran-btn-downloadbackgroundrgba(223171820.12) !importantcolor#DFAB52 !importantborder1px solid rgba(223171820.45) !important.quran-btn-download svgfill#DFAB52 !important.quran-btn-downloadhoverbackgroundrgba(223171820.25) !importantborder-color#DFAB52 !importantcolor#FFFFFF !importanttransformtranslateY(-1px) !important.quran-btn-downloadhover svgfill#FFFFFF !importantbody.quran-reading-modeoverflowhidden !importantpositionfixed !importantwidth100% !importantheight100% !importantbody.quran-reading-mode .bottom-nav-barbody.quran-reading-mode #bottomNavbody.quran-reading-mode navdisplaynone !importantvisibilityhidden !importantopacity0 !importantpointer-eventsnone !importanttransformtranslateY(100px) !important#quran-modalpositionfixed !importantinset0 !importantwidth100vw !importantheight100dvh !importantz-index2147483647 !importantdisplaynonebackground#040711 !importantpadding0 !importantmargin0 !importantbox-sizingborder-box !important#quran-modal.activedisplayflex !importantflex-directioncolumn !important.quran-reader-stagepositionrelative !importantwidth100% !importantheight100% !importantdisplayflex !importantflex-directioncolumn !importantbackground#040711 !importantoverflowhidden !important.quran-modern-headerpositionabsolute !importanttop0 !importantleft0 !importantright0 !importantz-index100 !importantpaddingmax(10pxenv(safe-area-inset-top)) 14px 10px 14px !importantdisplayflex !importantalign-itemscenter !importantjustify-contentspace-between !importantgap10px !importantbackgroundlinear-gradient(180degrgba(610200.96) 0%rgba(610200.85) 75%rgba(610200) 100%) !importantbackdrop-filterblur(16px) !important-webkit-backdrop-filterblur(16px) !importanttransitiontransform 0.28s cubic-bezier(0.400.21)opacity 0.28s ease !important.quran-modern-header.ui-hiddentransformtranslateY(-100%) !importantopacity0 !importantpointer-eventsnone !important.quran-hdr-startdisplayflex !importantalign-itemscenter !importantgap8px !importantflex1 1 auto !importantmin-width0 !important.quran-hdr-circle-btnwidth36px !importantheight36px !importantborder-radius50% !importantbackgroundrgba(223171820.1) !importantborder1px solid rgba(223171820.28) !importantcolor#DFAB52 !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantcursorpointer !importantpadding0 !importantflex-shrink0 !importanttransitionall 0.18s ease !importanttouch-actionmanipulation !important.quran-hdr-circle-btn svgwidth18px !importantheight18px !importantfill#DFAB52 !important.quran-hdr-circle-btnactivetransformscale(0.92) !importantbackgroundrgba(223171820.25) !important.quran-hdr-closebackgroundrgba(23968680.14) !importantborder-colorrgba(23968680.35) !important.quran-hdr-close svgfill#f87171 !important.quran-surah-pillpositionrelative !importantdisplayflex !importantalign-itemscenter !importantgap6px !importantbackgroundrgba(1320360.85) !importantborder1px solid rgba(223171820.4) !importantborder-radius24px !importantpadding4px 10px !importantmax-width220px !importantbox-shadow0 4px 12px rgba(0000.3) !important.quran-surah-iconwidth15px !importantheight15px !importantfill#DFAB52 !importantflex-shrink0 !important.quran-surah-selectbackgroundtransparent !importantbordernone !importantcolor#DFAB52 !importantfont-size0.82rem !importantfont-weight800 !importantoutlinenone !importantcursorpointer !importantwidth100% !importantpadding-right2px !important.quran-surah-select optionbackground#080D1A !importantcolor#FFFFFF !important.quran-hdr-enddisplayflex !importantalign-itemscenter !importantgap6px !importantflex-shrink0 !important.quran-hdr-download-btnbackgroundlinear-gradient(135degrgba(223171820.2) 0%rgba(184134110.32) 100%) !importantborder1px solid rgba(223171820.5) !importantcolor#DFAB52 !importantborder-radius20px !importantpadding6px 12px !importantfont-size0.78rem !importantfont-weight800 !importantcursorpointer !importantdisplayinline-flex !importantalign-itemscenter !importantgap5px !importantmin-height34px !importanttransitionall 0.18s ease !importantwhite-spacenowrap !importantbox-shadow0 4px 12px rgba(0000.3) !important.quran-hdr-download-btn svgwidth15px !importantheight15px !importantfill#DFAB52 !important.quran-hdr-download-btnactivetransformscale(0.94) !important.quran-modern-viewerflex1 1 auto !importantpositionrelative !importantwidth100% !importantheight100% !importantbackground#040711 !importantoverflowhidden !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantuser-selectnone !important-webkit-user-selectnone !importanttouch-actionnone !important.quran-edge-tappositionabsolute !importanttop0 !importantbottom0 !importantwidth18% !importantmax-width80px !importantz-index20 !importantcursorpointer !importantopacity0 !important.quran-edge-rightright0 !important.quran-edge-leftleft0 !important.quran-viewport-scrollwidth100% !importantheight100% !importantdisplayflex !importantalign-itemscenter !importantjustify-contentcenter !importantoverflowhidden !importanttransitionbackground 0.25s easefilter 0.25s ease !important.quran-viewport-scroll.theme-sepiabackground#211c15 !importantfiltersepia(0.32) contrast(1.05) brightness(0.96) !important.quran-viewport-scroll.theme-nightbackground#020408 !importantfilterinvert(0.92) hue-rotate(180deg) contrast(1.15) !important.quran-page-imgdisplayblock !importantmax-width98% !importantmax-height98% !importantwidthauto !importantheightauto !importantobject-fitcontain !importantmarginauto !importantbackground#ffffff !importantborder-radius6px !importantbox-shadow0 12px 40px rgba(0000.9)0 0 25px rgba(223171820.12) !importanttransform-origincenter center !importantwill-changetransform !importantimage-rendering-webkit-optimize-contrast !importantimage-renderingcrisp-edges !important.quran-zoom-reset-btnpositionabsolute !importanttop70px !importantleft50% !importanttransformtranslateX(-50%) !importantz-index90 !importantbackgroundrgba(813240.88) !importantborder1px solid rgba(223171820.45) !importantcolor#DFAB52 !importantpadding5px 12px !importantborder-radius16px !importantfont-size0.76rem !importantfont-weight800 !importantcursorpointer !importantbackdrop-filterblur(8px) !importantbox-shadow0 4px 15px rgba(0000.5) !importantanimationquranFadeIn 0.2s ease-out !important@keyframes quranFadeInfromopacity0transformtranslate(-50%-8px)toopacity1transformtranslate(-50%0).quran-modern-bottompositionabsolute !importantbottom0 !importantleft0 !importantright0 !importantwidth100% !importantmax-width100vw !importantbox-sizingborder-box !importantz-index100 !importantpadding6px 8px max(8pxenv(safe-area-inset-bottom)) 8px !importantdisplayflex !importantalign-itemscenter !importantjustify-contentspace-between !importantgap5px !importantbackgroundlinear-gradient(0degrgba(610200.98) 0%rgba(610200.9) 70%rgba(610200) 100%) !importantbackdrop-filterblur(16px) !important-webkit-backdrop-filterblur(16px) !importanttransitiontransform 0.28s cubic-bezier(0.400.21)opacity 0.28s ease !important.quran-modern-bottom.ui-hiddentransformtranslateY(100%) !importantopacity0 !importantpointer-eventsnone !important.quran-capsule-nav-btnbackgroundlinear-gradient(135degrgba(223171820.2) 0%rgba(184134110.35) 100%) !importantborder1px solid rgba(223171820.45) !importantcolor#FFFFFF !importantpadding5px 8px !importantborder-radius16px !importantfont-size0.72rem !importantfont-weight800 !importantcursorpointer !importantdisplayinline-flex !importantalign-itemscenter !importantgap3px !importantmin-height32px !importanttransitionall 0.18s ease !importantflex-shrink0 !importanttouch-actionmanipulation !importantbox-shadow0 4px 12px rgba(0000.3) !important.quran-capsule-nav-btn svgwidth14px !importantheight14px !importantfill#DFAB52 !important.quran-capsule-nav-btnactivetransformscale(0.93) !important.quran-capsule-centerdisplayflex !importantalign-itemscenter !importantgap5px !importantflex1 1 auto !importantmin-width0 !importantmax-width320px !importantjustify-contentcenter !important.quran-capsule-badgebackgroundrgba(1016300.9) !importantborder1px solid rgba(223171820.35) !importantborder-radius12px !importantpadding2px 6px !importantdisplayflex !importantalign-itemscenter !importantgap2px !importantcolor#DFAB52 !importantfont-weight800 !importantfont-size0.72rem !importantflex-shrink0 !important.quran-page-number-inputwidth32px !importanttext-aligncenter !importantbackgroundrgba(223171820.12) !importantborder1px solid rgba(223171820.3) !importantcolor#FFFFFF !importantfont-weight900 !importantfont-size0.75rem !importantborder-radius4px !importantpadding1px 0 !importantoutlinenone !important.quran-capsule-sepcolorrgba(223171820.5) !important.quran-page-sliderflex1 1 35px !importantmin-width30px !importantmax-width120px !importantheight4px !importantaccent-color#DFAB52 !importantcursorpointer !importantbackgroundrgba(223171820.2) !importantborder-radius4px !importantoutlinenone !important.quran-bookmark-chipbackgroundrgba(161851290.2) !importantborder1px solid rgba(161851290.45) !importantcolor#34d399 !importantborder-radius12px !importantpadding2px 6px !importantfont-size0.68rem !importantfont-weight800 !importantdisplayinline-flex !importantalign-itemscenter !importantgap2px !importantcursorpointer !importantflex-shrink0 !importantwhite-spacenowrap !important.quran-bookmark-chip svgwidth10px !importantheight10px !importantfill#34d399 !important@media (max-width768px).quran-modern-headerpaddingmax(6pxenv(safe-area-inset-top)) 8px 6px 8px !importantgap6px !important.quran-surah-pillmax-width140px !importantpadding3px 6px !important.quran-surah-selectfont-size0.72rem !important.quran-hdr-download-btnpadding4px 7px !importantfont-size0.7rem !important.quran-capsule-nav-btnpadding4px 7px !importantfont-size0.7rem !importantmin-height30px !important.quran-page-imgmax-width100% !importantmax-height100% !importantborder-radius0 !important@media (max-width380px).quran-surah-pillmax-width110px !important.quran-hdr-download-btn spandisplaynone !important.quran-hdr-download-btnpadding6px !importantborder-radius50% !important.quran-page-slidermin-width25px !important.designer-credits-blockdisplaynone !importanthtml.speed-selection-disabled #speedSelectionPopdownhtml.speed-selection-disabled .speed-selection-popdown-containerhtml.speed-selection-disabled .speed-selection-cardhtml.speed-selection-disabled .speed-selection-outer-headerhtml.speed-selection-disabled #statusSpeedChangeContainerhtml.speed-selection-disabled #statusSpeedTriggerhtml.speed-selection-disabled #speed-modalhtml.speed-selection-disabled #status-speed-modalbody.speed-selection-disabled #speedSelectionPopdownbody.speed-selection-disabled .speed-selection-popdown-containerbody.speed-selection-disabled .speed-selection-cardbody.speed-selection-disabled .speed-selection-outer-headerbody.speed-selection-disabled #statusSpeedChangeContainerbody.speed-selection-disabled #statusSpeedTriggerbody.speed-selection-disabled #speed-modalbody.speed-selection-disabled #status-speed-modaldisplaynone !importantvisibilityhidden !importantpointer-eventsnone !importantheight0 !importantmargin0 !importantpadding0 !importantoverflowhidden !importanthtml.news-ticker-disabled #newsTickerLoginSectionhtml.news-ticker-disabled #newsTickerStatusSectionhtml.news-ticker-disabled [data-news-ticker]html.news-ticker-disabled .ticker-containerbody.news-ticker-disabled #newsTickerLoginSectionbody.news-ticker-disabled #newsTickerStatusSectionbody.news-ticker-disabled [data-news-ticker]body.news-ticker-disabled .ticker-containerdisplaynone !importantvisibilityhidden !importantpointer-eventsnone !importantheight0 !importantmargin0 !importantpadding0 !importantoverflowhidden !important
+/*
+ * ══════════════════════════════════════════════════════════════════
+ *   ملف الألوان والتصميم الفاخر — طبق الأصل من تصميم الشيباني نت
+ *   theme-colors.css — ثيم الذهب العسلي الملكي الدافئ الغني (Warm Royal Honey Gold)
+ *   تدرجات #DFAB52 و #D49E48 مع النصوص البيضاء الصافية والخلفية الكحلية الداكنة
+ * ══════════════════════════════════════════════════════════════════
+ */
+
+/* ══════════════════════════════════════════════════════════════════
+   1. المتغيرات الجذرية — درجات الذهب العسلي الملكي الغني المطابقة 100%
+   ══════════════════════════════════════════════════════════════════ */
+:root {
+  /* ─── درجات الذهب العسلي الملكي الغني المطابق تماماً لتصميم الشيباني نت ─── */
+  --color-gold-rich:       #DFAB52;   /* ذهبي عسلي دافئ غني مشبع وبارز */
+  --color-gold-dark:       #C48E33;   /* ذهبي عميق دافئ */
+  --color-gold-glow:       rgba(223, 171, 82, 0.42); /* وهج ذهبي دافئ ناعم */
+  --color-gold-main:       #D49E48;   /* درجة الشيباني نت الكلاسيكية */
+  --color-gold-light:      #E8BD6D;   /* بداية تدرج الزر الدافئة */
+  --color-gold-ultra:      #FDF2DD;   /* عاجي دافئ فاتح */
+  
+  --color-primary:         #DFAB52;   /* ذهبي أساسي */
+  --color-primary-dark:    #C48E33;   /* نهاية تدرج الأزرار والكبسولات */
+  --color-primary-light:   #E8BD6D;   /* بداية تدرج الأزرار */
+  --color-primary-glow:    rgba(223, 171, 82, 0.45); /* وهج الأزرار */
+
+  /* ─── النصوص — بيضاء ناصعة ورمادية فضية فائقة الوضوح ─── */
+  --color-text-main:       #FFFFFF;   /* أبيض ناصع صافٍ للعناوين والنصوص */
+  --color-text-title:      #FFFFFF;   /* أبيض ناصع 100% لاسم الشبكة والعناوين */
+  --color-text-gold:       #DFAB52;   /* ذهبي عسلي دافئ */
+  --color-text-sub:        #CBD5E1;   /* رمادي فضي ناعم وواضح جداً للنصوص الثانوية */
+  --color-text-dim:        #94A3B8;   /* رمادي متوسط للوصف الهادئ */
+  --color-text-placeholder:#64748B;   /* تلميحات الحقول الإرشادية */
+
+  /* ─── الألوان المساندة ─── */
+  --color-green:           #10B981;   /* أخضر زمردي لشارة متصل وواتساب */
+  --color-green-light:     #34D399;   /* أخضر مشع */
+  --color-red:             #EF4444;   /* أحمر للبث المباشر LIVE والتنبيهات */
+  --color-cyan:            #DFAB52;   /* ذهبي دافئ */
+
+  /* ─── أسطح وخلفيات كحلية واضحة ومتباينة بفخامة (Elevated Midnight Slate) ─── */
+  --color-bg-page:         #060911;   /* خلفية ليلية داكنة جداً وفخمة */
+  --color-bg-header:       #080E1A;   /* هيدر داكن */
+  --color-bg-card:         #131E35;   /* بطاقات كحلية أفتح قليلاً وبارزة بوضوح عن الصفحة */
+  --color-bg-card-hover:   #192744;   /* بطاقة عند التحويم */
+  --color-bg-input:        #0C1424;   /* حقول الإدخال والكبسولات */
+  --color-bg-surface:      #16233D;   /* سطح ثانوي */
+
+  /* ─── الشفافيات الذهبية والحدود النحيفة الأنيقة (Hairline Borders) ─── */
+  --color-gold-pale:       rgba(223, 171, 82, 0.14); /* خلفية الأيقونات والشارات */
+  --color-gold-border:     rgba(223, 171, 82, 0.42); /* إطارات ذهبية نحيفة وواضحة دافئة */
+  --color-border:          rgba(223, 171, 82, 0.25); /* حدود البطاقات النحيفة */
+  --color-border-mid:      rgba(223, 171, 82, 0.35); /* حدود الحقول والكبسولات */
+  --color-border-focus:    #DFAB52;                  /* تركيز الحقول */
+
+  /* ─── الظلال الهادئة المتناسقة مع تصميم الصورة ─── */
+  --shadow-card:           0 10px 30px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(223, 171, 82, 0.22);
+  --shadow-card-hover:     0 14px 36px rgba(0, 0, 0, 0.75), 0 0 16px rgba(223, 171, 82, 0.25);
+  --shadow-btn:            0 4px 18px rgba(223, 171, 82, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.38);
+  --shadow-nav:            0 -4px 30px rgba(0, 0, 0, 0.75), 0 -1px 0 rgba(223, 171, 82, 0.2);
+  --glow-gold:             0 0 14px rgba(223, 171, 82, 0.45);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   2. الخلفية العامة للصفحة والشاشات
+   ══════════════════════════════════════════════════════════════════ */
+
+html,
+body,
+.container,
+.screen,
+.screen-content,
+.screen__content,
+.login,
+#login,
+#status,
+.screen-background {
+  background:       var(--color-bg-page) !important;
+  background-color: var(--color-bg-page) !important;
+  color:            var(--color-text-main) !important;
+}
+
+body {
+  background-color: #060911 !important;
+  background-image: 
+    radial-gradient(circle at 50% 12%, rgba(223, 171, 82, 0.09) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(12, 19, 34, 0.8) 0%, transparent 60%),
+    radial-gradient(circle at 20% 50%, rgba(8, 14, 26, 0.9) 0%, transparent 60%) !important;
+  background-attachment: fixed !important;
+}
+
+/* إخفاء الأشكال العشوائية القديمة */
+.screen-background-shape,
+.screen-background-shape1,
+.screen-background-shape2,
+.screen-background-shape3,
+.screen-background-shape4,
+.screen-background-shape5,
+.screen-background-shape6,
+.screen-background-shape7,
+.screen-background-shape8,
+.floating-icons {
+  display: none !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   3. بطاقة الهوية الفاخرة للشبكة (تصميم الشيباني نت الملكي الكامل)
+   ══════════════════════════════════════════════════════════════════ */
+
+.aloula-hero-card {
+  position:      relative !important;
+  margin-top:    0 !important;
+  background:    radial-gradient(120% 100% at 50% 120%, rgba(223, 171, 82, 0.16) 0%, rgba(196, 142, 51, 0.08) 35%, #080e1a 75%, #050811 100%) !important;
+  border:        1.5px solid rgba(223, 171, 82, 0.45) !important;
+  border-radius: 20px !important;
+  padding:       13px 14px !important;
+  margin-bottom: 6px !important;
+  box-shadow:    0 10px 32px rgba(0, 0, 0, 0.7), 0 0 28px rgba(223, 171, 82, 0.16), inset 0 1px 0 rgba(255, 235, 180, 0.25) !important;
+  width:         100% !important;
+  box-sizing:    border-box !important;
+  overflow:      hidden !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+}
+
+/* طبقة لهب وشعلات متصاعدة ومنتشرة عالية الأداء (Pure CSS GPU Embers) */
+.aloula-flame-ambient-layer {
+  position:       absolute !important;
+  inset:          0 !important;
+  width:          100% !important;
+  height:         100% !important;
+  pointer-events: none !important;
+  z-index:        1 !important;
+  overflow:       hidden !important;
+}
+
+.flame-glow-base {
+  position:       absolute !important;
+  bottom:         -18px !important;
+  left:           10% !important;
+  right:          10% !important;
+  height:         50px !important;
+  background:     radial-gradient(ellipse at bottom, rgba(223, 171, 82, 0.38) 0%, rgba(232, 189, 109, 0.15) 50%, transparent 80%) !important;
+  filter:         blur(8px) !important;
+  animation:      flamePulse 3s ease-in-out infinite alternate !important;
+  will-change:    opacity, transform !important;
+}
+
+.flame-ember {
+  position:       absolute !important;
+  border-radius:  50% !important;
+  pointer-events: none !important;
+  will-change:    transform, opacity !important;
+}
+
+.flame-ember.ember-1 {
+  width: 5px; height: 5px;
+  background: #FDF2DD;
+  box-shadow: 0 0 10px 3px rgba(223, 171, 82, 0.9), 0 0 4px #fff;
+  bottom: 12px; left: 22%;
+  animation: emberRise1 3.2s infinite ease-in-out;
+}
+
+.flame-ember.ember-2 {
+  width: 4px; height: 4px;
+  background: #DFAB52;
+  box-shadow: 0 0 8px 2px rgba(196, 142, 51, 0.85);
+  bottom: 8px; left: 45%;
+  animation: emberRise2 3.8s infinite ease-in-out 0.6s;
+}
+
+.flame-ember.ember-3 {
+  width: 6px; height: 6px;
+  background: #E8BD6D;
+  box-shadow: 0 0 12px 4px rgba(223, 171, 82, 0.95), 0 0 3px #fff;
+  bottom: 15px; left: 70%;
+  animation: emberRise3 3.5s infinite ease-in-out 1.2s;
+}
+
+.flame-ember.ember-4 {
+  width: 3.5px; height: 3.5px;
+  background: #C48E33;
+  box-shadow: 0 0 8px 2px rgba(223, 171, 82, 0.9);
+  bottom: 6px; left: 33%;
+  animation: emberRise1 4s infinite ease-in-out 1.8s;
+}
+
+.flame-ember.ember-5 {
+  width: 4.5px; height: 4.5px;
+  background: #F0C97F;
+  box-shadow: 0 0 10px 3px rgba(223, 171, 82, 0.9);
+  bottom: 10px; left: 82%;
+  animation: emberRise2 3.4s infinite ease-in-out 0.9s;
+}
+
+.flame-ember.ember-6 {
+  width: 3px; height: 3px;
+  background: #DFAB52;
+  box-shadow: 0 0 6px 2px rgba(196, 142, 51, 0.8);
+  bottom: 14px; left: 58%;
+  animation: emberRise3 4.2s infinite ease-in-out 2.1s;
+}
+
+.flame-ember.ember-7 {
+  width: 4px; height: 4px;
+  background: #E5B562;
+  box-shadow: 0 0 8px 2px rgba(223, 171, 82, 0.85);
+  bottom: 16px; left: 12%;
+  animation: emberRise2 3.6s infinite ease-in-out 1.5s;
+}
+
+.flame-ember.ember-8 {
+  width: 5px; height: 5px;
+  background: #DFAB52;
+  box-shadow: 0 0 10px 3px rgba(223, 171, 82, 0.9);
+  bottom: 11px; right: 18%;
+  animation: emberRise1 3.7s infinite ease-in-out 0.3s;
+}
+
+@keyframes flamePulse {
+  0% { opacity: 0.65; transform: scaleX(0.95); }
+  100% { opacity: 1; transform: scaleX(1.05); }
+}
+
+@keyframes emberRise1 {
+  0% { transform: translate3d(0, 0, 0) scale(0.6); opacity: 0; }
+  20% { opacity: 0.95; }
+  70% { opacity: 0.85; transform: translate3d(-8px, -45px, 0) scale(1.1); }
+  100% { transform: translate3d(-14px, -80px, 0) scale(0.3); opacity: 0; }
+}
+
+@keyframes emberRise2 {
+  0% { transform: translate3d(0, 0, 0) scale(0.5); opacity: 0; }
+  25% { opacity: 1; }
+  65% { opacity: 0.75; transform: translate3d(10px, -50px, 0) scale(1); }
+  100% { transform: translate3d(18px, -90px, 0) scale(0.2); opacity: 0; }
+}
+
+@keyframes emberRise3 {
+  0% { transform: translate3d(0, 0, 0) scale(0.6); opacity: 0; }
+  18% { opacity: 0.95; }
+  60% { opacity: 0.8; transform: translate3d(-6px, -40px, 0) scale(1.2); }
+  100% { transform: translate3d(-10px, -75px, 0) scale(0.25); opacity: 0; }
+}
+
+/* طبقة الأمواج والوهج الخلفي */
+.aloula-bg-glow-layer {
+  position:       absolute !important;
+  inset:          0 !important;
+  width:          100% !important;
+  height:         100% !important;
+  pointer-events: none !important;
+  z-index:        1 !important;
+  overflow:       hidden !important;
+}
+
+.aloula-bg-waves {
+  width:          100% !important;
+  height:         100% !important;
+  display:        block !important;
+  opacity:        0.9 !important;
+}
+
+/* الشريط العلوي للبطاقة */
+.aloula-top-bar {
+  display:         flex !important;
+  justify-content: flex-start !important;
+  align-items:     center !important;
+  width:           100% !important;
+  direction:       rtl !important;
+  position:        relative !important;
+  z-index:         3 !important;
+  margin-bottom:   6px !important;
+}
+
+/* شارة متصل الفاخرة */
+.aloula-status-pill {
+  display:         inline-flex !important;
+  align-items:     center !important;
+  gap:             5px !important;
+  background:      rgba(7, 14, 26, 0.85) !important;
+  border:          1px solid rgba(16, 185, 129, 0.45) !important;
+  border-radius:   9999px !important;
+  padding:         4px 10px !important;
+  color:           #34D399 !important;
+  font-size:       11.5px !important;
+  font-weight:     800 !important;
+  box-shadow:      0 2px 8px rgba(0, 0, 0, 0.5), 0 0 10px rgba(16, 185, 129, 0.2) !important;
+}
+
+/* القسم الأوسط الرئيسي */
+.aloula-main-row {
+  display:         flex !important;
+  align-items:     center !important;
+  justify-content: space-between !important;
+  gap:             8px !important;
+  width:           100% !important;
+  direction:       rtl !important;
+  position:        relative !important;
+  z-index:         3 !important;
+  margin:          0 !important;
+}
+
+/* جهة اليمين: عنوان وهوية الشبكة */
+.aloula-brand-col {
+  flex:            1 1 auto !important;
+  display:         flex !important;
+  flex-direction:  column !important;
+  align-items:     center !important;
+  justify-content: center !important;
+  text-align:      center !important;
+  min-width:       0 !important;
+}
+
+.aloula-title-wrap {
+  display:         flex !important;
+  align-items:     center !important;
+  justify-content: center !important;
+  width:           100% !important;
+}
+
+.aloula-title-line {
+  display:         inline-flex !important;
+  align-items:     center !important;
+  justify-content: center !important;
+  gap:             10px !important;
+  direction:       rtl !important;
+  position:        relative !important;
+}
+
+/* كلمة الأولى (أبيض ناصع) */
+.brand-name-white {
+  position:        relative !important;
+  display:         inline-flex !important;
+  align-items:     center !important;
+  justify-content: center !important;
+}
+
+.brand-name-white .name-text {
+  font-size:       clamp(28px, 8.8vw, 40px) !important;
+  font-weight:     900 !important;
+  color:           #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  line-height:     1.15 !important;
+  letter-spacing:  -0.5px !important;
+  white-space:     nowrap !important;
+  text-shadow:     0 4px 18px rgba(0, 0, 0, 0.95), 0 0 16px rgba(255, 255, 255, 0.3) !important;
+}
+
+/* كلمة نت (ذهبي براق ملكي كبير) */
+.brand-net-gold {
+  font-size:       clamp(28px, 8.8vw, 40px) !important;
+  font-weight:     900 !important;
+  background:      linear-gradient(135deg, #FFF0B8 0%, #F5D78E 25%, #DFAB52 60%, #B88022 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  line-height:     1.15 !important;
+  letter-spacing:  -0.5px !important;
+  white-space:     nowrap !important;
+  filter:          drop-shadow(0 4px 12px rgba(223, 171, 82, 0.65)) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.95)) !important;
+}
+
+/* السطر الفرعي (— للإنترنت اللاسلكي —) */
+.aloula-subtitle-line {
+  display:         flex !important;
+  align-items:     center !important;
+  justify-content: center !important;
+  gap:             6px !important;
+  margin-top:      6px !important;
+  direction:       rtl !important;
+  width:           100% !important;
+}
+
+.sub-dec-line {
+  width:           22px !important;
+  height:          1px !important;
+  background:      linear-gradient(90deg, transparent, #DFAB52) !important;
+  opacity:         0.7 !important;
+}
+
+.aloula-subtitle-line:last-child .sub-dec-line {
+  background:      linear-gradient(90deg, #DFAB52, transparent) !important;
+}
+
+.sub-dec-dot {
+  font-size:       7px !important;
+  color:           #DFAB52 !important;
+  opacity:         0.9 !important;
+  line-height:     1 !important;
+}
+
+.sub-dec-text {
+  font-size:       clamp(12px, 3.5vw, 14px) !important;
+  font-weight:     800 !important;
+  color:           #E5B562 !important;
+  letter-spacing:  0.4px !important;
+  white-space:     nowrap !important;
+  text-shadow:     0 1px 4px rgba(0, 0, 0, 0.9) !important;
+}
+
+/* جهة اليسار: الهالة الدائرية الذهبية المشعة مع رمز الواي فاي */
+.aloula-halo-col {
+  flex-shrink:     0 !important;
+  width:           96px !important;
+  height:          96px !important;
+  display:         flex !important;
+  align-items:     center !important;
+  justify-content: center !important;
+  position:        relative !important;
+  margin-top:      0 !important;
+}
+
+.aloula-halo-orb {
+  position:        relative !important;
+  width:           86px !important;
+  height:          86px !important;
+  border-radius:   50% !important;
+  display:         flex !important;
+  align-items:     center !important;
+  justify-content: center !important;
+}
+
+.halo-ring-outer {
+  position:        absolute !important;
+  inset:           -5px !important;
+  border-radius:   50% !important;
+  border:          1px solid rgba(223, 171, 82, 0.35) !important;
+  box-shadow:      0 0 16px rgba(223, 171, 82, 0.3) !important;
+}
+
+.halo-ring-inner {
+  position:        absolute !important;
+  inset:           1px !important;
+  border-radius:   50% !important;
+  border:          1.5px solid rgba(223, 171, 82, 0.65) !important;
+  background:      radial-gradient(circle, #101B2E 0%, #060B14 100%) !important;
+  box-shadow:      0 0 18px rgba(223, 171, 82, 0.45), inset 0 0 16px rgba(223, 171, 82, 0.3) !important;
+}
+
+/* بريق ونجوم الهالة الذهبية */
+.halo-spark {
+  position:        absolute !important;
+  width:           4px !important;
+  height:          4px !important;
+  border-radius:   50% !important;
+  background:      #FFF8DC !important;
+  box-shadow:      0 0 8px 2px rgba(223, 171, 82, 0.9) !important;
+  z-index:         4 !important;
+}
+
+.spark-1 { top: 4px; right: 12px; }
+.spark-2 { bottom: 8px; left: 8px; width: 3px; height: 3px; }
+.spark-3 { top: 34px; right: -2px; width: 2.5px; height: 2.5px; }
+
+/* أيقونة الواي فاي الكبيرة ثلاثية الأبعاد داخل الهالة */
+.aloula-halo-wifi-svg {
+  width:           48px !important;
+  height:          48px !important;
+  position:        relative !important;
+  z-index:         3 !important;
+  filter:          drop-shadow(0 2px 12px rgba(0, 0, 0, 0.85)) !important;
+}
+
+.aloula-halo-wifi-svg .wifi-sig {
+  fill:            #DFAB52 !important;
+  animation:       wifiHaloPulse 2s infinite ease-in-out !important;
+  transform-origin: 12px 19.5px !important;
+}
+
+.aloula-halo-wifi-svg .wifi-sig-dot {
+  fill: #FFFFFF !important;
+  animation-delay: 0s !important;
+}
+.aloula-halo-wifi-svg .wifi-sig-1 {
+  fill: #FDE68A !important;
+  animation-delay: 0.25s !important;
+}
+.aloula-halo-wifi-svg .wifi-sig-2 {
+  fill: #DFAB52 !important;
+  animation-delay: 0.5s !important;
+}
+.aloula-halo-wifi-svg .wifi-sig-3 {
+  fill: #C48E33 !important;
+  animation-delay: 0.75s !important;
+}
+
+@keyframes wifiHaloPulse {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.96);
+  }
+  30%, 65% {
+    opacity: 1;
+    transform: scale(1);
+    filter: drop-shadow(0 0 8px rgba(223, 171, 82, 0.9));
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(0.96);
+  }
+}
+
+/* الشريط السفلي المدمج للمميزات الثلاث (اتصال سريع | خدمة مميزة | ثقة متجددة) */
+.aloula-features-strip {
+  display:         flex !important;
+  align-items:     center !important;
+  justify-content: space-around !important;
+  width:           100% !important;
+  padding-top:     8px !important;
+  border-top:      1px solid rgba(223, 171, 82, 0.18) !important;
+  direction:       rtl !important;
+  position:        relative !important;
+  z-index:         3 !important;
+  box-sizing:      border-box !important;
+}
+
+.aloula-feature-item {
+  display:         flex !important;
+  flex-direction:  column !important;
+  align-items:     center !important;
+  gap:             4px !important;
+  flex:            1 !important;
+  text-align:      center !important;
+}
+
+.aloula-feat-icon {
+  width:           17px !important;
+  height:          17px !important;
+  fill:            #DFAB52 !important;
+  filter:          drop-shadow(0 0 6px rgba(223, 171, 82, 0.6)) !important;
+}
+
+.aloula-feat-text {
+  font-size:       11px !important;
+  font-weight:     700 !important;
+  color:           #CBD5E1 !important;
+  line-height:     1.15 !important;
+  white-space:     nowrap !important;
+}
+
+.aloula-feat-divider {
+  width:           1px !important;
+  height:          22px !important;
+  background:      rgba(223, 171, 82, 0.2) !important;
+  flex-shrink:     0 !important;
+}
+
+/* التوافقية مع العناصر القديمة إن وجدت */
+.network-hero-card,
+.network-features-strip-card {
+  display: none !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   4. الشريط الإخباري المتحرك (Ticker)
+   ══════════════════════════════════════════════════════════════════ */
+
+.ads-carousel-wrapper {
+  margin-bottom: 6px !important;
+}
+
+.section,
+#newsTickerLoginSection {
+  margin-bottom: 6px !important;
+}
+
+.ticker-container {
+  background:    linear-gradient(165deg, #131E35 0%, #0E1729 100%) !important;
+  border:        1px solid rgba(223, 171, 82, 0.28) !important;
+  border-radius: 12px !important;
+  box-shadow:    0 4px 18px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  padding:       6px 12px !important;
+}
+
+.marquee {
+  color:       #F3D08A !important; /* لون ذهبي عسلي أفتح وأكثر إشراقاً ووضوحاً */
+  font-weight: 700 !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7) !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   5. العنوان الرئيسي h1
+   ══════════════════════════════════════════════════════════════════ */
+
+h1 {
+  color:           #DFAB52 !important;
+  background:      none !important;
+  -webkit-text-fill-color: #DFAB52 !important;
+  filter:          drop-shadow(0 2px 6px rgba(0, 0, 0, 0.7)) !important;
+  text-shadow:     none !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   6. الكاروسيل الإعلاني (Carousel)
+   ══════════════════════════════════════════════════════════════════ */
+
+.carousel-dot {
+  background: rgba(223, 171, 82, 0.25) !important;
+}
+.carousel-dot.active {
+  background:  #DFAB52 !important;
+  box-shadow:  0 0 10px var(--color-primary-glow) !important;
+}
+.carousel-nav-btn {
+  background: rgba(8, 13, 24, 0.88) !important;
+  border:     1px solid rgba(223, 171, 82, 0.38) !important;
+  color:      #DFAB52 !important;
+  backdrop-filter: blur(8px) !important;
+}
+.carousel-nav-btn:hover {
+  background: rgba(223, 171, 82, 0.2) !important;
+  border-color: #DFAB52 !important;
+  box-shadow: 0 0 10px rgba(223, 171, 82, 0.45) !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   7. تنبيه نظام النقاط
+   ══════════════════════════════════════════════════════════════════ */
+
+.points-notice-alert {
+  background:    var(--color-bg-card) !important;
+  border:        1px solid var(--color-border) !important;
+  border-radius: 14px !important;
+  box-shadow:    var(--shadow-card) !important;
+}
+
+.notice-icon-wrap {
+  background: rgba(239, 68, 68, 0.15) !important;
+  border:     1px solid rgba(239, 68, 68, 0.3) !important;
+}
+.notice-icon { fill: var(--color-red) !important; }
+.notice-tag  { color: var(--color-red) !important; }
+.notice-text { color: var(--color-text-sub) !important; }
+
+
+/* ══════════════════════════════════════════════════════════════════
+   8. أزرار تسجيل الدخول (الذهب العسلي الداكن الدافئ المطابق للشيباني نت)
+   ══════════════════════════════════════════════════════════════════ */
+
+.login-submit-btn,
+.button.login-submit,
+button.login-submit,
+#mainLoginBtn {
+  background:    linear-gradient(135deg, #E8BD6D 0%, #DFAB52 50%, #C48E33 100%) !important;
+  color:         #0A0602 !important;
+  font-weight:   900 !important;
+  font-size:     17px !important;
+  text-shadow:   none !important;
+  border:        1px solid rgba(255, 235, 180, 0.5) !important;
+  border-radius: 14px !important;
+  min-height:    50px !important;
+  box-shadow:    0 6px 24px rgba(223, 171, 82, 0.45), 0 2px 6px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.45) !important;
+  letter-spacing: 0.4px !important;
+  display:       flex !important;
+  align-items:   center !important;
+  justify-content: center !important;
+  gap:           8px !important;
+  position:      relative !important;
+  overflow:      hidden !important;
+  transition:    all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.login-btn-wifi-icon {
+  width:       20px !important;
+  height:      20px !important;
+  fill:        #0A0602 !important;
+  flex-shrink: 0 !important;
+  transition:  transform 0.2s ease !important;
+}
+
+.login-submit-btn:hover,
+.button.login-submit:hover,
+button.login-submit:hover,
+#mainLoginBtn:hover {
+  background:  linear-gradient(135deg, #F0C97F 0%, #E5B562 50%, #D19A3F 100%) !important;
+  box-shadow:  0 8px 30px rgba(223, 171, 82, 0.6), 0 2px 8px rgba(0, 0, 0, 0.7) !important;
+  transform:   translateY(-1px) !important;
+  color:       #000000 !important;
+}
+
+.login-submit-btn:active,
+#mainLoginBtn:active {
+  transform:   scale(0.98) !important;
+  box-shadow:  0 3px 12px rgba(223, 171, 82, 0.45) !important;
+}
+
+.login-submit-btn:hover .login-btn-wifi-icon {
+  transform: scale(1.1) !important;
+}
+
+.login-submit-btn .button-text,
+.button.login-submit .button-text {
+  color:       #0A0602 !important;
+  fill:        #0A0602 !important;
+  text-shadow: none !important;
+  filter:      none !important;
+  font-weight: 900 !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   9. نظام البطاقات المنفصلة (أحدث معايير التصميم الفاخرة)
+   ══════════════════════════════════════════════════════════════════ */
+
+.login-form {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  width: 100% !important;
+}
+
+.app-card {
+  background:    linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
+  border:        1px solid rgba(223, 171, 82, 0.28) !important;
+  border-radius: 16px !important;
+  box-shadow:    0 8px 24px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  margin-bottom: 6px !important;
+  box-sizing:    border-box !important;
+  position:      relative !important;
+  transition:    box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease !important;
+}
+
+.app-card:hover {
+  background:    linear-gradient(165deg, #182642 0%, #121C32 100%) !important;
+  border-color:  rgba(223, 171, 82, 0.5) !important;
+  box-shadow:    0 10px 28px rgba(0, 0, 0, 0.65), 0 0 16px rgba(223, 171, 82, 0.18) !important;
+}
+
+.speed-selection-outer-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 3px !important;
+  padding: 0 4px !important;
+  gap: 8px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.speed-selection-card {
+  padding: 4px 8px !important;
+  margin-bottom: 5px !important;
+}
+
+.login-input-card {
+  padding: 12px 14px !important;
+  margin-bottom: 6px !important;
+}
+
+.login-input-card .login-submit-wrapper {
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  width: 100% !important;
+}
+
+.updates-toggle-card {
+  padding: 10px 12px !important;
+  margin-bottom: 6px !important;
+}
+
+.updates-toggle-card .toggle-container-modern {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+
+/* ترويسة أقسام البطاقات */
+.card-section-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 12px !important;
+  gap: 8px !important;
+}
+
+.card-section-title-wrap {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.card-section-icon {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 8px !important;
+  background: var(--color-gold-pale) !important;
+  border: 1px solid var(--color-gold-border) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+}
+
+.card-section-icon svg {
+  width: 15px !important;
+  height: 15px !important;
+  fill: #DFAB52 !important; /* ذهبي عسلي دافئ */
+  filter: drop-shadow(0 0 5px rgba(223, 171, 82, 0.5)) !important;
+}
+
+.card-section-title {
+  font-size:   14.5px !important;
+  font-weight: 800 !important;
+  color:       #FFFFFF !important; /* أبيض ناصع */
+}
+
+.selected-speed-badge {
+  font-size:    11.5px !important;
+  font-weight:  800 !important;
+  color:        #0A0E17 !important;
+  background:   linear-gradient(135deg, #E8BD6D 0%, #DFAB52 100%) !important;
+  border:       none !important;
+  padding:      3px 10px !important;
+  border-radius: 20px !important;
+  white-space:  nowrap !important;
+  box-shadow:   0 2px 8px rgba(223, 171, 82, 0.4) !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   أزرار السرعات البيضاوية الأفقية كشريط متحرك وسلس (طبق الشيباني نت)
+   ══════════════════════════════════════════════════════════════════ */
+
+.speed-slider-wrapper {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  gap: 6px !important;
+  box-sizing: border-box !important;
+}
+
+.speed-slider-nav-btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 30px !important;
+  height: 34px !important;
+  border-radius: 10px !important;
+  background: #080D18 !important;
+  border: 1px solid rgba(223, 171, 82, 0.25) !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+  transition: all 0.2s ease !important;
+  padding: 0 !important;
+  outline: none !important;
+}
+
+.speed-slider-nav-btn svg {
+  width: 16px !important;
+  height: 16px !important;
+  fill: #CBD5E1 !important;
+  transition: fill 0.2s ease !important;
+}
+
+.speed-slider-nav-btn:hover {
+  background: #121D33 !important;
+  border-color: #DFAB52 !important;
+  box-shadow: 0 0 10px rgba(223, 171, 82, 0.4) !important;
+}
+
+.speed-slider-nav-btn:hover svg {
+  fill: #DFAB52 !important;
+}
+
+.speed-pills-row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  scroll-behavior: smooth !important;
+  gap: 8px !important;
+  width: 100% !important;
+  padding: 2px 2px 2px 2px !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  -webkit-overflow-scrolling: touch !important;
+  cursor: grab !important;
+}
+
+.speed-pills-row::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* زر السرعة غير المحددة (يظهر زرين ونصف بالضبط في الشاشة ليحفز المستخدم على التمرير الأفقي) */
+.speed-pill-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 5px !important;
+  flex: 0 0 calc((100% - 16px) / 2.5) !important;
+  width: calc((100% - 16px) / 2.5) !important;
+  min-width: calc((100% - 16px) / 2.5) !important;
+  max-width: calc((100% - 16px) / 2.5) !important;
+  padding: 5px 6px !important;
+  min-height: 32px !important;
+  border-radius: 9999px !important;
+  background: #0D1628 !important;
+  border: 1px solid rgba(223, 171, 82, 0.35) !important;
+  color: #F1F5F9 !important; /* أبيض ثلجي واضح */
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  user-select: none !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+}
+
+.speed-pill-btn:hover {
+  background: #101A2E !important;
+  border-color: #DFAB52 !important;
+  color: #FFFFFF !important;
+}
+
+.speed-pill-btn .pill-dot {
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 50% !important;
+  background: #64748B !important;
+  transition: all 0.2s ease !important;
+  flex-shrink: 0 !important;
+}
+
+.speed-pill-btn .pill-text {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  color: #F1F5F9 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  text-align: center !important;
+}
+
+/* زر السرعة المحددة والمفعلة — ناري ذهبي دافئ غني */
+.speed-pill-btn.active {
+  background: linear-gradient(135deg, #FF6600 0%, #FF9900 50%, #E5A82E 100%) !important;
+  border-color: #FFF3DD !important;
+  color: #0A0602 !important;
+  box-shadow: 0 3px 14px rgba(255, 102, 0, 0.45) !important;
+  transform: translateY(-1px) !important;
+}
+
+.speed-pill-btn.active .pill-dot {
+  background: #0A0602 !important;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4) !important;
+}
+
+.speed-pill-btn.active .pill-text {
+  color: #0A0602 !important;
+  font-weight: 900 !important;
+}
+
+/* ترويسة بطاقة إدخال الكرت */
+.input-card-header {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin-bottom: 6px !important;
+}
+
+.input-card-header .input-label-text {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: #DFAB52 !important; /* لون ذهبي عسلي دافئ مطابق لزر الدخول */
+  line-height: 1.4 !important;
+}
+
+.login-submit-wrapper {
+  width: 100% !important;
+  margin-bottom: 6px !important;
+}
+
+.login-submit-wrapper .login-submit-btn,
+.login-submit-btn {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.login-card {
+  background:    transparent !important;
+  border:        none !important;
+  box-shadow:    none !important;
+  padding:       0 !important;
+}
+
+.login-card::before {
+  display: none !important;
+}
+
+.card-header p         { color: #DFAB52 !important; text-shadow: none !important; }
+.card-header .subtitle { color: #CBD5E1 !important; }
+.input-label-text      { color: #DFAB52 !important; }
+
+
+/* ══════════════════════════════════════════════════════════════════
+   10. حقول الإدخال مع الإطار الذهبي النحيف الأنيق والوضوح الفائق
+   ══════════════════════════════════════════════════════════════════ */
+
+.input-wrapper-glass {
+  background:    #09101C !important;
+  border:        1.5px solid rgba(223, 171, 82, 0.38) !important;
+  border-radius: 14px !important;
+  box-shadow:    0 4px 18px rgba(0, 0, 0, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.08) !important;
+  transition:    all 0.25s ease !important;
+}
+
+/* حالة التركيز على الحقل (Focus Glow الذهبي الدافئ) */
+.input-wrapper-glass:focus-within {
+  background:   #0D1628 !important;
+  border-color: #DFAB52 !important;
+  box-shadow:   0 0 0 3px rgba(223, 171, 82, 0.28), 0 0 22px rgba(223, 171, 82, 0.25) !important;
+}
+
+/* أيقونة داخل الحقل */
+.input-icon-badge {
+  background: rgba(223, 171, 82, 0.16) !important;
+  border:     1px solid rgba(223, 171, 82, 0.45) !important;
+  color:      #DFAB52 !important;
+}
+.input-icon-badge svg { 
+  fill: #DFAB52 !important;
+  filter: drop-shadow(0 0 5px rgba(223, 171, 82, 0.6)) !important;
+}
+
+/* زر الكاميرا (مسح QR) */
+.input-icon-badge.camera-scan-btn {
+  background: #0E1729 !important;
+  border:     1px solid rgba(223, 171, 82, 0.4) !important;
+}
+.input-icon-badge.camera-scan-btn svg { fill: #DFAB52 !important; }
+.input-icon-badge.camera-scan-btn:hover {
+  background: rgba(223, 171, 82, 0.25) !important;
+  border-color: #DFAB52 !important;
+  box-shadow: 0 0 12px rgba(223, 171, 82, 0.5) !important;
+}
+
+/* نص الكرت المُدخل */
+.login-input,
+input[name="username"] {
+  color:       #FFFFFF !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+}
+
+/* النص الإرشادي (Placeholder) - واضح وبارز للمستخدم */
+.login-input::placeholder {
+  color:       #94A3B8 !important; /* لون رمادي فاتح مائل للفضي وواضح جداً للقراءة */
+  opacity:     1 !important;
+  font-weight: 600 !important;
+  letter-spacing: normal !important;
+}
+
+/* زر "دخول بكرت سابق" */
+.prev-card-pill-btn {
+  background:    #101A2E !important;
+  border:        1px solid rgba(223, 171, 82, 0.38) !important;
+  color:         #E2E8F0 !important;
+  border-radius: 9px !important;
+  font-weight:   700 !important;
+  transition:    all 0.2s ease !important;
+}
+.prev-card-pill-btn:hover {
+  background:    rgba(223, 171, 82, 0.22) !important;
+  border-color:  #DFAB52 !important;
+  color:         #DFAB52 !important;
+  box-shadow:    0 0 10px rgba(223, 171, 82, 0.35) !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   11. محدد السرعة (Speed Selector)
+   ══════════════════════════════════════════════════════════════════ */
+
+.speed-title      { color: #FFFFFF !important; }
+.section-icon     { fill:  #DFAB52 !important; }
+
+.speed-modal-trigger-btn {
+  background:    var(--color-bg-card) !important;
+  border:        1px solid var(--color-border) !important;
+  color:         #FFFFFF !important;
+  border-radius: 12px !important;
+  box-shadow:    none !important;
+}
+.speed-modal-trigger-btn:hover { 
+  border-color: #DFAB52 !important; 
+  box-shadow: 0 0 12px rgba(223, 171, 82, 0.35) !important;
+}
+
+.speed-trigger-label    { color: #CBD5E1 !important; }
+.speed-trigger-selected { color: #FFFFFF !important; font-weight: 800 !important; }
+.speed-trigger-badge    { 
+  background: linear-gradient(135deg, #E8BD6D 0%, #DFAB52 100%) !important; 
+  color: #0A0E17 !important; 
+  border: none !important; 
+  box-shadow: 0 2px 8px rgba(223, 171, 82, 0.45) !important;
+  font-weight: 800 !important;
+}
+.speed-trigger-icon     { background: var(--color-gold-pale) !important; border: 1px solid var(--color-gold-border) !important; }
+.speed-trigger-icon svg { fill: #DFAB52 !important; }
+
+/* خيارات السرعة في النافذة المنبثقة (#speed-modal و #status-speed-modal) */
+.speed-cards-list {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  margin-bottom: 6px !important;
+}
+
+.speed-card-option {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  background: var(--color-bg-input) !important;
+  border: 1.5px solid rgba(223, 171, 82, 0.25) !important;
+  border-radius: 14px !important;
+  padding: 12px 14px !important;
+  color: #FFFFFF !important;
+  cursor: pointer !important;
+  transition: all 0.22s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  position: relative !important;
+}
+
+.speed-card-option:hover {
+  border-color: #DFAB52 !important;
+  background: #121D33 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 14px rgba(223, 171, 82, 0.25) !important;
+}
+
+.speed-card-option:hover .speed-card-name {
+  color: #DFAB52 !important;
+}
+
+.speed-card-option:hover .speed-card-indicator {
+  border-color: #DFAB52 !important;
+}
+
+.speed-card-option.active {
+  background: linear-gradient(135deg, #E8BD6D 0%, #DFAB52 50%, #C48E33 100%) !important;
+  border-color: #FDF2DD !important;
+  color: #0A0E17 !important;
+  box-shadow: 0 4px 16px rgba(223, 171, 82, 0.5) !important;
+  transform: translateY(-1px) !important;
+}
+
+.speed-card-indicator {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  border: 2px solid rgba(223, 171, 82, 0.5) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  background: #080D18 !important;
+  transition: all 0.2s ease !important;
+}
+
+.speed-radio-dot {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+  transition: all 0.2s ease !important;
+}
+
+.speed-card-option.active .speed-card-indicator {
+  border-color: #0A0E17 !important;
+  background: #FFFFFF !important;
+}
+
+.speed-card-option.active .speed-radio-dot {
+  background: #0A0E17 !important;
+}
+
+.speed-card-info {
+  flex: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: right !important;
+}
+
+.speed-card-name {
+  font-size: 0.96rem !important;
+  font-weight: 800 !important;
+  color: #FFFFFF !important;
+  letter-spacing: 0.2px !important;
+  transition: color 0.2s ease !important;
+}
+
+.speed-card-option.active .speed-card-name {
+  color: #0A0E17 !important;
+  font-weight: 900 !important;
+}
+
+.speed-card-badge {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 4px 10px !important;
+  background: rgba(223, 171, 82, 0.15) !important;
+  border: 1px solid rgba(223, 171, 82, 0.35) !important;
+  border-radius: 8px !important;
+  flex-shrink: 0 !important;
+}
+
+.speed-badge-val {
+  font-size: 0.86rem !important;
+  font-weight: 900 !important;
+  color: #DFAB52 !important;
+  line-height: 1 !important;
+}
+
+.speed-card-option.active .speed-card-badge {
+  background: rgba(0, 0, 0, 0.15) !important;
+  border-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.speed-card-option.active .speed-badge-val {
+  color: #0A0E17 !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   12. بطاقة إيقاف التحديثات والمتجر (Toggle Card)
+   ══════════════════════════════════════════════════════════════════ */
+
+.toggle-container-modern {
+  background:    var(--color-bg-card) !important;
+  border:        1px solid var(--color-border) !important;
+  border-radius: 14px !important;
+  box-shadow:    var(--shadow-card) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+.toggle-container-modern:hover {
+  border-color: var(--color-gold-border) !important;
+  box-shadow:   0 4px 16px rgba(223, 171, 82, 0.25) !important;
+}
+
+.toggle-title { color: #DFAB52 !important; font-weight: 800 !important; }
+.toggle-title span { color: #DFAB52 !important; }
+.toggle-desc  { color: #CBD5E1 !important; }
+
+/* زر التبديل والكرة البيضاء الناعمة كما بالصورة */
+.toggle-switch-modern {
+  background: #080D18 !important;
+  border: 1px solid rgba(223, 171, 82, 0.28) !important;
+}
+.toggle-switch-modern.active {
+  background: #DFAB52 !important;
+  border-color: #DFAB52 !important;
+}
+.toggle-switch-modern .toggle-knob {
+  background: #FFFFFF !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* ملصق الحالة النصي (متوقف / مفعّل) */
+.toggle-status-label {
+  color:      #CBD5E1 !important;
+  background: #080D18 !important;
+  border:     1px solid rgba(223, 171, 82, 0.22) !important;
+}
+/* حالة التفعيل → أخضر زمردي مع توهج */
+.toggle-status-label.active {
+  color:       #FFFFFF !important;
+  background:  var(--color-green) !important;
+  border-color: var(--color-green) !important;
+  box-shadow:  0 0 10px rgba(16, 185, 129, 0.4) !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   13. قسم خدمة العملاء (أزرار أيقونات أنيقة مطابقة لتصميم الباقات والبرامج)
+   ══════════════════════════════════════════════════════════════════ */
+
+.customer-support-section {
+  background:    linear-gradient(165deg, #131E35 0%, #0E1729 100%) !important;
+  border:        1px solid rgba(223, 171, 82, 0.32) !important;
+  border-radius: 14px !important;
+  box-shadow:    0 6px 18px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  padding:       7px 10px 8px 10px !important;
+  margin-top:    7px !important;
+  margin-bottom: 4px !important;
+  display:       flex !important;
+  flex-direction: column !important;
+  gap:           6px !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+.status-support-section {
+  margin-top:    7px !important;
+  margin-bottom: 4px !important;
+}
+
+.support-header {
+  display:         flex !important;
+  align-items:     center !important;
+  justify-content: center !important;
+  gap:             5px !important;
+}
+
+.support-header-icon { 
+  width:  13px !important;
+  height: 13px !important;
+  fill:   #DFAB52 !important; 
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5)) !important; 
+}
+
+.support-title { 
+  color:       #DFAB52 !important; 
+  font-size:   0.75rem !important;
+  font-weight: 800 !important;
+  text-shadow: none !important; 
+}
+
+.support-actions-grid {
+  display:               grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap:                   8px !important;
+  width:                 100% !important;
+}
+
+/* بطاقات أزرار الأيقونات لخدمة العملاء */
+.support-btn {
+  display:         flex !important;
+  flex-direction:  column !important;
+  align-items:     center !important;
+  justify-content: center !important;
+  gap:             3px !important;
+  padding:         6px 4px 5px 4px !important;
+  min-height:      50px !important;
+  border-radius:   11px !important;
+  text-decoration: none !important;
+  cursor:          pointer !important;
+  transition:      all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  touch-action:    manipulation !important;
+  position:        relative !important;
+  overflow:        hidden !important;
+}
+
+.support-btn .support-btn-icon {
+  width:         18px !important;
+  height:        18px !important;
+  flex-shrink:   0 !important;
+  margin-bottom: 0px !important;
+  transition:    transform 0.2s ease !important;
+}
+
+.support-btn span {
+  font-size:   0.72rem !important;
+  font-weight: 800 !important;
+  text-align:  center !important;
+  line-height: 1.15 !important;
+  white-space: nowrap !important;
+}
+
+.support-btn:active {
+  transform: scale(0.96) !important;
+}
+
+.support-btn:hover .support-btn-icon {
+  transform: scale(1.1) !important;
+}
+
+/* زر واتساب */
+.support-btn-whatsapp {
+  background:  linear-gradient(165deg, #10232A 0%, #0B191E 100%) !important;
+  border:      1px solid rgba(37, 211, 102, 0.45) !important;
+  color:       #E2E8F0 !important;
+  box-shadow:  0 4px 14px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+}
+.support-btn-whatsapp .support-btn-icon { 
+  fill:   #25D366 !important; 
+  filter: drop-shadow(0 0 6px rgba(37, 211, 102, 0.5)) !important; 
+}
+.support-btn-whatsapp:hover {
+  background:   linear-gradient(165deg, #142F38 0%, #0E222A 100%) !important;
+  border-color: #25D366 !important;
+  color:        #FFFFFF !important;
+  transform:    translateY(-2px) !important;
+  box-shadow:   0 6px 18px rgba(37, 211, 102, 0.35) !important;
+}
+
+/* زر الاتصال الهاتفي — إطار ذهبي دافئ راقٍ */
+.support-btn-call {
+  background:  linear-gradient(165deg, #241D17 0%, #15141D 100%) !important;
+  border:      1px solid rgba(223, 171, 82, 0.45) !important;
+  color:       #E2E8F0 !important;
+  box-shadow:  0 4px 14px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+}
+.support-btn-call .support-btn-icon { 
+  fill:   #DFAB52 !important; 
+  filter: drop-shadow(0 0 6px rgba(223, 171, 82, 0.55)) !important; 
+}
+.support-btn-call:hover {
+  background:   linear-gradient(165deg, #30261D 0%, #1E1A27 100%) !important;
+  border-color: #DFAB52 !important;
+  color:        #FFFFFF !important;
+  transform:    translateY(-2px) !important;
+  box-shadow:   0 6px 18px rgba(223, 171, 82, 0.4) !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   14. الشريط السفلي العصري الشفاف — 2026 Floating Ultra-Glassmorphism
+   تم إنزاله قليلاً (bottom: 4px) مع خلفية زجاجية شفافة متوهجة تعكس محتوى الصفحة
+   وفق أحدث معايير تجربة المستخدم (Apple Liquid Glass & Android 15 Edge-to-Edge)
+   ══════════════════════════════════════════════════════════════════ */
+
+.bottom-nav-bar {
+  position: fixed !important;
+  bottom: calc(4px + env(safe-area-inset-bottom, 0px)) !important;
+  right: 50% !important;
+  transform: translateX(50%) !important;
+  width: calc(100% - 18px) !important;
+  max-width: 480px !important;
+  height: 60px !important;
+  background: rgba(10, 16, 29, 0.42) !important;
+  border: 1px solid rgba(223, 171, 82, 0.25) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.22) !important;
+  border-radius: 20px !important;
+  backdrop-filter: blur(28px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(190%) !important;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45), 0 0 20px rgba(223, 171, 82, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.18) !important;
+  z-index: 100 !important;
+}
+
+@media (max-width: 480px) {
+  .bottom-nav-bar {
+    bottom: calc(3px + env(safe-area-inset-bottom, 0px)) !important;
+    height: 56px !important;
+    width: calc(100% - 14px) !important;
+  }
+}
+
+/* أزرار التنقل غير المفعلة */
+.nav-item-btn {
+  color: rgba(248, 250, 252, 0.75) !important;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+.nav-item-btn svg { 
+  fill: rgba(248, 250, 252, 0.75) !important;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5)) !important;
+}
+
+/* حالة التحويم */
+.nav-item-btn:hover {
+  color:      #DFAB52 !important;
+  background: rgba(223, 171, 82, 0.16) !important;
+}
+.nav-item-btn:hover svg { 
+  fill: #DFAB52 !important;
+  filter: drop-shadow(0 0 6px rgba(223, 171, 82, 0.6)) !important;
+}
+
+/* الزر المفعل (الرئيسية) — الذهب العسلي الملكي الزجاجي */
+.nav-item-btn.active {
+  color:       #DFAB52 !important;
+  background:  rgba(223, 171, 82, 0.2) !important;
+  border:      1px solid rgba(223, 171, 82, 0.48) !important;
+  box-shadow:  0 2px 12px rgba(223, 171, 82, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6) !important;
+}
+.nav-item-btn.active svg { 
+  fill: #DFAB52 !important;
+  filter: drop-shadow(0 0 8px rgba(223, 171, 82, 0.85)) !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   15. النوافذ المنبثقة العصرية الشفافة والمعتمة (Modern Glass Modals)
+   خلفية معتمة شبه شفافة مع تمويه عصري تظهر الصفحة الخلفية بوضوح تام
+   ══════════════════════════════════════════════════════════════════ */
+
+.app:not(#status):not(#quran-modal),
+#price,
+#sell-point,
+#loan,
+#speed-modal,
+#status-speed-modal,
+#app-store,
+#block,
+.loyalty-modal,
+.popup-overlay {
+  background: rgba(5, 9, 17, 0.58) !important;
+  background-color: rgba(5, 9, 17, 0.58) !important;
+  backdrop-filter: blur(8px) saturate(130%) !important;
+  -webkit-backdrop-filter: blur(8px) saturate(130%) !important;
+  overscroll-behavior: contain !important;
+  touch-action: pan-y !important;
+}
+
+.modal-sheet-card {
+  background:    var(--color-bg-card) !important;
+  border:        1px solid rgba(223, 171, 82, 0.32) !important;
+  border-radius: 20px !important;
+  box-shadow:    0 25px 50px rgba(0, 0, 0, 0.8), 0 0 24px rgba(223, 171, 82, 0.18) !important;
+  color:         var(--color-text-main) !important;
+  max-height:    min(85vh, calc(100dvh - 36px)) !important;
+  overflow-y:    auto !important;
+  overflow-x:    hidden !important;
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior: contain !important;
+  touch-action:  pan-y !important;
+}
+
+/* تخصيص شريط التمرير الأنيق للنافذة المنبثقة */
+.modal-sheet-card::-webkit-scrollbar {
+  width: 5px !important;
+}
+.modal-sheet-card::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border-radius: 9999px !important;
+}
+.modal-sheet-card::-webkit-scrollbar-thumb {
+  background: rgba(223, 171, 82, 0.45) !important;
+  border-radius: 9999px !important;
+}
+.modal-sheet-card::-webkit-scrollbar-thumb:hover {
+  background: rgba(223, 171, 82, 0.75) !important;
+}
+
+.modal-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 10 !important;
+  background: var(--color-bg-card, #0C1322) !important;
+  border-bottom: 1px solid rgba(223, 171, 82, 0.18) !important;
+  padding-top: 4px !important;
+  padding-bottom: 10px !important;
+  margin-top: -4px !important;
+  margin-bottom: 14px !important;
+}
+.modal-header .title {
+  color:           #DFAB52 !important;
+  font-weight:     900 !important;
+  text-shadow:     none !important;
+}
+.modal-header .title span {
+  color:           #DFAB52 !important;
+}
+.modal-title-icon { 
+  fill: #DFAB52 !important; 
+  filter: drop-shadow(0 0 5px rgba(223, 171, 82, 0.5)) !important;
+}
+
+/* زر إغلاق النافذة */
+.modal-close-btn {
+  background: #080D18 !important;
+  border:     1px solid rgba(223, 171, 82, 0.28) !important;
+  color:      #CBD5E1 !important;
+  border-radius: 9999px !important;
+  font-weight: 700 !important;
+  transition: all 0.2s ease !important;
+}
+.modal-close-btn:hover {
+  background:   rgba(239, 68, 68, 0.2) !important;
+  border-color: rgba(239, 68, 68, 0.6) !important;
+  color:        #FCA5A5 !important;
+  transform:    translateY(-1px) !important;
+  box-shadow:   0 2px 8px rgba(239, 68, 68, 0.3) !important;
+}
+
+/* أزرار الرجوع في النوافذ المنبثقة */
+.modal-cancel-btn,
+.modal-sheet-card .button.modal-cancel-btn,
+.app .button.modal-cancel-btn,
+.app button.modal-cancel-btn,
+.app-logout.button.app-submit {
+  background:    linear-gradient(135deg, #E8BD6D 0%, #DFAB52 50%, #C48E33 100%) !important;
+  color:         #0A0E17 !important;
+  font-weight:   900 !important;
+  font-size:     15px !important;
+  border:        1px solid rgba(255, 255, 255, 0.35) !important;
+  border-radius: 14px !important;
+  min-height:    46px !important;
+  box-shadow:    0 4px 18px rgba(223, 171, 82, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.38) !important;
+  text-shadow:   none !important;
+  cursor:        pointer !important;
+  transition:    all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.modal-cancel-btn svg,
+.modal-sheet-card .button.modal-cancel-btn svg,
+.app .button.modal-cancel-btn svg,
+.app button.modal-cancel-btn svg,
+.app-logout.button.app-submit svg {
+  fill:   #0A0E17 !important;
+  filter: none !important;
+}
+
+.modal-cancel-btn:hover,
+.modal-sheet-card .button.modal-cancel-btn:hover,
+.app .button.modal-cancel-btn:hover,
+.app button.modal-cancel-btn:hover,
+.app-logout.button.app-submit:hover {
+  background:  linear-gradient(135deg, #F0C97F 0%, #E5B562 50%, #D19A3F 100%) !important;
+  color:       #000000 !important;
+  transform:   translateY(-2px) !important;
+  box-shadow:  0 8px 24px rgba(223, 171, 82, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.5) !important;
+}
+
+/* زر خدمة العملاء داخل النوافذ */
+.fab-support,
+.modal-sheet-card .fab-support,
+.app .fab-support {
+  background:    #080D18 !important;
+  border:        1px solid var(--color-gold-border) !important;
+  color:         #DFAB52 !important;
+  border-radius: 12px !important;
+  padding:       10px 14px !important;
+  margin-top:    10px !important;
+  display:       flex !important;
+  align-items:   center !important;
+  justify-content: center !important;
+  gap:           8px !important;
+  text-decoration: none !important;
+  font-weight:   800 !important;
+  box-shadow:    0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  transition:    all 0.25s ease !important;
+}
+
+.fab-support svg,
+.modal-sheet-card .fab-support svg,
+.app .fab-support svg {
+  fill:   #DFAB52 !important;
+  width:  18px !important;
+  height: 18px !important;
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5)) !important;
+}
+
+.fab-support span,
+.modal-sheet-card .fab-support span,
+.app .fab-support span {
+  color:       #DFAB52 !important;
+  font-weight: 800 !important;
+}
+
+.fab-support:hover,
+.modal-sheet-card .fab-support:hover,
+.app .fab-support:hover {
+  background:   var(--color-gold-pale) !important;
+  border-color: #DFAB52 !important;
+  color:        #FFFFFF !important;
+  transform:    translateY(-1px) !important;
+  box-shadow:   0 4px 16px rgba(223, 171, 82, 0.4) !important;
+}
+
+.fab-support:hover span {
+  color: #FFFFFF !important;
+}
+
+/* تبويبات النوافذ */
+.points-auth-tabs,
+.price-tabs,
+.modal-tab-group {
+  background:    #080D18 !important;
+  border:        1px solid rgba(223, 171, 82, 0.22) !important;
+  border-radius: 12px !important;
+}
+.points-tab-btn,
+.price-tab-btn,
+.modal-tab-btn {
+  color: #CBD5E1 !important;
+  background: transparent !important;
+}
+.points-tab-btn.active,
+.price-tab-btn.active,
+.modal-tab-btn.active {
+  background:   linear-gradient(135deg, #E8BD6D 0%, #DFAB52 50%, #C48E33 100%) !important;
+  color:        #0A0E17 !important;
+  font-weight:  800 !important;
+  border:       none !important;
+  box-shadow:   0 2px 10px rgba(223, 171, 82, 0.5) !important;
+}
+.points-tab-btn.active svg { fill: #0A0E17 !important; }
+
+/* صندوق التعليمات داخل النوافذ */
+.points-instruction-box {
+  background:    rgba(223, 171, 82, 0.08) !important;
+  border:        1px solid var(--color-gold-border) !important;
+  border-radius: 12px !important;
+}
+.instruction-icon-wrap {
+  background: var(--color-gold-pale) !important;
+  border:     1px solid var(--color-gold-border) !important;
+}
+.instruction-icon-wrap svg  { 
+  fill: #DFAB52 !important; 
+  filter: drop-shadow(0 0 5px rgba(223, 171, 82, 0.5)) !important;
+}
+.instruction-text strong    { color: #FFFFFF !important; }
+.instruction-text p         { color: #CBD5E1 !important; }
+
+.points-modal-body .login-input        { color: #FFFFFF !important; }
+.points-modal-body .login-input::placeholder { color: var(--color-text-placeholder) !important; }
+.points-link-btn { color: #DFAB52 !important; font-weight: 800 !important; }
+
+/* بطاقات الكروت المحفوظة والأنواع */
+.saved-card-item,
+.card-type-item,
+.loan-body {
+  background:    var(--color-bg-card) !important;
+  border:        1px solid rgba(223, 171, 82, 0.2) !important;
+  border-radius: 14px !important;
+  color:         #FFFFFF !important;
+}
+.card-type-item .card-name   { color: #FFFFFF !important; }
+.card-type-item .card-points { color: #DFAB52 !important; font-weight: 800 !important; }
+.card-code {
+  background: #080D18 !important;
+  border:     1px dashed rgba(223, 171, 82, 0.42) !important;
+  color:      #DFAB52 !important;
+}
+
+.loan-highlight-badge {
+  background: var(--color-gold-pale) !important;
+  border:     1px solid var(--color-gold-border) !important;
+  color:      #DFAB52 !important;
+}
+
+/* جدول الأسعار */
+.price-div table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0 6px !important;
+}
+
+thead th {
+  background: #0C1424 !important;
+  color:      #DFAB52 !important;
+  border:     1px solid rgba(223, 171, 82, 0.25) !important;
+  font-weight: 800 !important;
+  padding:    10px 8px !important;
+  text-align: center !important;
+  border-radius: 8px !important;
+}
+
+tbody tr {
+  background: var(--color-bg-input) !important;
+  border:     1px solid rgba(223, 171, 82, 0.15) !important;
+  transition: all 0.2s ease !important;
+}
+tbody tr:hover {
+  background: #121D33 !important;
+  border-color: rgba(223, 171, 82, 0.5) !important;
+}
+tbody td {
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  padding: 10px 6px !important;
+}
+tbody td:first-child {
+  color: #DFAB52 !important;
+  font-weight: 900 !important;
+}
+
+/* جدول وقائمة نقاط البيع (#sell-point) — تصميم ليلي ملكي */
+.sell-point-div table {
+  border-collapse: separate !important;
+  border-spacing: 0 8px !important;
+  border: none !important;
+  background: transparent !important;
+  width: 100% !important;
+  box-shadow: none !important;
+}
+
+.sell-point-div tbody tr {
+  background: var(--color-bg-input) !important;
+  border: 1px solid rgba(223, 171, 82, 0.22) !important;
+  border-radius: 12px !important;
+  transition: all 0.25s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.sell-point-div tbody tr:nth-child(even) {
+  background: #0C1424 !important;
+}
+
+.sell-point-div tbody tr:hover {
+  background: #121E36 !important;
+  border-color: #DFAB52 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 14px rgba(223, 171, 82, 0.3) !important;
+}
+
+.sell-point-div tbody td {
+  padding: 14px 16px !important;
+  font-size: 0.95rem !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  text-align: right !important;
+  border: none !important;
+  border-radius: 12px !important;
+}
+
+/* أيقونة الموقع الذهبية الملكية لنقاط البيع */
+.sell-point-div tbody td::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 10px !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23DFAB52' stroke='%23C48E33' stroke-width='0.5'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z'/%3E%3C/svg%3E") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  vertical-align: middle !important;
+  transform: translateY(-2px) !important;
+}
+
+/* نافذة العروض والجديد (#loan) */
+.loan-body {
+  background: var(--color-bg-card) !important;
+  border: 1px solid rgba(223, 171, 82, 0.28) !important;
+  border-radius: 16px !important;
+  padding: 16px !important;
+  color: #FFFFFF !important;
+  box-shadow: var(--shadow-card) !important;
+}
+
+#loan-news-title,
+.loan-body [data-news-title="true"] {
+  color: #DFAB52 !important;
+  font-weight: 800 !important;
+  font-size: 1.05rem !important;
+}
+
+#loan-news-content,
+.loan-body [data-news-content="true"] {
+  color: #CBD5E1 !important;
+  line-height: 1.7 !important;
+}
+
+#loan-news-content b,
+.loan-body [data-news-content="true"] b {
+  color: #DFAB52 !important;
+}
+
+.loan-highlight-badge {
+  background: var(--color-gold-pale) !important;
+  border: 1px solid var(--color-gold-border) !important;
+  color: #DFAB52 !important;
+  font-weight: 800 !important;
+  border-radius: 8px !important;
+  padding: 6px 12px !important;
+}
+
+#loan-news-extra-header strong,
+#loan-news-extra-title {
+  color: #DFAB52 !important;
+  font-weight: 800 !important;
+}
+
+#loan-news-extra-content {
+  color: #CBD5E1 !important;
+}
+
+#loan-news-extra-badge {
+  background: linear-gradient(135deg, #E8BD6D 0%, #DFAB52 50%, #C48E33 100%) !important;
+  color: #0A0E17 !important;
+  font-weight: 900 !important;
+  border: none !important;
+  box-shadow: 0 4px 14px rgba(223, 171, 82, 0.4) !important;
+}
+
+/* شبكة متجر البرامج (#app-store / #grid) */
+#grid .app-item,
+.sell-point-div .app-item {
+  background: var(--color-bg-card) !important;
+  border: 1px solid rgba(223, 171, 82, 0.22) !important;
+  border-radius: 14px !important;
+  color: #FFFFFF !important;
+  transition: all 0.25s ease !important;
+}
+
+#grid .app-item:hover,
+.sell-point-div .app-item:hover {
+  background: #101A2E !important;
+  border-color: #DFAB52 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 18px rgba(223, 171, 82, 0.3) !important;
+}
+
+.modal-sheet-card .support-phone-btn,
+.modal-support-btn {
+  background: #080D18 !important;
+  border:     1px solid var(--color-gold-border) !important;
+  color:      #DFAB52 !important;
+}
+.modal-sheet-card .support-phone-btn svg,
+.modal-support-btn svg { fill: #DFAB52 !important; }
+
+
+/* ══════════════════════════════════════════════════════════════════
+   16. شاشة التحويل والتحميل (Redirect Loading Overlay)
+   ══════════════════════════════════════════════════════════════════ */
+
+.redirect-loading-overlay {
+  background:          var(--color-bg-page) !important;
+  backdrop-filter:     none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+.redirect-ambient-glow-burgundy,
+.redirect-ambient-glow-cyan { display: none !important; }
+
+.redirect-loading-card {
+  background:    var(--color-bg-card) !important;
+  border:        1px solid rgba(223, 171, 82, 0.25) !important;
+  border-radius: 24px !important;
+  box-shadow:    0 20px 50px rgba(0, 0, 0, 0.75), 0 0 20px rgba(223, 171, 82, 0.18) !important;
+  color:         #FFFFFF !important;
+}
+.redirect-loading-title    { color: #FFFFFF !important; text-shadow: none !important; font-weight: 900 !important; }
+.redirect-loading-subtitle { color: #CBD5E1 !important; }
+
+.redirect-progress-track { background: #080D18 !important; border: none !important; }
+.redirect-progress-bar {
+  background: linear-gradient(90deg, #C48E33 0%, #DFAB52 50%, #E8BD6D 100%) !important;
+  box-shadow: 0 0 12px rgba(223, 171, 82, 0.6) !important;
+}
+
+.redirect-spinner-outer {
+  border-top-color:   #DFAB52 !important;
+  border-right-color: #C48E33 !important;
+}
+.redirect-spinner-inner {
+  border-bottom-color: #E8BD6D !important;
+  border-left-color:   #DFAB52 !important;
+}
+.redirect-center-icon {
+  background: #DFAB52 !important;
+  box-shadow: 0 0 16px rgba(223, 171, 82, 0.55) !important;
+}
+.redirect-badge-secure {
+  background:  var(--color-gold-pale) !important;
+  border:      1px solid var(--color-gold-border) !important;
+  color:       #DFAB52 !important;
+}
+.redirect-badge-secure svg { fill: #DFAB52 !important; }
+
+
+/* ══════════════════════════════════════════════════════════════════
+   17. شريط التمرير (Scrollbar)
+   ══════════════════════════════════════════════════════════════════ */
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background:    rgba(223, 171, 82, 0.38);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(223, 171, 82, 0.75);
+}
+* {
+  scrollbar-color: rgba(223, 171, 82, 0.38) transparent;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   18. نظام الإشعارات والتنبيهات والـ Floating Buttons
+   ══════════════════════════════════════════════════════════════════ */
+
+.nt-banner,
+.nt-card,
+.announcement-banner {
+  background:    var(--color-bg-card) !important;
+  border:        1px solid rgba(223, 171, 82, 0.25) !important;
+  box-shadow:    0 16px 40px rgba(0, 0, 0, 0.65), 0 0 16px rgba(223, 171, 82, 0.2) !important;
+  border-radius: 18px !important;
+  color:         #FFFFFF !important;
+  font-family:   'Almarai', 'Tajawal', sans-serif !important;
+}
+
+.error-container {
+  z-index: 99999 !important;
+}
+
+.error,
+#error-toast {
+  background:          var(--color-bg-card) !important;
+  border:              1px solid rgba(223, 171, 82, 0.35) !important;
+  box-shadow:          0 16px 40px rgba(0, 0, 0, 0.7), 0 0 14px rgba(223, 171, 82, 0.22) !important;
+  border-radius:       16px !important;
+  padding:             12px 16px !important;
+  backdrop-filter:     blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  direction:           rtl !important;
+  font-family:         'Almarai', 'Tajawal', sans-serif !important;
+  position:            relative !important;
+  overflow:            hidden !important;
+}
+
+.error::after,
+#error-toast::after {
+  content: "" !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, #C48E33 0%, #DFAB52 50%, #E8BD6D 100%) !important;
+  box-shadow: 0 0 8px rgba(223, 171, 82, 0.6) !important;
+}
+
+.toast-icon-wrap {
+  background: var(--color-gold-pale) !important;
+  border:     1px solid var(--color-gold-border) !important;
+  border-radius: 10px !important;
+}
+
+.toast-icon-wrap svg {
+  fill: #DFAB52 !important;
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5)) !important;
+}
+
+.error p#error,
+#error,
+.action-notice-toast p#action-notice-msg {
+  color:       #FFFFFF !important;
+  font-size:   14px !important;
+  font-weight: 800 !important;
+  margin:      0 !important;
+}
+
+.action-notice-toast span#action-notice-sub {
+  display: none !important;
+}
+
+.action-notice-toast.notice-logout {
+  border-color: rgba(239, 68, 68, 0.45) !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75), 0 0 16px rgba(239, 68, 68, 0.2) !important;
+}
+
+.action-notice-toast.notice-logout .toast-icon-wrap {
+  background: rgba(239, 68, 68, 0.15) !important;
+  border-color: rgba(239, 68, 68, 0.45) !important;
+}
+
+.action-notice-toast.notice-logout .toast-icon-wrap svg {
+  fill: #F87171 !important;
+  filter: drop-shadow(0 0 4px rgba(239, 68, 68, 0.5)) !important;
+}
+
+.action-notice-toast.notice-logout span#action-notice-sub {
+  color: #FDA4AF !important;
+}
+
+.action-notice-toast.notice-logout::after {
+  background: linear-gradient(90deg, #F43F5E 0%, #E11D48 100%) !important;
+  box-shadow: 0 0 8px rgba(225, 29, 72, 0.6) !important;
+}
+
+.error-close-btn {
+  background: transparent !important;
+  color:      var(--color-text-sub) !important;
+}
+.error-close-btn:hover {
+  color: #EF4444 !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════
+   19. صفحة الحالة وتفاصيل الكرت (#status — تم تسجيل دخولك بنجاح)
+   ══════════════════════════════════════════════════════════════════ */
+
+#status {
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#status .modal-sheet-card {
+  background:    transparent !important;
+  border:        none !important;
+  box-shadow:    none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  color:         var(--color-text-main) !important;
+}
+
+/* بطاقة الهيدر العلوية لصفحة الحالة: تم تسجيل دخولك بنجاح مع شعلات الذهب الملكية */
+.status-header-card {
+  position:            relative !important;
+  background:          radial-gradient(120% 100% at 50% 120%, rgba(223, 171, 82, 0.16) 0%, rgba(196, 142, 51, 0.08) 35%, #080e1a 75%, #050811 100%) !important;
+  border:              1.5px solid rgba(223, 171, 82, 0.45) !important;
+  border-radius:       20px !important;
+  box-shadow:          0 10px 32px rgba(0, 0, 0, 0.7), 0 0 28px rgba(223, 171, 82, 0.16), inset 0 1px 0 rgba(255, 235, 180, 0.25) !important;
+  padding:             12px 14px 10px 14px !important;
+  margin-bottom:       7px !important;
+  text-align:          center !important;
+  overflow:            hidden !important;
+  backdrop-filter:     blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+}
+
+/* شارة الاتصال المباشر بالإنترنت */
+.status-badge-live {
+  background:          rgba(16, 185, 129, 0.12) !important;
+  border:              1px solid rgba(52, 211, 153, 0.4) !important;
+  color:               #6EE7B7 !important;
+  font-weight:         800 !important;
+  border-radius:       9999px !important;
+  box-shadow:          0 0 14px rgba(16, 185, 129, 0.2) !important;
+}
+
+.status-badge-text {
+  color: #6EE7B7 !important;
+  font-weight: 800 !important;
+}
+
+/* عنوان تم تسجيل دخولك بنجاح — ذهبي عسلي دافئ ملكي */
+#status-title,
+.status-header-card h2.title,
+.status-header-card .title {
+  color:                   #DFAB52 !important;
+  background:              none !important;
+  -webkit-text-fill-color: #DFAB52 !important;
+  font-weight:             900 !important;
+  font-size:               1.3rem !important;
+  text-shadow:             0 2px 8px rgba(0, 0, 0, 0.5) !important;
+}
+
+.status-header-card p {
+  color: #CBD5E1 !important;
+}
+
+.status-header-card p a {
+  color:           #DFAB52 !important;
+  font-weight:     800 !important;
+  text-decoration: underline !important;
+}
+
+/* روابط البث المباشر واستراحة الشبكة في صفحة الحالة */
+.entertainment-links .stream-card-link {
+  background:    linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
+  border:        1px solid rgba(223, 171, 82, 0.28) !important;
+  color:         #FFFFFF !important;
+  border-radius: 14px !important;
+  box-shadow:    0 6px 18px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  font-weight:   800 !important;
+  transition:    all 0.25s ease !important;
+}
+
+.entertainment-links .stream-card-link svg {
+  fill:   #DFAB52 !important;
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5)) !important;
+}
+
+.entertainment-links .stream-card-link:hover {
+  background:   linear-gradient(165deg, #182642 0%, #121C32 100%) !important;
+  border-color: #DFAB52 !important;
+  color:        #DFAB52 !important;
+  transform:    translateY(-2px) !important;
+  box-shadow:   0 6px 20px rgba(223, 171, 82, 0.3) !important;
+}
+
+/* شريط الأخبار في صفحة الحالة */
+#newsTickerStatusSection,
+#status #newsTickerStatusSection {
+  margin-top:    7px !important;
+  margin-bottom: 7px !important;
+}
+
+/* بطاقة إيقاف التحديثات في صفحة الحالة */
+#statusUpdatesCard,
+.status-updates-card {
+  margin: 7px 0 !important;
+}
+
+/* بطاقة تغيير سرعة الكرت في صفحة الحالة */
+.statusdiv {
+  background:          linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
+  border:              1px solid rgba(223, 171, 82, 0.28) !important;
+  border-radius:       16px !important;
+  box-shadow:          0 8px 24px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  padding:             11px 14px !important;
+  margin:              7px 0 !important;
+  backdrop-filter:     blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+}
+
+.status-metric-label {
+  color:       #FFFFFF !important;
+  font-weight: 800 !important;
+}
+
+.status-metric-label svg {
+  fill:   #DFAB52 !important;
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5)) !important;
+}
+
+#sspeed {
+  color:       #DFAB52 !important;
+  font-weight: 900 !important;
+  font-size:   1rem !important;
+}
+
+.statusdiv p {
+  color: #CBD5E1 !important;
+}
+
+/* زر اختيار سرعة الإنترنت في صفحة الحالة — مظهر ليلي داكن ملكي */
+.status-select-trigger {
+  background:    #080D18 !important;
+  border:        1px solid rgba(223, 171, 82, 0.35) !important;
+  border-radius: 12px !important;
+  padding:       12px 14px !important;
+  color:         #FFFFFF !important;
+  box-shadow:    0 2px 8px rgba(0, 0, 0, 0.4) !important;
+  font-weight:   800 !important;
+  transition:    all 0.25s ease !important;
+}
+
+.status-select-trigger:hover {
+  background:   #101A2E !important;
+  border-color: #DFAB52 !important;
+  color:        #DFAB52 !important;
+  transform:    translateY(-1px) !important;
+  box-shadow:   0 4px 14px rgba(223, 171, 82, 0.3) !important;
+}
+
+.status-trigger-content {
+  color:       #FFFFFF !important;
+  font-weight: 800 !important;
+}
+
+.status-select-trigger:hover .status-trigger-content {
+  color: #DFAB52 !important;
+}
+
+.status-trigger-icon {
+  fill:   #DFAB52 !important;
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5)) !important;
+}
+
+.status-trigger-chevron {
+  fill: #DFAB52 !important;
+}
+
+/* بطاقات شبكة استهلاك الكرت والمعلومات الحية */
+.status-metrics-section-title {
+  color:       #DFAB52 !important;
+  font-weight: 800 !important;
+  font-size:   1rem !important;
+}
+
+.status-grid-metrics {
+  gap: 8px !important;
+  margin: 7px 0 !important;
+}
+
+.metric-card-glass {
+  background:          linear-gradient(165deg, #142038 0%, #0F182B 100%) !important;
+  border:              1px solid rgba(223, 171, 82, 0.25) !important;
+  border-radius:       14px !important;
+  box-shadow:          0 6px 18px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  padding:             14px 10px !important;
+  backdrop-filter:     blur(14px) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  transition:          all 0.25s ease !important;
+}
+
+.metric-card-glass:hover {
+  background:   linear-gradient(165deg, #182642 0%, #121C32 100%) !important;
+  border-color: rgba(223, 171, 82, 0.5) !important;
+  transform:    translateY(-2px) !important;
+  box-shadow:   0 8px 22px rgba(0, 0, 0, 0.55), 0 0 12px rgba(223, 171, 82, 0.2) !important;
+}
+
+.metric-title {
+  color:       #CBD5E1 !important;
+  font-weight: 700 !important;
+  font-size:   0.82rem !important;
+}
+
+.metric-icon {
+  fill:   #DFAB52 !important;
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5)) !important;
+}
+
+.metric-val {
+  color:       #FFFFFF !important;
+  font-weight: 900 !important;
+  font-size:   1.1rem !important;
+}
+
+.metric-val.gold {
+  color: #DFAB52 !important;
+}
+
+.metric-val.emerald {
+  color: #34D399 !important;
+}
+
+.metric-val.cyan {
+  color: #DFAB52 !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   أزرار البث المباشر والاستراحة في صفحة الحالة (#status)
+   ألوان متميزة تعكس هوية كل زر (أحمر رياضي للبث المباشر وبنفسجي ترفيهي للاستراحة)
+   مرتبة جنباً إلى جنب مع التمدد التلقائي الديناميكي عند إخفاء أحدهما
+   ══════════════════════════════════════════════════════════════════ */
+.entertainment-links {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  width: 100% !important;
+  margin: 7px 0 !important;
+  box-sizing: border-box !important;
+}
+
+.entertainment-links[style*="display: none"],
+.entertainment-links.hidden,
+.stream-card-link[style*="display: none"],
+.stream-card-link.hidden,
+.stream-card-link[hidden] {
+  display: none !important;
+}
+
+.stream-card-link {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 7px !important;
+  padding: 10px 12px !important;
+  min-height: 44px !important;
+  border-radius: 12px !important;
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  font-weight: 800 !important;
+  font-size: 0.9rem !important;
+  white-space: nowrap !important;
+  transition: all 0.24s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-sizing: border-box !important;
+  direction: rtl !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* زر البث المباشر: أحمر رياضي مشتعل يعكس الأجواء الحماسية للمباريات والبث */
+.stream-card-link.live-stream-btn,
+.stream-card-link[data-mobasher] {
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 48%, #881337 100%) !important;
+  border: 1px solid rgba(254, 205, 211, 0.45) !important;
+  box-shadow: 0 4px 18px rgba(220, 38, 38, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+}
+
+.stream-card-link.live-stream-btn:hover,
+.stream-card-link[data-mobasher]:hover {
+  background: linear-gradient(135deg, #EF4444 0%, #DC2626 50%, #9F1239 100%) !important;
+  border-color: rgba(254, 205, 211, 0.8) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 24px rgba(239, 68, 68, 0.55), 0 0 16px rgba(244, 63, 94, 0.4) !important;
+}
+
+/* زر الاستراحة: بنفسجي نيلي ملكي راقٍ يعكس الترفيه والاسترخاء والمحتوى الشيق */
+.stream-card-link.estr-card-link,
+.stream-card-link.lounge-btn,
+.stream-card-link[data-estr],
+.stream-card-link[data-esterahah] {
+  background: linear-gradient(135deg, #6366F1 0%, #4F46E5 48%, #312E81 100%) !important;
+  border: 1px solid rgba(199, 210, 254, 0.45) !important;
+  box-shadow: 0 4px 18px rgba(99, 102, 241, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+}
+
+.stream-card-link.estr-card-link:hover,
+.stream-card-link.lounge-btn:hover,
+.stream-card-link[data-estr]:hover,
+.stream-card-link[data-esterahah]:hover {
+  background: linear-gradient(135deg, #818CF8 0%, #6366F1 50%, #3730A3 100%) !important;
+  border-color: rgba(199, 210, 254, 0.8) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 24px rgba(99, 102, 241, 0.55), 0 0 16px rgba(129, 140, 248, 0.4) !important;
+}
+
+.stream-card-link svg {
+  width: 19px !important;
+  height: 19px !important;
+  fill: #FFFFFF !important;
+  flex-shrink: 0 !important;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.4)) !important;
+  transition: transform 0.22s ease !important;
+}
+
+.stream-card-link span {
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.2px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35) !important;
+}
+
+.stream-card-link:hover svg {
+  transform: scale(1.12) !important;
+}
+
+.stream-card-link:active {
+  transform: scale(0.97) !important;
+}
+
+/* مؤشر نبض حي للبث المباشر */
+.live-dot-pulse {
+  width: 8px;
+  height: 8px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  animation: livePulseAnim 1.6s infinite cubic-bezier(0.66, 0, 0, 1);
+  flex-shrink: 0;
+  margin-left: 2px;
+}
+
+@keyframes livePulseAnim {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8);
+    opacity: 1;
+  }
+  70% {
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0);
+    opacity: 0.7;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    opacity: 1;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   لوحة قياس الاستهلاك الرقمية الحديثة لعام 2026 (العداد والمخطط الذكي)
+   ══════════════════════════════════════════════════════════════════ */
+.status-telemetry-dashboard {
+  width: 100%;
+  margin-top: 9px !important;
+  margin-bottom: 6px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 8px !important;
+  box-sizing: border-box;
+}
+
+.telemetry-header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px;
+  margin-bottom: 0 !important;
+}
+
+.telemetry-header-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #DFAB52;
+  font-weight: 800;
+  font-size: 0.98rem;
+}
+
+.telemetry-header-icon {
+  width: 18px;
+  height: 18px;
+  fill: #DFAB52;
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.4));
+}
+
+.telemetry-live-sync {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(52, 211, 153, 0.12);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  padding: 3px 9px;
+  border-radius: 20px;
+}
+
+.sync-dot-pulse {
+  width: 6px;
+  height: 6px;
+  background: #34D399;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #34D399;
+  animation: syncPulse 2s infinite ease-in-out;
+}
+
+@keyframes syncPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.3); opacity: 0.5; }
+}
+
+.sync-text {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #34D399;
+}
+
+/* بطاقة العداد الدائري الرئيسي (Hero Speedometer Gauge Pod — Digital Cyber Cockpit) */
+.status-gauge-pod {
+  position: relative;
+  background: linear-gradient(165deg, #142038 0%, #0F182B 100%);
+  border: 1.5px solid rgba(223, 171, 82, 0.35);
+  border-radius: 16px;
+  padding: 8px 12px 10px 12px;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.6), 0 0 20px rgba(223, 171, 82, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  overflow: hidden;
+  margin: 0 !important;
+  margin-bottom: 0 !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.status-gauge-pod:hover {
+  background: linear-gradient(165deg, #182642 0%, #121C32 100%);
+  border-color: rgba(223, 171, 82, 0.55);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7), 0 0 24px rgba(223, 171, 82, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.gauge-ambient-glow {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  height: 90px;
+  background: radial-gradient(ellipse, rgba(223, 171, 82, 0.16) 0%, rgba(56, 189, 248, 0.08) 50%, transparent 80%);
+  filter: blur(18px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.gauge-meter-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.gauge-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
+}
+
+.gauge-progress-arc {
+  transition: stroke-dashoffset 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gauge-center-content {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  pointer-events: none;
+}
+
+.gauge-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #94A3B8;
+  margin-bottom: 1px;
+}
+
+.gauge-sub-icon {
+  width: 14px;
+  height: 14px;
+  fill: #DFAB52;
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5));
+}
+
+.gauge-main-display {
+  font-size: 1.65rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #FFFFFF 30%, #FDE68A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 14px rgba(223, 171, 82, 0.45);
+  line-height: 1.15;
+  margin: 2px 0 1px 0;
+  white-space: nowrap;
+  letter-spacing: -0.5px;
+}
+
+.gauge-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(13, 22, 38, 0.85);
+  border: 1px solid rgba(223, 171, 82, 0.35);
+  padding: 3px 10px;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #F8FAFC;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 2px;
+}
+
+.gauge-status-dot {
+  width: 7px;
+  height: 7px;
+  background: #10B981;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #10B981;
+  animation: syncPulse 2s infinite ease-in-out;
+}
+
+/* شبكة حركة البيانات: التنزيل والرفع جنباً إلى جنب (HUD Telemetry Flow Pods) */
+.traffic-flow-grid {
+  display: flex;
+  gap: 8px !important;
+  width: 100%;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+.traffic-pod {
+  flex: 1 1 0;
+  min-width: 0;
+  background: linear-gradient(165deg, #142038 0%, #0F182B 100%);
+  border: 1.5px solid rgba(223, 171, 82, 0.28);
+  border-radius: 13px;
+  padding: 8px 10px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.traffic-pod.download-pod {
+  border-color: rgba(56, 189, 248, 0.32);
+}
+
+.traffic-pod.download-pod:hover {
+  background: linear-gradient(165deg, #16243F 0%, #111B30 100%);
+  border-color: rgba(56, 189, 248, 0.65);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.6), 0 0 16px rgba(56, 189, 248, 0.28);
+}
+
+.traffic-pod.upload-pod {
+  border-color: rgba(16, 185, 129, 0.32);
+}
+
+.traffic-pod.upload-pod:hover {
+  background: linear-gradient(165deg, #16243F 0%, #111B30 100%);
+  border-color: rgba(16, 185, 129, 0.65);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.6), 0 0 16px rgba(16, 185, 129, 0.28);
+}
+
+.traffic-pod-header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.traffic-icon-bubble {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.traffic-icon-bubble.cyan {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.25) 0%, rgba(14, 116, 144, 0.25) 100%);
+  border: 1px solid rgba(56, 189, 248, 0.45);
+  color: #38BDF8;
+}
+
+.traffic-icon-bubble.cyan svg {
+  width: 16px;
+  height: 16px;
+  fill: #38BDF8;
+  filter: drop-shadow(0 0 4px rgba(56, 189, 248, 0.6));
+}
+
+.traffic-icon-bubble.emerald {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.25) 0%, rgba(5, 150, 105, 0.25) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.45);
+  color: #34D399;
+}
+
+.traffic-icon-bubble.emerald svg {
+  width: 16px;
+  height: 16px;
+  fill: #34D399;
+  filter: drop-shadow(0 0 4px rgba(16, 185, 129, 0.6));
+}
+
+.traffic-label-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.traffic-type-title {
+  font-size: 0.84rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 1.2;
+}
+
+.traffic-type-en {
+  font-size: 0.64rem;
+  font-weight: 700;
+  color: #94A3B8;
+  letter-spacing: 0.3px;
+}
+
+.traffic-val-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  margin-top: 1px;
+}
+
+.traffic-metric-val {
+  font-size: 1.15rem;
+  font-weight: 900;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: -0.3px;
+}
+
+.traffic-metric-val.cyan-glow {
+  color: #E0F2FE;
+  text-shadow: 0 0 12px rgba(56, 189, 248, 0.45);
+}
+
+.traffic-metric-val.emerald-glow {
+  color: #D1FAE5;
+  text-shadow: 0 0 12px rgba(16, 185, 129, 0.45);
+}
+
+/* شريط التدفق والنشاط الشبكي المصغر بتأثير أمواج مضيئة */
+.traffic-wave-track {
+  width: 100%;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 9999px;
+  overflow: hidden;
+  position: relative;
+}
+
+.traffic-wave-bar {
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.traffic-wave-bar.cyan-bar {
+  width: 68%;
+  background: linear-gradient(90deg, #0284C7 0%, #38BDF8 70%, #BAE6FD 100%);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.7);
+}
+
+.traffic-wave-bar.emerald-bar {
+  width: 48%;
+  background: linear-gradient(90deg, #059669 0%, #10B981 70%, #A7F3D0 100%);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.7);
+}
+
+/* بطاقة مركز الوقت والجلسة (Session Timeline Hub — Dual Pods) */
+.status-session-hub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(165deg, #142038 0%, #0F182B 100%);
+  border: 1.5px solid rgba(223, 171, 82, 0.28);
+  border-radius: 14px;
+  padding: 8px 12px;
+  margin: 0 !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.status-session-hub:hover {
+  background: linear-gradient(165deg, #182642 0%, #121C32 100%);
+  border-color: rgba(223, 171, 82, 0.45);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.session-hub-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.session-hub-icon-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.session-hub-svg {
+  width: 15px;
+  height: 15px;
+}
+
+.session-hub-svg.gold {
+  fill: #DFAB52;
+  filter: drop-shadow(0 0 4px rgba(223, 171, 82, 0.5));
+}
+
+.session-hub-svg.cyan {
+  fill: #38BDF8;
+  filter: drop-shadow(0 0 4px rgba(56, 189, 248, 0.5));
+}
+
+.session-hub-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #94A3B8;
+}
+
+.session-hub-val {
+  font-size: 1.15rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  letter-spacing: -0.3px;
+}
+
+.session-hub-val.gold-glow {
+  color: #DFAB52;
+  text-shadow: 0 0 10px rgba(223, 171, 82, 0.4);
+}
+
+.session-hub-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.session-divider-line {
+  width: 1px;
+  height: 12px;
+  background: linear-gradient(180deg, transparent, rgba(223, 171, 82, 0.4), transparent);
+}
+
+.session-divider-dot {
+  width: 5px;
+  height: 5px;
+  background: #DFAB52;
+  border-radius: 50%;
+  margin: 3px 0;
+  box-shadow: 0 0 8px #DFAB52;
+}
+
+/* أزرار العمليات في صفحة الحالة (تسجيل الخروج وقطع الاتصال) — تدرج ذهبي عسلي ملكي */
+.status-actions-row {
+  display: flex !important;
+  gap: 8px !important;
+  margin-top: 9px !important;
+  margin-bottom: 6px !important;
+}
+
+.status-actions-row button,
+.btn-danger-glass,
+.btn-secondary-glass {
+  background:    linear-gradient(135deg, #E8BD6D 0%, #DFAB52 50%, #C48E33 100%) !important;
+  color:         #0A0E17 !important;
+  font-weight:   900 !important;
+  font-size:     14.5px !important;
+  border:        1px solid rgba(255, 255, 255, 0.35) !important;
+  border-radius: 14px !important;
+  min-height:    46px !important;
+  box-shadow:    0 4px 18px rgba(223, 171, 82, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.38) !important;
+  text-shadow:   none !important;
+  cursor:        pointer !important;
+  transition:    all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.status-actions-row button svg,
+.btn-danger-glass svg,
+.btn-secondary-glass svg {
+  fill:   #0A0E17 !important;
+  filter: none !important;
+}
+
+.status-actions-row button:hover,
+.btn-danger-glass:hover,
+.btn-secondary-glass:hover {
+  background:  linear-gradient(135deg, #F0C97F 0%, #E5B562 50%, #D19A3F 100%) !important;
+  color:       #000000 !important;
+  transform:   translateY(-2px) !important;
+  box-shadow:  0 8px 24px rgba(223, 171, 82, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.5) !important;
+}
+
+.status-actions-row button:active,
+.btn-danger-glass:active,
+.btn-secondary-glass:active {
+  transform:  scale(0.97) !important;
+  box-shadow: 0 2px 8px rgba(223, 171, 82, 0.3) !important;
+}
+
+/* بطاقة الحظر المؤقت (#block) */
+.block-card-warning {
+  background:    var(--color-bg-card) !important;
+  border:        1.5px solid rgba(239, 68, 68, 0.5) !important;
+  border-radius: 20px !important;
+  box-shadow:    0 16px 45px rgba(0, 0, 0, 0.75), 0 0 20px rgba(239, 68, 68, 0.2) !important;
+}
+
+.countdown-badge {
+  background:    #080D18 !important;
+  border:        1px solid var(--color-gold-border) !important;
+  color:         #FFFFFF !important;
+  border-radius: 9999px !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   شريط القرآن الكريم مجاناً والنافذة المنبثقة الفاخرة (Quran Strip & Modal)
+   ══════════════════════════════════════════════════════════════════ */
+.quran-strip-card {
+  width: 100% !important;
+  background: linear-gradient(135deg, rgba(20, 32, 56, 0.98) 0%, rgba(15, 24, 43, 0.98) 100%) !important;
+  border: 1px solid rgba(223, 171, 82, 0.45) !important;
+  border-radius: 14px !important;
+  padding: 6px 10px !important;
+  margin: 0 0 7px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 8px !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), 0 0 16px rgba(223, 171, 82, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  direction: rtl !important;
+  position: relative !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.quran-strip-card::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 4px !important;
+  background: linear-gradient(180deg, #E8BD6D, #DFAB52, #C48E33) !important;
+}
+
+.quran-strip-card:hover {
+  border-color: rgba(223, 171, 82, 0.7) !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), 0 0 20px rgba(223, 171, 82, 0.25) !important;
+}
+
+.quran-strip-info {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  min-width: 0 !important;
+  flex: 1 1 auto !important;
+  overflow: hidden !important;
+}
+
+.quran-icon-wrap {
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 9px !important;
+  background: linear-gradient(135deg, rgba(223, 171, 82, 0.22) 0%, rgba(223, 171, 82, 0.08) 100%) !important;
+  border: 1px solid rgba(223, 171, 82, 0.45) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.2) !important;
+}
+
+.quran-icon-wrap svg {
+  width: 20px !important;
+  height: 20px !important;
+  fill: #DFAB52 !important;
+}
+
+.quran-text-group {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  min-width: 0 !important;
+  flex: 1 1 auto !important;
+  overflow: hidden !important;
+}
+
+.quran-title-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  min-width: 0 !important;
+  overflow: hidden !important;
+}
+
+.quran-main-title {
+  font-size: 0.88rem !important;
+  font-weight: 900 !important;
+  color: #FFFFFF !important;
+  letter-spacing: -0.2px !important;
+  white-space: nowrap !important;
+  line-height: 1.2 !important;
+}
+
+.quran-free-badge {
+  background: rgba(16, 185, 129, 0.2) !important;
+  border: 1px solid rgba(16, 185, 129, 0.5) !important;
+  color: #34d399 !important;
+  font-size: 9.5px !important;
+  font-weight: 800 !important;
+  padding: 1px 5px !important;
+  border-radius: 5px !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  box-shadow: none !important;
+}
+
+.quran-sub-label {
+  font-size: 0.71rem !important;
+  color: #94A3B8 !important;
+  margin-top: 2px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: block !important;
+  line-height: 1.2 !important;
+}
+
+.quran-strip-actions {
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  flex-shrink: 0 !important;
+}
+
+.quran-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  padding: 5px 9px !important;
+  border-radius: 8px !important;
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border: none !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important;
+  min-height: 32px !important;
+}
+
+.quran-btn svg {
+  width: 13px !important;
+  height: 13px !important;
+  flex-shrink: 0 !important;
+}
+
+.quran-btn-read {
+  background: linear-gradient(135deg, #E8BD6D 0%, #DFAB52 50%, #C48E33 100%) !important;
+  color: #0A0E17 !important;
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+  box-shadow: 0 3px 12px rgba(223, 171, 82, 0.35) !important;
+}
+
+.quran-btn-read svg {
+  fill: #0A0E17 !important;
+}
+
+.quran-btn-read:hover {
+  background: linear-gradient(135deg, #F0C97F 0%, #E5B562 50%, #D19A3F 100%) !important;
+  box-shadow: 0 4px 16px rgba(223, 171, 82, 0.5) !important;
+  transform: translateY(-1px) !important;
+}
+
+.quran-btn-download {
+  background: rgba(223, 171, 82, 0.12) !important;
+  color: #DFAB52 !important;
+  border: 1px solid rgba(223, 171, 82, 0.45) !important;
+}
+
+.quran-btn-download svg {
+  fill: #DFAB52 !important;
+}
+
+.quran-btn-download:hover {
+  background: rgba(223, 171, 82, 0.25) !important;
+  border-color: #DFAB52 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px) !important;
+}
+
+.quran-btn-download:hover svg {
+  fill: #FFFFFF !important;
+}
+
+/* ─── النافذة الكاملة للقرآن الكريم (#quran-modal) - تصميم فائق الرقي والحداثة ─── */
+body.quran-reading-mode {
+  overflow: hidden !important;
+  position: fixed !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+body.quran-reading-mode .bottom-nav-bar,
+body.quran-reading-mode #bottomNav,
+body.quran-reading-mode nav {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transform: translateY(100px) !important;
+}
+
+#quran-modal {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100dvh !important;
+  z-index: 2147483647 !important;
+  display: none;
+  background: #040711 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+#quran-modal.active {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.quran-reader-stage {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  background: #040711 !important;
+  overflow: hidden !important;
+}
+
+/* ─── الشريط العلوي العائم الحديث (Floating Header) ─── */
+.quran-modern-header {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 100 !important;
+  padding: max(10px, env(safe-area-inset-top)) 14px 10px 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
+  background: linear-gradient(180deg, rgba(6, 10, 20, 0.96) 0%, rgba(6, 10, 20, 0.85) 75%, rgba(6, 10, 20, 0) 100%) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.28s ease !important;
+}
+
+.quran-modern-header.ui-hidden {
+  transform: translateY(-100%) !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.quran-hdr-start {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+}
+
+.quran-hdr-circle-btn {
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 50% !important;
+  background: rgba(223, 171, 82, 0.1) !important;
+  border: 1px solid rgba(223, 171, 82, 0.28) !important;
+  color: #DFAB52 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  flex-shrink: 0 !important;
+  transition: all 0.18s ease !important;
+  touch-action: manipulation !important;
+}
+
+.quran-hdr-circle-btn svg {
+  width: 18px !important;
+  height: 18px !important;
+  fill: #DFAB52 !important;
+}
+
+.quran-hdr-circle-btn:active {
+  transform: scale(0.92) !important;
+  background: rgba(223, 171, 82, 0.25) !important;
+}
+
+.quran-hdr-close {
+  background: rgba(239, 68, 68, 0.14) !important;
+  border-color: rgba(239, 68, 68, 0.35) !important;
+}
+
+.quran-hdr-close svg {
+  fill: #f87171 !important;
+}
+
+/* Surah Selector Capsule */
+.quran-surah-pill {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: rgba(13, 20, 36, 0.85) !important;
+  border: 1px solid rgba(223, 171, 82, 0.4) !important;
+  border-radius: 24px !important;
+  padding: 4px 10px !important;
+  max-width: 220px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.quran-surah-icon {
+  width: 15px !important;
+  height: 15px !important;
+  fill: #DFAB52 !important;
+  flex-shrink: 0 !important;
+}
+
+.quran-surah-select {
+  background: transparent !important;
+  border: none !important;
+  color: #DFAB52 !important;
+  font-size: 0.82rem !important;
+  font-weight: 800 !important;
+  outline: none !important;
+  cursor: pointer !important;
+  width: 100% !important;
+  padding-right: 2px !important;
+}
+
+.quran-surah-select option {
+  background: #080D1A !important;
+  color: #FFFFFF !important;
+}
+
+/* Header Actions */
+.quran-hdr-end {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  flex-shrink: 0 !important;
+}
+
+.quran-hdr-download-btn {
+  background: linear-gradient(135deg, rgba(223, 171, 82, 0.2) 0%, rgba(184, 134, 11, 0.32) 100%) !important;
+  border: 1px solid rgba(223, 171, 82, 0.5) !important;
+  color: #DFAB52 !important;
+  border-radius: 20px !important;
+  padding: 6px 12px !important;
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  min-height: 34px !important;
+  transition: all 0.18s ease !important;
+  white-space: nowrap !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.quran-hdr-download-btn svg {
+  width: 15px !important;
+  height: 15px !important;
+  fill: #DFAB52 !important;
+}
+
+.quran-hdr-download-btn:active {
+  transform: scale(0.94) !important;
+}
+
+/* ─── منطقة العرض المركزية واللمس والتكبير (Pinch-to-Zoom Stage) ─── */
+.quran-modern-viewer {
+  flex: 1 1 auto !important;
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #040711 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: none !important; /* Disable browser default gestures to let our smooth pinch-zoom engine handle it */
+}
+
+.quran-edge-tap {
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  width: 18% !important;
+  max-width: 80px !important;
+  z-index: 20 !important;
+  cursor: pointer !important;
+  opacity: 0 !important;
+}
+
+.quran-edge-right { right: 0 !important; }
+.quran-edge-left { left: 0 !important; }
+
+.quran-viewport-scroll {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  transition: background 0.25s ease, filter 0.25s ease !important;
+}
+
+.quran-viewport-scroll.theme-sepia {
+  background: #211c15 !important;
+  filter: sepia(0.32) contrast(1.05) brightness(0.96) !important;
+}
+
+.quran-viewport-scroll.theme-night {
+  background: #020408 !important;
+  filter: invert(0.92) hue-rotate(180deg) contrast(1.15) !important;
+}
+
+.quran-page-img {
+  display: block !important;
+  max-width: 98% !important;
+  max-height: 98% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  margin: auto !important;
+  background: #ffffff !important;
+  border-radius: 6px !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.9), 0 0 25px rgba(223, 171, 82, 0.12) !important;
+  transform-origin: center center !important;
+  will-change: transform !important;
+  image-rendering: -webkit-optimize-contrast !important;
+  image-rendering: crisp-edges !important;
+}
+
+/* Floating Zoom Reset Button */
+.quran-zoom-reset-btn {
+  position: absolute !important;
+  top: 70px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 90 !important;
+  background: rgba(8, 13, 24, 0.88) !important;
+  border: 1px solid rgba(223, 171, 82, 0.45) !important;
+  color: #DFAB52 !important;
+  padding: 5px 12px !important;
+  border-radius: 16px !important;
+  font-size: 0.76rem !important;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+  backdrop-filter: blur(8px) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+  animation: quranFadeIn 0.2s ease-out !important;
+}
+
+@keyframes quranFadeIn {
+  from { opacity: 0; transform: translate(-50%, -8px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+/* ─── الشريط السفلي العائم الكبسولي (Modern Floating Capsule Bottom Bar) ─── */
+.quran-modern-bottom {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  max-width: 100vw !important;
+  box-sizing: border-box !important;
+  z-index: 100 !important;
+  padding: 6px 8px max(8px, env(safe-area-inset-bottom)) 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 5px !important;
+  background: linear-gradient(0deg, rgba(6, 10, 20, 0.98) 0%, rgba(6, 10, 20, 0.9) 70%, rgba(6, 10, 20, 0) 100%) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.28s ease !important;
+}
+
+.quran-modern-bottom.ui-hidden {
+  transform: translateY(100%) !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.quran-capsule-nav-btn {
+  background: linear-gradient(135deg, rgba(223, 171, 82, 0.2) 0%, rgba(184, 134, 11, 0.35) 100%) !important;
+  border: 1px solid rgba(223, 171, 82, 0.45) !important;
+  color: #FFFFFF !important;
+  padding: 5px 8px !important;
+  border-radius: 16px !important;
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 3px !important;
+  min-height: 32px !important;
+  transition: all 0.18s ease !important;
+  flex-shrink: 0 !important;
+  touch-action: manipulation !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.quran-capsule-nav-btn svg {
+  width: 14px !important;
+  height: 14px !important;
+  fill: #DFAB52 !important;
+}
+
+.quran-capsule-nav-btn:active {
+  transform: scale(0.93) !important;
+}
+
+.quran-capsule-center {
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  max-width: 320px !important;
+  justify-content: center !important;
+}
+
+.quran-capsule-badge {
+  background: rgba(10, 16, 30, 0.9) !important;
+  border: 1px solid rgba(223, 171, 82, 0.35) !important;
+  border-radius: 12px !important;
+  padding: 2px 6px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 2px !important;
+  color: #DFAB52 !important;
+  font-weight: 800 !important;
+  font-size: 0.72rem !important;
+  flex-shrink: 0 !important;
+}
+
+.quran-page-number-input {
+  width: 32px !important;
+  text-align: center !important;
+  background: rgba(223, 171, 82, 0.12) !important;
+  border: 1px solid rgba(223, 171, 82, 0.3) !important;
+  color: #FFFFFF !important;
+  font-weight: 900 !important;
+  font-size: 0.75rem !important;
+  border-radius: 4px !important;
+  padding: 1px 0 !important;
+  outline: none !important;
+}
+
+.quran-capsule-sep {
+  color: rgba(223, 171, 82, 0.5) !important;
+}
+
+.quran-page-slider {
+  flex: 1 1 35px !important;
+  min-width: 30px !important;
+  max-width: 120px !important;
+  height: 4px !important;
+  accent-color: #DFAB52 !important;
+  cursor: pointer !important;
+  background: rgba(223, 171, 82, 0.2) !important;
+  border-radius: 4px !important;
+  outline: none !important;
+}
+
+.quran-bookmark-chip {
+  background: rgba(16, 185, 129, 0.2) !important;
+  border: 1px solid rgba(16, 185, 129, 0.45) !important;
+  color: #34d399 !important;
+  border-radius: 12px !important;
+  padding: 2px 6px !important;
+  font-size: 0.68rem !important;
+  font-weight: 800 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 2px !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+  white-space: nowrap !important;
+}
+
+.quran-bookmark-chip svg {
+  width: 10px !important;
+  height: 10px !important;
+  fill: #34d399 !important;
+}
+
+/* ─── تحسينات التوافق مع الهواتف الذكية (Mobile Responsive) ─── */
+@media (max-width: 768px) {
+  .quran-modern-header {
+    padding: max(6px, env(safe-area-inset-top)) 8px 6px 8px !important;
+    gap: 6px !important;
+  }
+
+  .quran-surah-pill {
+    max-width: 140px !important;
+    padding: 3px 6px !important;
+  }
+
+  .quran-surah-select {
+    font-size: 0.72rem !important;
+  }
+
+  .quran-hdr-download-btn {
+    padding: 4px 7px !important;
+    font-size: 0.7rem !important;
+  }
+
+  .quran-capsule-nav-btn {
+    padding: 4px 7px !important;
+    font-size: 0.7rem !important;
+    min-height: 30px !important;
+  }
+
+  .quran-page-img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    border-radius: 0 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .quran-surah-pill {
+    max-width: 110px !important;
+  }
+  .quran-hdr-download-btn span {
+    display: none !important;
+  }
+  .quran-hdr-download-btn {
+    padding: 6px !important;
+    border-radius: 50% !important;
+  }
+  .quran-page-slider {
+    min-width: 25px !important;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   20. قسم حقوق التصميم أسفل الصفحة
+   ══════════════════════════════════════════════════════════════════ */
+.designer-credits-block {
+  display: none !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   21. إخفاء خيارات وحاويات ومودالات السرعة عند التعطيل في config.js
+   ══════════════════════════════════════════════════════════════════ */
+html.speed-selection-disabled #speedSelectionPopdown,
+html.speed-selection-disabled .speed-selection-popdown-container,
+html.speed-selection-disabled .speed-selection-card,
+html.speed-selection-disabled .speed-selection-outer-header,
+html.speed-selection-disabled #statusSpeedChangeContainer,
+html.speed-selection-disabled #statusSpeedTrigger,
+html.speed-selection-disabled #speed-modal,
+html.speed-selection-disabled #status-speed-modal,
+body.speed-selection-disabled #speedSelectionPopdown,
+body.speed-selection-disabled .speed-selection-popdown-container,
+body.speed-selection-disabled .speed-selection-card,
+body.speed-selection-disabled .speed-selection-outer-header,
+body.speed-selection-disabled #statusSpeedChangeContainer,
+body.speed-selection-disabled #statusSpeedTrigger,
+body.speed-selection-disabled #speed-modal,
+body.speed-selection-disabled #status-speed-modal {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   22. إخفاء الشريط الإخباري عند التعطيل في config.js
+   ══════════════════════════════════════════════════════════════════ */
+html.news-ticker-disabled #newsTickerLoginSection,
+html.news-ticker-disabled #newsTickerStatusSection,
+html.news-ticker-disabled [data-news-ticker],
+html.news-ticker-disabled .ticker-container,
+body.news-ticker-disabled #newsTickerLoginSection,
+body.news-ticker-disabled #newsTickerStatusSection,
+body.news-ticker-disabled [data-news-ticker],
+body.news-ticker-disabled .ticker-container {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+
+

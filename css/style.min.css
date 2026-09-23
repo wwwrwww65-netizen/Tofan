@@ -2803,19 +2803,13 @@ tbody td:last-child {
 
 #status.active {
   display: block !important;
-  animation: fadeInStatusPage 0.2s ease forwards !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  animation: none !important;
+  transform: none !important;
+  transition: none !important;
   overflow-y: visible !important;
   touch-action: pan-y !important;
-}
-
-@keyframes fadeInStatusPage {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
 }
 
 #status .modal-sheet-card {

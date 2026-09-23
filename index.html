@@ -3,6 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <script>
+        try {
+            if (localStorage.getItem("hotspot_active_session") === "1" || /(?:^|;\s*)hotspot_active_session=1/.test(document.cookie)) {
+                document.documentElement.classList.add("initial-status-mode");
+            }
+        } catch(e) {}
+    </script>
     <title data-network-name>شبكة طوفان نت اللاسلكية</title>
     <meta name="description" content="بوابة تسجيل الدخول وشبكة طوفان نت للاتصالات والإنترنت اللاسلكي">
     <meta property="og:title" content="شبكة طوفان نت">
@@ -25,6 +32,61 @@
             margin: 0;
             padding: 0;
             min-height: 100%;
+        }
+
+        /* 100% Zero-Flicker Instant Status Dashboard Rules */
+        html.initial-status-mode #login,
+        body.has-active-session #login,
+        #login.hidden-by-status {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
+
+        /* Immediate Zero-Distortion Status Dashboard Rendering */
+        #status.active,
+        html.initial-status-mode #status,
+        body.has-active-session #status {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            animation: none !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        #status.active .modal-sheet-card,
+        #status.active .status-header-card,
+        #status.active .status-telemetry-dashboard,
+        #status.active .status-gauge-pod,
+        #status.active .status-actions-row,
+        #status.active .customer-support-section {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            transform: none !important;
+        }
+
+        #status.active .traffic-flow-grid {
+            display: flex !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            transform: none !important;
+        }
+
+        #status.active .status-session-hub,
+        #status.active .status-actions-row {
+            display: flex !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            transform: none !important;
+        }
+
+        #status svg {
+            display: inline-block;
+            vertical-align: middle;
+            flex-shrink: 0;
         }
     </style>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -2338,7 +2400,8 @@
         (function() {
             function parseBytesToNumber(str) {
                 if (!str || typeof str !== 'string') return 0;
-                var s = str.trim();
+                var s = str.trim()
+                    .replace(/[٠-٩]/g, function(d) { return "0123456789"["٠١٢٣٤٥٦٧٨٩".indexOf(d)]; });
                 var match = s.match(/([0-9.]+)\s*(جيجابايت|ميجابايت|كيلوبايت|بايت|gb|mb|kb|b)/i);
                 if (!match) {
                     var raw = parseFloat(s);
@@ -2375,9 +2438,11 @@
                 } else {
                     var remainNum = parseBytesToNumber(remainText);
                     var outNum = bytesOutEl ? parseBytesToNumber(bytesOutEl.textContent || bytesOutEl.innerText) : 0;
-                    var totalEst = remainNum + outNum;
-                    var ratio = totalEst > 0 ? (remainNum / totalEst) : 0.85;
-                    ratio = Math.max(0.05, Math.min(1, ratio));
+                    var inNum = bytesInEl ? parseBytesToNumber(bytesInEl.textContent || bytesInEl.innerText) : 0;
+                    var totalConsumed = outNum + inNum;
+                    var totalEst = remainNum + totalConsumed;
+                    var ratio = totalEst > 0 ? (remainNum / totalEst) : 1;
+                    ratio = Math.max(0.02, Math.min(1, ratio));
                     var offset = maxDash * (1 - ratio);
                     arc.style.strokeDasharray = maxDash;
                     arc.style.strokeDashoffset = String(offset.toFixed(1));
