@@ -18,10 +18,6 @@ function getConfigDefaultSpeed() {
       const match = content.match(/window\.siteConfig\s*=\s*(\{[\s\S]*?\});/);
       if (match && match[1]) {
         const parsed = JSON.parse(match[1]);
-        const isSpeedEnabled = (parsed.speedV === true || (parsed.speedV !== false && parsed["speed-select"] !== 0 && parsed["speed-select"] !== false && parsed["speed-select"] !== "0"));
-        if (!isSpeedEnabled) {
-          return '';
-        }
         if (parsed.speedOptions && Array.isArray(parsed.speedOptions) && parsed.speedOptions.length > 0) {
           const def = parsed.speedOptions.find(s => s.selected || s.isDefault) || parsed.speedOptions[0];
           if (def && typeof def.value === 'string') {
@@ -45,23 +41,6 @@ app.use(express.static(__dirname));
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', app: 'toshka-hotspot' });
-});
-
-// Save config directly to config.js from dashboard
-app.post('/api/save-config', (req, res) => {
-  try {
-    const configData = req.body;
-    if (!configData || typeof configData !== 'object') {
-      return res.status(400).json({ success: false, message: 'Invalid config data' });
-    }
-    const configPath = path.join(__dirname, 'config.js');
-    const fileContent = `window.siteConfig = ${JSON.stringify(configData, null, 4)};\n`;
-    fs.writeFileSync(configPath, fileContent, 'utf8');
-    return res.json({ success: true, message: 'Config saved successfully to config.js' });
-  } catch (err) {
-    console.error('Error saving config.js:', err);
-    return res.status(500).json({ success: false, message: err.message });
-  }
 });
 
 // Notifications & announcements public content mock endpoint

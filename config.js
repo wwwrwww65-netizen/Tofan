@@ -1,180 +1,199 @@
 window.siteConfig = {
-    "siteName": "البدر نت",
-    "network-name": "البدر نت",
+    "siteName": "طوفان نت",
+    "network-name": "طوفان نت",
     "subDecText": "لخدمات الإنترنت اللاسلكي",
-    "welcomeMessage": "أهلاً بك زائرنا في شبكة البدر نت",
+    "welcomeMessage": "مرحبا بك في شبكتنا",
     "welcomeMessageV": true,
-    "supportPhone": "711720290",
-    "service-number": "711720290",
-    "callPhone": "711720290",
-    "whatsappPhone": "967711720290",
-    "whatsappMsg": "مرحبا خدمة عملاء شبكة البدر نت اللاسلكية",
+    "erbV": false,
+    "news-line": "تذكر ان الله ينظر اليك و خاف منه كما تخاف من ان ينظر اليك من بجانبك",
+    "news-line2": "",
+    "textSlider1": "تذكر ان الله ينظر اليك و خاف منه كما تخاف من ان ينظر اليك من بجانبك",
+    "supportPhone": "784000499",
+    "service-number": "784000499",
+    "callPhone": "784000499",
+    "whatsappPhone": "967784000499",
+    "whatsappMsg": "مرحبا خدمة عملاء شبكة طوفان نت اللاسلكية",
+    "fixedSpeedCardPrefixes": [],
+    "speed-select": 0,
+    "speed-var": "speed",
+    "speed-option": "",
+    "defaultSpeed": "",
+    "speedOptions": [
+        {
+            "name": "سرعة أفتراضية",
+            "label": "سرعة أفتراضية",
+            "value": "",
+            "selected": true,
+            "isDefault": true
+        },
+        {
+            "name": "سرعة منخفضة ",
+            "label": "سرعة منخفضة ",
+            "value": "128K/512K",
+            "selected": false,
+            "isDefault": false
+        },
+        {
+            "name": "سرعة عادية ",
+            "label": "سرعة عادية ",
+            "value": "256K/1024K",
+            "selected": false,
+            "isDefault": false
+        },
+        {
+            "name": "سرعة متوسطة ",
+            "label": "سرعة متوسطة ",
+            "value": "512K/2048K",
+            "selected": false,
+            "isDefault": false
+        },
+        {
+            "name": "سرعة مفتوحة",
+            "label": "سرعة مفتوحة",
+            "value": "1024K/4096K",
+            "selected": false,
+            "isDefault": false
+        }
+    ],
     "imageCount": "7",
     "imageV": true,
     "packages": [
         {
             "price": "100 ريال",
-            "time": "4 ساعات",
-            "size": "400 ميجا",
-            "transfer": "400 ميجا",
-            "validity": "4 يوم",
-            "vl": "4 يوم"
+            "time": "3 ساعات",
+            "size": "200 ميجا",
+            "transfer": "200 ميجا",
+            "validity": "2 ايام",
+            "vl": "2 ايام"
         },
         {
-            "price": "200 ريال",
-            "time": "12 ساعة",
-            "size": "700 ميجا",
-            "transfer": "700 ميجا",
-            "validity": "10 يوم",
-            "vl": "10 يوم"
+            "price": "150 ريال",
+            "time": "5 ساعات",
+            "size": "300 ميجا",
+            "transfer": "300 ميجا",
+            "validity": "4 ايام",
+            "vl": "4 ايام"
         },
         {
             "price": "250 ريال",
-            "time": "15 ساعة",
-            "size": "1 جيجا",
-            "transfer": "1 جيجا",
-            "validity": "15 يوم",
-            "vl": "15 يوم"
+            "time": "10 ساعات",
+            "size": "650 ميجا",
+            "transfer": "650 ميجا",
+            "validity": "7 ايام",
+            "vl": "7 ايام"
         },
         {
             "price": "500 ريال",
-            "time": "50 ساعة",
-            "size": "2 جيجا",
-            "transfer": "2 جيجا",
+            "time": "25 ساعة",
+            "size": "1400 ميجا",
+            "transfer": "1400 ميجا",
             "validity": "20 يوم",
             "vl": "20 يوم"
         },
         {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "size": "25 جيجا",
-            "transfer": "25 جيجا",
-            "validity": "30 يوم",
-            "vl": "30 يوم"
+            "price": "1000 ريال",
+            "time": "60 ساعة",
+            "size": "3 جيجا",
+            "transfer": "3 جيجا",
+            "validity": "شهر",
+            "vl": "شهر"
         },
         {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "size": "30 جيجا",
-            "transfer": "30 جيجا",
-            "validity": "30 يوم",
-            "vl": "30 يوم"
-        },
-        {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "size": "50 جيجا",
-            "transfer": "50 جيجا",
-            "validity": "30 يوم",
-            "vl": "30 يوم"
-        },
-        {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "size": "75 جيجا",
-            "transfer": "75 جيجا",
-            "validity": "30 يوم",
-            "vl": "30 يوم"
-        },
-        {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "size": "100 جيجا",
-            "transfer": "100 جيجا",
-            "validity": "30 يوم",
-            "vl": "30 يوم"
+            "price": "5000 ريال",
+            "time": "شهر",
+            "size": "15 جيجا",
+            "transfer": "15 جيجا",
+            "validity": "شهر",
+            "vl": "شهر"
         }
     ],
     "profiles": [
         {
             "price": "100 ريال",
-            "time": "4 ساعات",
-            "transfer": "400 ميجا",
-            "validity": "4 يوم"
+            "time": "3 ساعات",
+            "transfer": "200 ميجا",
+            "validity": "2 ايام"
         },
         {
-            "price": "200 ريال",
-            "time": "12 ساعة",
-            "transfer": "700 ميجا",
-            "validity": "10 يوم"
+            "price": "150 ريال",
+            "time": "5 ساعات",
+            "transfer": "300 ميجا",
+            "validity": "4 ايام"
         },
         {
             "price": "250 ريال",
-            "time": "15 ساعة",
-            "transfer": "1 جيجا",
-            "validity": "15 يوم"
+            "time": "10 ساعات",
+            "transfer": "650 ميجا",
+            "validity": "7 ايام"
         },
         {
             "price": "500 ريال",
-            "time": "50 ساعة",
-            "transfer": "2 جيجا",
+            "time": "25 ساعة",
+            "transfer": "1400 ميجا",
             "validity": "20 يوم"
         },
         {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "transfer": "25 جيجا",
-            "validity": "30 يوم"
+            "price": "1000 ريال",
+            "time": "60 ساعة",
+            "transfer": "3 جيجا",
+            "validity": "شهر"
         },
         {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "transfer": "30 جيجا",
-            "validity": "30 يوم"
-        },
-        {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "transfer": "50 جيجا",
-            "validity": "30 يوم"
-        },
-        {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "transfer": "75 جيجا",
-            "validity": "30 يوم"
-        },
-        {
-            "price": "اشتراك شهري",
-            "time": "بدون تحديد",
-            "transfer": "100 جيجا",
-            "validity": "30 يوم"
+            "price": "5000 ريال",
+            "time": "شهر",
+            "transfer": "15 جيجا",
+            "validity": "شهر"
         }
     ],
-    "offersTitle": "خدمات وعروض شبكة البدر نت 🔥",
-    "offers": "...:::: أهلاً بكم في شبكة البدر نت اللاسلكية تتميز شبكتنا بتقديم مزايا مختلفة لمشتركيها الأعزاء منها السرعة في التصفح ولعب الألعاب، استقرار وثبات الخدمة على مدار 24 ساعة ::::...",
+    "offersTitle": "خدمات وعروض شبكة طوفان نت 🔥",
+    "offers": "مرحبا بك في شبكتنا 😍\n• تذكر ان الله ينظر اليك و خاف منه كما تخاف من ان ينظر اليك من بجانبك\n• سرعة عالية وثبات في خدمة الإنترنت اللاسلكي\n• نقاط البيع متوفرة في جميع البقالات في اماكن تغطية الشبكة",
+    "offersBadge": "عرض مجاني",
+    "offersBadgeV": false,
+    "offersBtnText": "📺 بث واستراحة الطوفان",
+    "offersBtnUrl": "",
+    "offersBtnV": false,
     "loan-button": true,
-    "loan-text": "أهلاً بك زائرنا في شبكة البدر نت",
+    "loan-text": "أهلاً بك زائرنا في شبكة طوفان نت",
     "salesPoints": [
-        "المركز الرئيسي - شبكة البدر",
-        "البدر نت - العنوان: البدر - للتواصل: 711720290",
-        "موزع رسمي لشبكة البدر نت - للتواصل: 711720290"
+        "جميع البقالات في اماكن تغطية الشبكة"
     ],
     "sell-points": [
         {
-            "name": "المركز الرئيسي - شبكة البدر"
-        },
-        {
-            "name": "البدر نت - العنوان: البدر - للتواصل: 711720290"
-        },
-        {
-            "name": "موزع رسمي لشبكة البدر نت - للتواصل: 711720290"
+            "name": "جميع البقالات في اماكن تغطية الشبكة"
         }
     ],
-    "login-type": "",
+    "estr": "http://f.com/fiberlive/live.html",
+    "estrV": true,
+    "moba": "http://f.com/fiberlive/live.html",
+    "mobaV": true,
+    "redirect-to-esterahah": "http://f.com/fiberlive/live.html",
+    "redirect-to-mobasher": "http://f.com/fiberlive/live.html",
+    "app-store-status-button": false,
+    "app-store-base-url": "",
+    "quranUrl": "",
+    "quranV": false,
+    "updatesBlockerV": true,
+    "enable-updates-blocker": 1,
     "enableHotCookie": true,
     "enable-hot-cookie": 1,
     "enable-hot-blocker": 1,
     "clear-router-cookie": 1,
     "clear-hot-cookie": 1,
-    "block-time": 1,
+    "block-time": 2,
     "try-count": 5,
     "warn-when": 3,
     "warn-message": "تحذير !! عدد محاولاتك الخاطئة اصبح {{tryCounter}} محاولات, عدد المحاولات المسموح بها هي {{tryCount}} محاولات فقط, عدد محاولاتك المتبقية {{restTryCount}} محاولات, سيتم حظرك لمدة {{blockTime}} دقائق اذا تجاوزت العدد المسموح للمحاولات",
+    "login-type": "user",
     "input-autocomplete": "on",
-    "input-type": "text",
+    "input-type": "tel",
     "input-rm-white-spaces": 1,
+    "input-to-lower": 0,
+    "input-to-upper": 0,
     "input-to-arabic-numbers": 1,
+    "input-only-numbers": 0,
+    "input-no-numbers": 0,
+    "input-only-alphanumeric": 0,
+    "input-to-text-type-when": 0,
     "price-button": true,
     "sell-point-button": true,
     "show-date-field": true
