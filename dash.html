@@ -1371,9 +1371,31 @@
                                 </div>
                             </div>
 
-                            <!-- Cookies & Previous Card Settings -->
+                            <!-- Cookies & Login Type Settings -->
                             <div style="background: rgba(15, 23, 42, 0.4); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 18px; display: flex; flex-direction: column; justify-content: space-between;">
                                 <div>
+                                    <!-- Login Type Selector -->
+                                    <div style="margin-bottom: 20px;">
+                                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px; color: #38bdf8; font-weight: 700; font-size: 1rem;">
+                                            <i class="fas fa-key"></i> نوع تسجيل الدخول (نظام كروت المايكروتك)
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="loginTypeSelect">
+                                                طريقة تسجيل الدخول المتوافقة مع راوتر المايكروتك
+                                            </label>
+                                            <select class="form-control" id="loginTypeSelect" onchange="updateConfigField('login-type', this.value)" style="background: rgba(15, 23, 42, 0.85); color: #fff; font-weight: 600;">
+                                                <option value="">كروت برقم فقط بدون كلمة سر (الافتراضي للمايكروتك - يوزر فقط)</option>
+                                                <option value="passwordAsUser">كروت يوزر = باسورد (رقم الكرت هو نفسه كلمة السر)</option>
+                                                <option value="both">كروت باسم مستخدم وكلمة مرور منفصلين</option>
+                                            </select>
+                                            <div class="form-hint" style="color: #93c5fd;">
+                                                <i class="fas fa-info-circle"></i> لمعظم شبكات المايكروتك التي تستخدم كروت برقم واحد فقط، اختر الخيار الأول <strong>(بدون كلمة سر)</strong> ليعمل تسجيل الدخول فوراً وبدون مشاكل.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr style="border: 0; border-top: 1px solid rgba(255, 255, 255, 0.08); margin: 16px 0;">
+
                                     <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px; color: #10b981; font-weight: 700; font-size: 1rem;">
                                         <i class="fas fa-cookie-bite"></i> نظام الكوكيز وحفظ الكروت (HotCookie)
                                     </div>
@@ -1399,7 +1421,7 @@
                                         <i class="fas fa-info-circle"></i> <strong>كيف يعمل؟</strong>
                                         <ul style="margin: 6px 16px 0 0; padding: 0;">
                                             <li>يقوم بحفظ كرت المستخدم تلقائياً في التخزين المحلي الآمن.</li>
-                                            <li>يسمح بالضغط على زر "كرت سابق" لتعبئة الكرت بلمسة واحدة دون كتابته.</li>
+                                            <li>يسمح بالضغط على زر "دخول بكرت سابق" لتعبئة الكرت بلمسة واحدة دون كتابته.</li>
                                             <li>يحافظ على تسجيل الدخول السريع وتسهيل تجربة المستخدم.</li>
                                         </ul>
                                     </div>
@@ -1488,29 +1510,29 @@
     <!-- MAIN DASHBOARD SCRIPT -->
     <script>
         let appConfig = {
-            siteName: "الجامعة نت",
-            "network-name": "الجامعة نت",
+            siteName: "البدر نت",
+            "network-name": "البدر نت",
             subDecText: "لخدمات الإنترنت اللاسلكي",
-            welcomeMessage: "أهلاً بك زائرنا في شبكة الجامعة نت",
+            welcomeMessage: "أهلاً بك زائرنا في شبكة البدر نت",
             welcomeMessageV: true,
-            supportPhone: "770776483",
-            "service-number": "770776483",
-            callPhone: "770776483",
-            whatsappPhone: "967770776483",
-            whatsappMsg: "مرحبا خدمة عملاء شبكة الجامعة نت اللاسلكية",
+            supportPhone: "711720290",
+            "service-number": "711720290",
+            callPhone: "711720290",
+            whatsappPhone: "967711720290",
+            whatsappMsg: "مرحبا خدمة عملاء شبكة البدر نت اللاسلكية",
             imageCount: "7",
             imageV: true,
             packages: [],
             profiles: [],
-            offersTitle: "خدمات وعروض شبكة الجامعة نت 🔥",
-            offers: "",
+            offersTitle: "خدمات وعروض شبكة البدر نت 🔥",
+            offers: "...:::: أهلاً بكم في شبكة البدر نت اللاسلكية تتميز شبكتنا بتقديم مزايا مختلفة لمشتركيها الأعزاء منها السرعة في التصفح ولعب الألعاب، استقرار وثبات الخدمة على مدار 24 ساعة ::::...",
             "loan-button": true,
-            "loan-text": "أهلاً بك زائرنا في شبكة الجامعة نت",
+            "loan-text": "أهلاً بك زائرنا في شبكة البدر نت",
             salesPoints: [],
             "sell-points": [],
             offersBadgeV: true,
             offersBadge: "عرض مجاني",
-            "login-type": "passwordAsUser",
+            "login-type": "",
             enableHotCookie: true,
             "enable-hot-cookie": 1,
             "enable-hot-blocker": 1,
@@ -1529,7 +1551,7 @@
             "show-date-field": true
         };
 
-        // CLEANING HELPER TO PREVENT ANY LEFTOVERS OF REMOVED FEATURES
+        // CLEANING HELPER TO ENSURE PERFECT STRUCTURE MATCH
         function cleanConfig(obj) {
             if (!obj || typeof obj !== "object") return {};
             const clean = Object.assign({}, obj);
@@ -1543,7 +1565,7 @@
             ];
             forbiddenKeys.forEach(k => delete clean[k]);
 
-            // Sync aliases
+            // Sync aliases and ensure proper structure
             if (clean.siteName) clean["network-name"] = clean.siteName;
             if (clean.supportPhone) {
                 clean["service-number"] = clean.supportPhone;
@@ -1563,6 +1585,26 @@
             if (clean.enableHotCookie !== undefined) {
                 clean["enable-hot-cookie"] = clean.enableHotCookie ? 1 : 0;
             }
+            if (clean["login-type"] === undefined || clean["login-type"] === null) {
+                clean["login-type"] = "";
+            }
+            if (clean["enable-hot-blocker"] === undefined) clean["enable-hot-blocker"] = 1;
+            if (clean["clear-router-cookie"] === undefined) clean["clear-router-cookie"] = 1;
+            if (clean["clear-hot-cookie"] === undefined) clean["clear-hot-cookie"] = 1;
+            if (clean["block-time"] === undefined) clean["block-time"] = 1;
+            if (clean["try-count"] === undefined) clean["try-count"] = 5;
+            if (clean["warn-when"] === undefined) clean["warn-when"] = 3;
+            if (clean["warn-message"] === undefined) clean["warn-message"] = "تحذير !! عدد محاولاتك الخاطئة اصبح {{tryCounter}} محاولات, عدد المحاولات المسموح بها هي {{tryCount}} محاولات فقط, عدد محاولاتك المتبقية {{restTryCount}} محاولات, سيتم حظرك لمدة {{blockTime}} دقائق اذا تجاوزت العدد المسموح للمحاولات";
+            if (clean["input-autocomplete"] === undefined) clean["input-autocomplete"] = "on";
+            if (clean["input-type"] === undefined) clean["input-type"] = "text";
+            if (clean["input-rm-white-spaces"] === undefined) clean["input-rm-white-spaces"] = 1;
+            if (clean["input-to-arabic-numbers"] === undefined) clean["input-to-arabic-numbers"] = 1;
+            if (clean["price-button"] === undefined) clean["price-button"] = true;
+            if (clean["sell-point-button"] === undefined) clean["sell-point-button"] = true;
+            if (clean["show-date-field"] === undefined) clean["show-date-field"] = true;
+            if (clean["loan-button"] === undefined) clean["loan-button"] = true;
+            if (clean["loan-text"] === undefined) clean["loan-text"] = clean.welcomeMessage || ("أهلاً بك زائرنا في شبكة " + (clean.siteName || ""));
+
             return clean;
         }
 
@@ -1601,12 +1643,13 @@
             if (appConfig.offersBadge === undefined) appConfig.offersBadge = "عرض مجاني";
             if (appConfig.offersBtnV === undefined) appConfig.offersBtnV = true;
             if (appConfig.enableHotCookie === undefined) appConfig.enableHotCookie = true;
+            if (appConfig["login-type"] === undefined) appConfig["login-type"] = "";
             if (appConfig["try-count"] === undefined) appConfig["try-count"] = 5;
             if (appConfig["warn-when"] === undefined) appConfig["warn-when"] = 3;
             if (appConfig["block-time"] === undefined) appConfig["block-time"] = 1;
             if (appConfig["warn-message"] === undefined) appConfig["warn-message"] = "تحذير !! عدد محاولاتك الخاطئة اصبح {{tryCounter}} محاولات, عدد المحاولات المسموح بها هي {{tryCount}} محاولات فقط, عدد محاولاتك المتبقية {{restTryCount}} محاولات, سيتم حظرك لمدة {{blockTime}} دقائق اذا تجاوزت العدد المسموح للمحاولات";
-            if (!appConfig.supportPhone) appConfig.supportPhone = "770776483";
-            if (!appConfig.whatsappPhone) appConfig.whatsappPhone = "967770776483";
+            if (!appConfig.supportPhone) appConfig.supportPhone = "711720290";
+            if (!appConfig.whatsappPhone) appConfig.whatsappPhone = "967711720290";
             if (!appConfig.whatsappMsg) appConfig.whatsappMsg = "مرحبا خدمة عملاء شبكة {network-name} اللاسلكية";
         }
 
@@ -1629,6 +1672,11 @@
             if (document.getElementById("whatsappMsgInput")) document.getElementById("whatsappMsgInput").value = appConfig.whatsappMsg || "";
             if (document.getElementById("welcomeMessageInput")) document.getElementById("welcomeMessageInput").value = appConfig.welcomeMessage || "";
             if (document.getElementById("imageCountInput")) document.getElementById("imageCountInput").value = appConfig.imageCount || "7";
+
+            // Login Type
+            if (document.getElementById("loginTypeSelect")) {
+                document.getElementById("loginTypeSelect").value = appConfig["login-type"] || "";
+            }
 
             // Offers Modal Fields
             if (document.getElementById("offersTitleInput")) document.getElementById("offersTitleInput").value = appConfig.offersTitle || "";
@@ -1667,6 +1715,10 @@
             updateHeaderName();
             updateStats();
         }
+
+        const addNewPackageCard = function() {
+            addNewPackage();
+        };
 
         function setToggle(inputId, badgeId, isChecked) {
             const input = document.getElementById(inputId);
